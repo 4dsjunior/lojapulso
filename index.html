@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pulso – Relógios</title>
+  <link rel="icon" type="image/svg+xml" href="identidade/favicon.svg">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* ===== Identidade visual: paleta "Pulso" =====
+       Branco + cinza chumbo + preto, com laranja neon só nos pontos de destaque. */
+    :root {
+      --pulso-black:   #000000;
+      --pulso-charcoal:#474747;   /* cinza chumbo */
+      --pulso-gray:    #8f9491;
+      --pulso-gray-txt:#6b706d;   /* cinza mais escuro p/ textos pequenos (legibilidade) */
+      --pulso-orange:  #ff5c00;   /* laranja neon */
+      --pulso-orange-h:#e05200;
+      --pulso-line:    #e4e4e2;
+
+      --bs-body-bg: #ffffff;           /* campos e painéis brancos; o fundo da página é definido em "body" */
+      --bs-body-color: var(--pulso-charcoal);
+      --bs-link-color: var(--pulso-charcoal);
+    }
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+           background-color: var(--pulso-charcoal); }   /* fundo cinza chumbo ("asfalto") */
+    .titulo { font-family: "Montserrat", system-ui, sans-serif; }
+
+    /* Topo (branco, para o logotipo aparecer com suas cores) */
+    .topo { background: #fff; border-bottom: 3px solid var(--pulso-orange);
+           position: sticky; top: 0; z-index: 1020; }          /* topo sempre visível ao rolar */
+    .logo { height: 76px; width: auto; display: block; transition: height .2s ease; }
+    .topo.compacto .logo { height: 44px; }                       /* encolhe ao rolar, para sobrar mais espaço */
+    .logo-rodape { height: 64px; }
+
+    /* Botões */
+    .btn-pulso { --bs-btn-bg: var(--pulso-orange); --bs-btn-border-color: var(--pulso-orange); --bs-btn-color: #000;
+                 --bs-btn-hover-bg: var(--pulso-orange-h); --bs-btn-hover-border-color: var(--pulso-orange-h); --bs-btn-hover-color: #000;
+                 --bs-btn-active-bg: var(--pulso-orange-h); --bs-btn-active-border-color: var(--pulso-orange-h); --bs-btn-active-color: #000;
+                 --bs-btn-disabled-bg: var(--pulso-gray); --bs-btn-disabled-border-color: var(--pulso-gray); --bs-btn-disabled-color: #fff;
+                 font-weight: 600; }
+    .btn-add { --bs-btn-color: var(--pulso-charcoal); --bs-btn-border-color: var(--pulso-charcoal);
+               --bs-btn-hover-bg: var(--pulso-orange); --bs-btn-hover-border-color: var(--pulso-orange); --bs-btn-hover-color: #000;
+               --bs-btn-active-bg: var(--pulso-orange); --bs-btn-active-border-color: var(--pulso-orange); --bs-btn-active-color: #000;
+               --bs-btn-disabled-color: var(--pulso-gray); --bs-btn-disabled-border-color: var(--pulso-line);
+               font-weight: 600; font-size: .85rem; }
+    .btn-mais { --bs-btn-color: #fff; --bs-btn-border-color: #fff; font-weight: 600; font-size: .85rem;
+                --bs-btn-hover-bg: var(--pulso-orange); --bs-btn-hover-border-color: var(--pulso-orange); --bs-btn-hover-color: #000;
+                --bs-btn-active-bg: var(--pulso-orange); --bs-btn-active-border-color: var(--pulso-orange); --bs-btn-active-color: #000; }
+    .btn-carrinho { --bs-btn-color: var(--pulso-charcoal); --bs-btn-border-color: var(--pulso-charcoal); font-weight: 600;
+                    --bs-btn-hover-bg: #fff; --bs-btn-hover-border-color: var(--pulso-orange); --bs-btn-hover-color: #000;
+                    --bs-btn-active-bg: #fff; --bs-btn-active-border-color: var(--pulso-orange); --bs-btn-active-color: #000; }
+    .badge-pulso { background: var(--pulso-orange); color: #000; font-weight: 700; }
+    .form-control:focus, .form-select:focus { border-color: var(--pulso-orange); box-shadow: 0 0 0 .2rem rgba(255, 92, 0, .25); }
+    .btn:focus-visible { box-shadow: 0 0 0 .2rem rgba(255, 92, 0, .45); }
+
+    /* Botão flutuante do carrinho (aparece quando há itens; sempre ao alcance do polegar) */
+    .fab { position: fixed; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); z-index: 1030;
+           border-radius: 999px; padding: .65rem 1.1rem; box-shadow: 0 4px 18px rgba(0, 0, 0, .45); }
+
+    /* ===== Cards =====
+       Em repouso: só um filete laranja marcando o card.
+       Ao passar o mouse (ou ao pressionar com o dedo): luz neon por baixo do card refletindo para fora,
+       como o neon de um carro visto de cima no asfalto. O brilho difuso fica no ::before, ATRÁS de todos os cards. */
+    .produto { position: relative; background: #fff; color: var(--pulso-charcoal);
+               border: 1px solid rgba(255, 92, 0, .9); border-radius: .6rem;
+               transition: border-color .25s ease, box-shadow .25s ease; }
+    .produto::before { content: ""; position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none;
+               box-shadow: 0 0 0 0 rgba(255, 92, 0, 0); transition: box-shadow .25s ease; }
+    .produto:active { border-color: var(--pulso-orange); box-shadow: 0 0 11px 1px rgba(255, 92, 0, .9); }
+    .produto:active::before { box-shadow: 0 0 38px 9px rgba(255, 92, 0, .45), 0 20px 46px -8px rgba(255, 92, 0, .58); }
+    @media (hover: hover) {
+      .produto:hover { border-color: var(--pulso-orange); box-shadow: 0 0 11px 1px rgba(255, 92, 0, .9); }
+      .produto:hover::before { box-shadow: 0 0 38px 9px rgba(255, 92, 0, .45), 0 20px 46px -8px rgba(255, 92, 0, .58); }
+    }
+    .produto-img { height: 220px; object-fit: contain; background: #fff; border-radius: .6rem .6rem 0 0; cursor: zoom-in; }
+    .sem-foto { height: 220px; background: var(--pulso-charcoal); border-radius: .6rem .6rem 0 0; }
+    .p-marca { font-family: "Montserrat", sans-serif; font-size: .66rem; letter-spacing: .2em;
+               text-transform: uppercase; color: var(--pulso-gray-txt); }
+    .p-ref { font-weight: 600; color: var(--pulso-black); font-size: .9rem; word-break: break-all; }
+    .p-preco { font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 1.15rem; color: var(--pulso-black); }
+    .p-det { font-size: .78rem; color: var(--pulso-charcoal); }
+
+    /* Detalhes do produto (janela de ampliação) */
+    .zoom-area { height: min(58vh, 520px); background: #fff; border: 1px solid var(--pulso-line); border-radius: .5rem;
+                 overflow: hidden; display: flex; align-items: center; justify-content: center; cursor: zoom-in; }
+    .zoom-area img { max-width: 100%; max-height: 100%; object-fit: contain; transform-origin: 50% 50%;
+                     transition: transform .18s ease; user-select: none; -webkit-user-drag: none; }
+    .zoom-area.zoomed { cursor: zoom-out; touch-action: none; }
+    .zoom-area.zoomed img { transform: scale(2.2); }
+
+    /* Carrinho */
+    .offcanvas { --bs-offcanvas-transition: transform .2s ease-in-out; }
+    .offcanvas-header { background: var(--pulso-black); color: #fff; border-bottom: 3px solid var(--pulso-orange); }
+    .offcanvas-header .btn-close { filter: invert(1); }
+    .thumb { width: 56px; height: 56px; object-fit: contain; background: #fff; border: 1px solid var(--pulso-line); border-radius: .35rem; }
+    .qtd { min-width: 1.8rem; text-align: center; font-weight: 600; }
+    .btn-qtd { width: 34px; height: 34px; padding: 0; line-height: 1; }
+
+    /* Rodapé */
+    .rodape { background: #fff; color: var(--pulso-charcoal); border-top: 3px solid var(--pulso-orange); font-size: .85rem; }
+
+    /* Celulares */
+    @media (max-width: 575.98px) {
+      .logo, .logo-rodape { height: 52px; }
+      .topo.compacto .logo { height: 38px; }
+      .produto-img, .sem-foto { height: 170px; }
+      .p-preco { font-size: 1.02rem; }
+      .btn-add { font-size: .8rem; padding-top: .5rem; padding-bottom: .5rem; }
+      .form-control, .form-select { font-size: 16px; }   /* evita o zoom automático do iPhone ao tocar num campo */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logotipo Pulso (símbolo reutilizável; mesmo desenho do arquivo identidade/logo-pulso.svg) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="logo-pulso" viewBox="260 130 1480 1070">
+      <defs>
+        <path id="p-strap" d="M870 145H1130Q1156 145 1158 172L1174 372H826L842 172Q844 145 870 145Z"/>
+        <path id="p-lug" d="M788 281H824V370L748 432L772 300Q774 281 788 281Z"/>
+        <path id="p-wingU" d="M278 552L712 500H790V552Z"/>
+        <path id="p-wingL" d="M275 815H830V870L722 868Z"/>
+      </defs>
+      <g fill="#474747">
+        <use href="#p-strap"/>
+        <use href="#p-strap" transform="matrix(1 0 0 -1 0 1324)"/>
+      </g>
+      <g fill="#000000">
+        <use href="#p-lug"/>
+        <use href="#p-lug" transform="matrix(-1 0 0 1 2000 0)"/>
+        <use href="#p-lug" transform="matrix(1 0 0 -1 0 1324)"/>
+        <use href="#p-lug" transform="matrix(-1 0 0 -1 2000 1324)"/>
+      </g>
+      <circle cx="1000" cy="662" r="349" fill="#ffffff"/>
+      <path d="M660 662A340 340 0 0 1 1340 662H1277A277 277 0 0 0 723 662Z" fill="#474747"/>
+      <path d="M660 662A340 340 0 0 0 1340 662H1277A277 277 0 0 1 723 662Z" fill="#000000"/>
+      <g fill="#474747">
+        <use href="#p-wingU"/><use href="#p-wingU" transform="matrix(-1 0 0 1 2000 0)"/>
+        <use href="#p-wingL"/><use href="#p-wingL" transform="matrix(-1 0 0 1 2000 0)"/>
+      </g>
+      <circle cx="1000" cy="662" r="277" fill="#ffffff"/>
+      <g transform="translate(1000 662)" fill="none" stroke-width="14" stroke-linecap="round">
+        <g stroke="#474747">
+          <path d="M-106 -183.6L-128.5 -222.6"/><path d="M106 -183.6L128.5 -222.6"/>
+          <path d="M-183.6 -106L-222.6 -128.5"/><path d="M183.6 -106L222.6 -128.5"/>
+          <path d="M-106 183.6L-128.5 222.6"/><path d="M106 183.6L128.5 222.6"/>
+        </g>
+        <g stroke="#ff5c00"><path d="M0 -212V-257"/><path d="M0 212V257"/></g>
+      </g>
+      <path d="M950 700H982L930 902Z" fill="#474747"/>
+      <path d="M1000 662L835 862" fill="none" stroke="#ff5c00" stroke-width="8" stroke-linecap="round"/>
+      <rect x="270" y="552" width="1460" height="263" fill="#ffffff"/>
+      <g fill="none" stroke="#ff5c00" stroke-width="42" stroke-linejoin="miter">
+        <path d="M509 592V783"/>
+        <path d="M509 613H570A35.5 35.5 0 0 1 570 684H509"/>
+        <path d="M696 592V692.5A69.5 69.5 0 0 0 835 692.5V592"/>
+        <path d="M925 592V762H1026"/>
+        <path d="M1199 650.25A52 37.25 0 1 0 1147 687.5A52 37.25 0 1 1 1095 724.75"/>
+        <ellipse cx="1375.5" cy="687.5" rx="86.5" ry="74.5"/>
+      </g>
+      <path d="M1480 720H1548L1558 700L1568 735L1578 708L1586 740L1603 622L1622 792L1640 722H1650L1662 700L1673 720H1718"
+            fill="none" stroke="#ff5c00" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </svg>
+
+  <header class="topo mb-4">
+    <div class="container d-flex align-items-center justify-content-between py-2">
+      <a href="index.html" aria-label="Pulso – página inicial">
+        <svg class="logo" viewBox="0 0 1480 1070" role="img" aria-label="Pulso"><use href="#logo-pulso"/></svg>
+      </a>
+      <button class="btn btn-carrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#carrinho" aria-controls="carrinho">
+        Carrinho <span id="contador" class="badge badge-pulso ms-1">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container pb-5">
+    <div class="row g-2 mb-3">
+      <div class="col-6 col-md-3">
+        <select id="marca" class="form-select" aria-label="Marca"><option value="">Todas as marcas</option></select>
+      </div>
+      <div class="col-6 col-md-3">
+        <select id="genero" class="form-select" aria-label="Gênero"><option value="">Todos os gêneros</option></select>
+      </div>
+      <div class="col-7 col-md-3">
+        <input id="busca" type="search" class="form-control" placeholder="Buscar referência" aria-label="Buscar pela referência">
+      </div>
+      <div class="col-5 col-md-3">
+        <select id="ordem" class="form-select" aria-label="Ordenar">
+          <option value="">Catálogo</option>
+          <option value="menor">Menor preço</option>
+          <option value="maior">Maior preço</option>
+        </select>
+      </div>
+    </div>
+
+    <p id="contagem" class="small" style="color: #d9dcda"></p>
+    <div id="grade" class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3"></div>
+    <div class="text-center mt-4">
+      <button id="maisProdutos" class="btn btn-mais px-4 d-none" type="button">Mostrar mais</button>
+    </div>
+  </main>
+
+  <footer class="rodape py-3">
+    <div class="container text-center">
+      <svg class="logo logo-rodape mx-auto" viewBox="0 0 1480 1070" role="img" aria-label="Pulso"><use href="#logo-pulso"/></svg>
+      <div class="mt-1">Monte seu pedido e finalize pelo WhatsApp.</div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante do carrinho -->
+  <button id="fab" class="btn btn-pulso fab d-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#carrinho" aria-controls="carrinho">
+    Ver pedido (<span id="fabQtd">0</span>) · <span id="fabTotal"></span>
+  </button>
+
+  <!-- Detalhes do produto (imagem ampliada) -->
+  <div class="modal fade" id="modalProduto" tabindex="-1" aria-labelledby="mpTitulo" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-sm-down">
+      <div class="modal-content">
+        <div class="modal-header border-0 pb-0">
+          <div>
+            <div id="mpMarca" class="p-marca"></div>
+            <h5 id="mpTitulo" class="modal-title p-ref"></h5>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body pt-2">
+          <div class="row g-3">
+            <div class="col-12 col-md-7">
+              <div id="mpZoom" class="zoom-area" title="Clique ou toque para ampliar">
+                <img id="mpImg" alt="">
+              </div>
+              <div class="small text-center mt-1" style="color: var(--pulso-gray-txt)">Toque na imagem para ampliar; mova o dedo (ou o mouse) para ver os detalhes.</div>
+            </div>
+            <div class="col-12 col-md-5 d-flex flex-column">
+              <div id="mpPreco" class="p-preco fs-3 mb-2"></div>
+              <dl id="mpDetalhes" class="row small mb-3"></dl>
+              <button id="mpAdd" class="btn btn-pulso mt-auto" type="button">Adicionar ao carrinho</button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer justify-content-between border-0 pt-0">
+          <button id="mpPrev" class="btn btn-add btn-sm" type="button">‹ Anterior</button>
+          <span id="mpPos" class="small" style="color: var(--pulso-gray-txt)"></span>
+          <button id="mpNext" class="btn btn-add btn-sm" type="button">Próximo ›</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carrinho (painel lateral) -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="carrinho" aria-labelledby="carrinhoTitulo">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title titulo" id="carrinhoTitulo">Seu pedido</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column">
+      <div id="itensCarrinho" class="flex-grow-1"></div>
+      <div class="border-top pt-3">
+        <div class="d-flex justify-content-between mb-2">
+          <span class="fw-semibold">Total</span>
+          <span id="totalCarrinho" class="p-preco">R$ 0,00</span>
+        </div>
+        <input id="nomeCliente" class="form-control mb-2" maxlength="60" placeholder="Seu nome (opcional)" autocomplete="name">
+        <div id="avisoTamanho" class="alert alert-warning small py-2 d-none">
+          O pedido está grande e o WhatsApp pode cortá-lo. Use <strong>Copiar pedido</strong> e cole na conversa,
+          ou divida em dois pedidos.
+        </div>
+        <button id="btnEnviar" class="btn btn-pulso w-100" type="button">Enviar pedido pelo WhatsApp</button>
+        <div class="d-flex justify-content-between mt-1">
+          <button id="btnCopiar" class="btn btn-link btn-sm p-0 d-none" type="button">Copiar pedido</button>
+          <button id="btnLimpar" class="btn btn-link btn-sm p-0 ms-auto" type="button" style="color: var(--pulso-gray-txt)">Limpar carrinho</button>
+        </div>
+        <p class="small mt-2 mb-0" style="color: var(--pulso-gray-txt)">
+          O pedido abre no seu WhatsApp para você revisar e enviar. Valores sujeitos a confirmação.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Dados gerados pelo gerar_catalogo.py (funciona também abrindo este arquivo direto no PC) -->
+  <script src="dados/produtos.js"></script>
+  <script>
+    // ===================== CONFIGURAÇÃO =====================
+    const CONFIG = {
+      whatsapp: '5527981159408',     // 55 (Brasil) + DDD + número, só dígitos
+      limiteUrl: 1900,               // acima disso o WhatsApp pode cortar a mensagem
+      porPagina: 60                  // produtos mostrados por vez
+    };
+    const BASE = 'dados/';           // pasta dos dados e imagens
+    // ========================================================
+
+    const lista = window.PRODUTOS || [];
+    const $ = id => document.getElementById(id);
+    const chave = p => p.Marca + '|' + p.Referencia;
+    const porChave = new Map(lista.map(p => [chave(p), p]));
+    const fmt = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
+    // o formato de moeda usa um espaço "invisível" (U+00A0 / U+202F); trocamos por espaço normal
+    const moeda = v => fmt.format(v).replace(/[  ]/g, ' ');
+
+    function h(tag, classe, texto) {
+      const e = document.createElement(tag);
+      if (classe) e.className = classe;
+      if (texto !== undefined) e.textContent = texto;
+      return e;
+    }
+
+    // O JSON guarda a resistência como no catálogo (ex.: "5 ATM", "WR"); aqui só traduzimos as siglas.
+    function rotuloResistencia(v) {
+      if (!v) return '';
+      const t = v.trim().toUpperCase().replace(/\./g, '');
+      if (/^WR$/.test(t) || /^WATER RESIST/.test(t)) return 'Resistente à água';
+      if (/^N\s?WR$/.test(t)) return 'Não resistente à água';
+      const m = t.match(/^WR\s?(\d+)\s?M?$/);
+      if (m) return 'Resistente à água ' + m[1] + ' m';
+      return v;
+    }
+
+    // ===================== CARRINHO =====================
+    const LS_CARRINHO = 'pulso_carrinho', LS_NOME = 'pulso_nome';
+    let carrinho = {};
+    try {
+      const salvo = JSON.parse(localStorage.getItem(LS_CARRINHO) || '{}');
+      if (salvo && typeof salvo === 'object') carrinho = salvo;
+      $('nomeCliente').value = localStorage.getItem(LS_NOME) || '';
+    } catch (e) { /* navegador sem localStorage: segue sem salvar */ }
+    // remove do carrinho itens que saíram do catálogo
+    Object.keys(carrinho).forEach(k => { if (!porChave.has(k) || !(carrinho[k] > 0)) delete carrinho[k]; });
+
+    function salvar() {
+      try { localStorage.setItem(LS_CARRINHO, JSON.stringify(carrinho)); } catch (e) {}
+    }
+    function itensCarrinho() {
+      return Object.keys(carrinho).filter(k => porChave.has(k)).map(k => ({ k, p: porChave.get(k), q: carrinho[k] }));
+    }
+    function adicionar(p) { alterar(chave(p), 1); }
+    function alterar(k, delta) {
+      const q = Math.min(99, (carrinho[k] || 0) + delta);
+      if (q <= 0) delete carrinho[k]; else carrinho[k] = q;
+      salvar(); renderCarrinho();
+    }
+    function remover(k) { delete carrinho[k]; salvar(); renderCarrinho(); }
+
+    function montarMensagem() {
+      const linhas = ['Olá! Gostaria de comprar:', ''];
+      let total = 0;
+      itensCarrinho().forEach(({ p, q }) => {
+        const c = Math.round(p.Valor_Reajustado * 100);
+        total += c * q;
+        linhas.push(`${q}x ${p.Marca} ${p.Referencia} – ${moeda(c / 100)}` + (q > 1 ? ` (${moeda(c * q / 100)})` : ''));
+      });
+      linhas.push('', 'Total: ' + moeda(total / 100));
+      const nome = $('nomeCliente').value.trim();
+      if (nome) linhas.push('', 'Nome: ' + nome);
+      return linhas.join('\n');
+    }
+    const urlWhatsApp = msg => 'https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(msg);
+
+    function botaoQtd(texto, fn, rotulo) {
+      const b = h('button', 'btn btn-outline-secondary btn-qtd', texto);
+      b.type = 'button'; b.setAttribute('aria-label', rotulo); b.addEventListener('click', fn);
+      return b;
+    }
+
+    function renderCarrinho() {
+      const itens = itensCarrinho();
+      const cont = $('itensCarrinho');
+      cont.replaceChildren();
+      let total = 0, qtd = 0;
+
+      if (!itens.length) cont.appendChild(h('p', 'text-muted mt-2', 'Seu carrinho está vazio.'));
+
+      itens.forEach(({ k, p, q }) => {
+        const c = Math.round(p.Valor_Reajustado * 100);
+        total += c * q; qtd += q;
+
+        const linha = h('div', 'd-flex gap-2 py-2 border-bottom');
+        if (p.Imagem) {
+          const im = h('img', 'thumb'); im.src = BASE + p.Imagem; im.alt = ''; linha.appendChild(im);
+        }
+        const info = h('div', 'flex-grow-1');
+        info.appendChild(h('div', 'p-marca', p.Marca));
+        info.appendChild(h('div', 'p-ref', p.Referencia));
+        info.appendChild(h('div', 'small', moeda(c / 100)));
+        const ctrl = h('div', 'd-flex align-items-center gap-1 mt-1');
+        ctrl.appendChild(botaoQtd('−', () => alterar(k, -1), 'Diminuir quantidade'));
+        ctrl.appendChild(h('span', 'qtd', String(q)));
+        ctrl.appendChild(botaoQtd('+', () => alterar(k, 1), 'Aumentar quantidade'));
+        info.appendChild(ctrl);
+        linha.appendChild(info);
+
+        const dir = h('div', 'text-end');
+        const x = h('button', 'btn btn-link p-1 text-decoration-none fs-5 lh-1', '×');
+        x.type = 'button'; x.setAttribute('aria-label', 'Remover item'); x.style.color = 'var(--pulso-gray-txt)';
+        x.addEventListener('click', () => remover(k));
+        dir.appendChild(x);
+        if (q > 1) dir.appendChild(h('div', 'small fw-semibold', moeda(c * q / 100)));
+        linha.appendChild(dir);
+        cont.appendChild(linha);
+      });
+
+      $('contador').textContent = qtd;
+      $('totalCarrinho').textContent = moeda(total / 100);
+      $('btnEnviar').disabled = !itens.length;
+      $('fab').classList.toggle('d-none', qtd === 0);
+      $('fabQtd').textContent = qtd;
+      $('fabTotal').textContent = moeda(total / 100);
+
+      const grande = itens.length > 0 && urlWhatsApp(montarMensagem()).length > CONFIG.limiteUrl;
+      $('avisoTamanho').classList.toggle('d-none', !grande);
+      $('btnCopiar').classList.toggle('d-none', !grande);
+    }
+
+    $('btnEnviar').addEventListener('click', () => {
+      if (!itensCarrinho().length) return;
+      window.open(urlWhatsApp(montarMensagem()), '_blank', 'noopener');
+    });
+    $('btnLimpar').addEventListener('click', () => {
+      if (!itensCarrinho().length || confirm('Esvaziar o carrinho?')) { carrinho = {}; salvar(); renderCarrinho(); }
+    });
+    $('btnCopiar').addEventListener('click', async () => {
+      const msg = montarMensagem(), b = $('btnCopiar');
+      try { await navigator.clipboard.writeText(msg); }
+      catch (e) {
+        const t = document.createElement('textarea'); t.value = msg; document.body.appendChild(t);
+        t.select(); document.execCommand('copy'); t.remove();
+      }
+      b.textContent = 'Copiado!'; setTimeout(() => { b.textContent = 'Copiar pedido'; }, 1500);
+    });
+    $('nomeCliente').addEventListener('input', () => {
+      try { localStorage.setItem(LS_NOME, $('nomeCliente').value); } catch (e) {}
+      renderCarrinho();
+    });
+
+    // ===================== VITRINE =====================
+    function preencher(select, valores) {
+      valores.forEach(v => {
+        const o = document.createElement('option');
+        o.value = v; o.textContent = v;
+        select.appendChild(o);
+      });
+    }
+    preencher($('marca'),  [...new Set(lista.map(p => p.Marca))].sort());
+    preencher($('genero'), [...new Set(lista.map(p => p.Genero))].filter(Boolean).sort());
+
+    let resultado = [], limite = CONFIG.porPagina;
+
+    function filtrar() {
+      const m = $('marca').value, g = $('genero').value;
+      const q = $('busca').value.trim().toLowerCase(), o = $('ordem').value;
+      const r = lista.filter(p =>
+        (!m || p.Marca === m) &&
+        (!g || p.Genero === g) &&
+        (!q || p.Referencia.toLowerCase().includes(q)));
+      if (o === 'menor') r.sort((a, b) => a.Valor_Reajustado - b.Valor_Reajustado);
+      if (o === 'maior') r.sort((a, b) => b.Valor_Reajustado - a.Valor_Reajustado);
+      resultado = r; limite = CONFIG.porPagina;
+      renderGrade();
+    }
+
+    function renderGrade() {
+      const grade = $('grade');
+      grade.replaceChildren();
+      resultado.slice(0, limite).forEach((p, i) => {
+        const col = h('div', 'col');
+        const card = h('div', 'produto h-100 d-flex flex-column');
+
+        if (p.Imagem) {
+          const img = h('img', 'produto-img p-2');
+          img.src = BASE + p.Imagem;
+          img.alt = p.Marca + ' ' + p.Referencia;
+          img.loading = 'lazy';
+          img.decoding = 'async';
+          img.tabIndex = 0;
+          img.setAttribute('role', 'button');
+          img.setAttribute('aria-label', 'Ampliar ' + p.Marca + ' ' + p.Referencia);
+          img.addEventListener('click', () => abrirProduto(i));
+          img.addEventListener('keydown', e => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); abrirProduto(i); }
+          });
+          card.appendChild(img);
+        } else {
+          card.appendChild(h('div', 'sem-foto'));
+        }
+
+        const corpo = h('div', 'p-2 p-sm-3 pt-1 text-center d-flex flex-column flex-grow-1');
+        corpo.appendChild(h('div', 'p-marca', p.Marca));
+        corpo.appendChild(h('div', 'p-ref', p.Referencia));
+        corpo.appendChild(h('div', 'p-preco my-1', moeda(p.Valor_Reajustado)));
+        corpo.appendChild(h('div', 'p-det mb-2',
+          [rotuloResistencia(p.Resistencia), p.Genero, p.Tamanho].filter(Boolean).join(' · ')));
+
+        const btn = h('button', 'btn btn-add mt-auto', 'Adicionar');
+        btn.type = 'button';
+        btn.addEventListener('click', () => {
+          adicionar(p);
+          btn.textContent = 'Adicionado ✓';
+          setTimeout(() => { btn.textContent = 'Adicionar'; }, 1000);
+        });
+        corpo.appendChild(btn);
+
+        card.appendChild(corpo);
+        col.appendChild(card);
+        grade.appendChild(col);
+      });
+
+      const restantes = resultado.length - limite;
+      $('maisProdutos').classList.toggle('d-none', restantes <= 0);
+      $('maisProdutos').textContent = 'Mostrar mais (' + Math.max(restantes, 0) + ')';
+      $('contagem').textContent = resultado.length + ' produto(s)';
+    }
+
+    $('maisProdutos').addEventListener('click', () => { limite += CONFIG.porPagina; renderGrade(); });
+    ['marca', 'genero', 'ordem'].forEach(id => $(id).addEventListener('change', filtrar));
+    $('busca').addEventListener('input', filtrar);
+
+    // ===================== DETALHES / AMPLIAR IMAGEM =====================
+    const modalEl = $('modalProduto');
+    const modal = new bootstrap.Modal(modalEl);
+    const zoomArea = $('mpZoom'), mpImg = $('mpImg');
+    let idxModal = -1;
+
+    function resetZoom() {
+      zoomArea.classList.remove('zoomed');
+      mpImg.style.transformOrigin = '50% 50%';
+    }
+    function moverZoom(e) {
+      const r = zoomArea.getBoundingClientRect();
+      mpImg.style.transformOrigin =
+        ((e.clientX - r.left) / r.width * 100) + '% ' + ((e.clientY - r.top) / r.height * 100) + '%';
+    }
+
+    function mostrarProduto(i) {
+      if (i < 0 || i >= resultado.length) return;
+      idxModal = i;
+      const p = resultado[i];
+      resetZoom();
+      $('mpMarca').textContent = p.Marca;
+      $('mpTitulo').textContent = p.Referencia;
+      $('mpPreco').textContent = moeda(p.Valor_Reajustado);
+      if (p.Imagem) {
+        mpImg.src = BASE + p.Imagem;
+        mpImg.alt = p.Marca + ' ' + p.Referencia;
+        mpImg.classList.remove('d-none');
+      } else {
+        mpImg.removeAttribute('src');
+        mpImg.classList.add('d-none');
+      }
+      const det = $('mpDetalhes');
+      det.replaceChildren();
+      [['Resistência', rotuloResistencia(p.Resistencia)], ['Gênero', p.Genero], ['Tamanho', p.Tamanho]].forEach(par => {
+        if (!par[1]) return;
+        det.appendChild(h('dt', 'col-5 fw-semibold', par[0]));
+        det.appendChild(h('dd', 'col-7 mb-1', par[1]));
+      });
+      $('mpPos').textContent = (i + 1) + ' de ' + resultado.length;
+      $('mpPrev').disabled = i === 0;
+      $('mpNext').disabled = i === resultado.length - 1;
+      $('mpAdd').textContent = 'Adicionar ao carrinho';
+    }
+    function abrirProduto(i) { mostrarProduto(i); modal.show(); }
+
+    zoomArea.addEventListener('click', e => {
+      if (zoomArea.classList.toggle('zoomed')) moverZoom(e);
+      else mpImg.style.transformOrigin = '50% 50%';
+    });
+    zoomArea.addEventListener('pointermove', e => {
+      if (zoomArea.classList.contains('zoomed')) moverZoom(e);
+    });
+    modalEl.addEventListener('hidden.bs.modal', resetZoom);
+    $('mpPrev').addEventListener('click', () => mostrarProduto(idxModal - 1));
+    $('mpNext').addEventListener('click', () => mostrarProduto(idxModal + 1));
+    $('mpAdd').addEventListener('click', () => {
+      if (idxModal < 0) return;
+      adicionar(resultado[idxModal]);
+      const b = $('mpAdd');
+      b.textContent = 'Adicionado ✓';
+      setTimeout(() => { b.textContent = 'Adicionar ao carrinho'; }, 1200);
+    });
+    document.addEventListener('keydown', e => {
+      if (!modalEl.classList.contains('show')) return;
+      if (e.key === 'ArrowLeft') mostrarProduto(idxModal - 1);
+      if (e.key === 'ArrowRight') mostrarProduto(idxModal + 1);
+    });
+
+    // ===================== TOPO FIXO =====================
+    // O topo acompanha a rolagem (sempre com acesso ao carrinho) e encolhe um pouco depois de rolar.
+    // Os limites diferentes (90 / 20) evitam que ele "pisque" perto do ponto de troca.
+    const topo = document.querySelector('.topo');
+    let topoCompacto = false;
+    function atualizarTopo() {
+      const y = window.scrollY;
+      if (!topoCompacto && y > 90) topoCompacto = true;
+      else if (topoCompacto && y < 20) topoCompacto = false;
+      topo.classList.toggle('compacto', topoCompacto);
+    }
+    window.addEventListener('scroll', atualizarTopo, { passive: true });
+    atualizarTopo();
+
+    filtrar();
+    renderCarrinho();
+  </script>
+</body>
+</html>

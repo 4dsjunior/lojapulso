@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="260 130 1480 1070" role="img" aria-label="Pulso">
+  <!-- Logotipo PULSO (emblema de relógio com faixa). Para fundos CLAROS. -->
+  <defs>
+    <path id="p-strap" d="M870 145H1130Q1156 145 1158 172L1174 372H826L842 172Q844 145 870 145Z"/>
+    <path id="p-lug" d="M788 281H824V370L748 432L772 300Q774 281 788 281Z"/>
+    <path id="p-wingU" d="M278 552L712 500H790V552Z"/>
+    <path id="p-wingL" d="M275 815H830V870L722 868Z"/>
+  </defs>
+
+  <!-- pulseiras -->
+  <g fill="#474747">
+    <use href="#p-strap"/>
+    <use href="#p-strap" transform="matrix(1 0 0 -1 0 1324)"/>
+  </g>
+  <!-- pontas da caixa -->
+  <g fill="#000000">
+    <use href="#p-lug"/>
+    <use href="#p-lug" transform="matrix(-1 0 0 1 2000 0)"/>
+    <use href="#p-lug" transform="matrix(1 0 0 -1 0 1324)"/>
+    <use href="#p-lug" transform="matrix(-1 0 0 -1 2000 1324)"/>
+  </g>
+  <!-- contorno branco e aro da caixa -->
+  <circle cx="1000" cy="662" r="349" fill="#ffffff"/>
+  <path d="M660 662A340 340 0 0 1 1340 662H1277A277 277 0 0 0 723 662Z" fill="#474747"/>
+  <path d="M660 662A340 340 0 0 0 1340 662H1277A277 277 0 0 1 723 662Z" fill="#000000"/>
+  <!-- asas da faixa -->
+  <g fill="#474747">
+    <use href="#p-wingU"/><use href="#p-wingU" transform="matrix(-1 0 0 1 2000 0)"/>
+    <use href="#p-wingL"/><use href="#p-wingL" transform="matrix(-1 0 0 1 2000 0)"/>
+  </g>
+  <!-- mostrador -->
+  <circle cx="1000" cy="662" r="277" fill="#ffffff"/>
+  <g transform="translate(1000 662)" fill="none" stroke-width="14" stroke-linecap="round">
+    <g stroke="#474747">
+      <path d="M-106 -183.6L-128.5 -222.6"/><path d="M106 -183.6L128.5 -222.6"/>
+      <path d="M-183.6 -106L-222.6 -128.5"/><path d="M183.6 -106L222.6 -128.5"/>
+      <path d="M-106 183.6L-128.5 222.6"/><path d="M106 183.6L128.5 222.6"/>
+    </g>
+    <g stroke="#ff5c00"><path d="M0 -212V-257"/><path d="M0 212V257"/></g>
+  </g>
+  <!-- ponteiros (só aparecem abaixo da faixa) -->
+  <path d="M950 700H982L930 902Z" fill="#474747"/>
+  <path d="M1000 662L835 862" fill="none" stroke="#ff5c00" stroke-width="8" stroke-linecap="round"/>
+  <!-- faixa branca com o nome -->
+  <rect x="270" y="552" width="1460" height="263" fill="#ffffff"/>
+  <g fill="none" stroke="#ff5c00" stroke-width="42" stroke-linejoin="miter">
+    <path d="M509 592V783"/>
+    <path d="M509 613H570A35.5 35.5 0 0 1 570 684H509"/>
+    <path d="M696 592V692.5A69.5 69.5 0 0 0 835 692.5V592"/>
+    <path d="M925 592V762H1026"/>
+    <path d="M1199 650.25A52 37.25 0 1 0 1147 687.5A52 37.25 0 1 1 1095 724.75"/>
+    <ellipse cx="1375.5" cy="687.5" rx="86.5" ry="74.5"/>
+  </g>
+  <!-- linha de pulso -->
+  <path d="M1480 720H1548L1558 700L1568 735L1578 708L1586 740L1603 622L1622 792L1640 722H1650L1662 700L1673 720H1718"
+        fill="none" stroke="#ff5c00" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
