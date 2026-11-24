@@ -145,15 +145,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32960LPMVRH9",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "25mm",
-    "Imagem": "imagens/mondaine/32960LPMVRH9.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32987L0MVNH3",
     "Valor_Reajustado": 292.9,
     "Resistencia": "3 ATM",
@@ -178,15 +169,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "22X36.5MM",
     "Imagem": "imagens/mondaine/32987LPMVDH2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33005LPMVDH1",
-    "Valor_Reajustado": 292.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "28mm",
-    "Imagem": "imagens/mondaine/33005LPMVDH1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -361,6 +343,15 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
+    "Referencia": "33048LPMVDM1",
+    "Valor_Reajustado": 450.9,
+    "Resistencia": "3 ATM",
+    "Genero": "Feminino",
+    "Tamanho": "20X28.5",
+    "Imagem": "imagens/mondaine/33048LPMVDM1.jpg"
+  },
+  {
+    "Marca": "Mondaine",
     "Referencia": "33049L0MVNM2",
     "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
@@ -388,6 +379,15 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
+    "Referencia": "33051L0MVNM2",
+    "Valor_Reajustado": 382.9,
+    "Resistencia": "3 ATM",
+    "Genero": "Feminino",
+    "Tamanho": "20mm",
+    "Imagem": "imagens/mondaine/33051L0MVNM2.jpg"
+  },
+  {
+    "Marca": "Mondaine",
     "Referencia": "33052L0MVNH2",
     "Valor_Reajustado": 382.9,
     "Resistencia": "3 ATM",
@@ -403,6 +403,24 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "20mm",
     "Imagem": "imagens/mondaine/33052LPMVDH1.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "33053L0MVNM2",
+    "Valor_Reajustado": 382.9,
+    "Resistencia": "3 ATM",
+    "Genero": "Feminino",
+    "Tamanho": "22mm",
+    "Imagem": "imagens/mondaine/33053L0MVNM2.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "33053LPMVDM1",
+    "Valor_Reajustado": 405.9,
+    "Resistencia": "3 ATM",
+    "Genero": "Feminino",
+    "Tamanho": "22mm",
+    "Imagem": "imagens/mondaine/33053LPMVDM1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -496,15 +514,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32531L0MVNE3K2",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "23mm",
-    "Imagem": "imagens/mondaine/32531L0MVNE3K2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32535LPMKRE2K1",
     "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
@@ -541,15 +550,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32682LPMVDE2K2",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/32682LPMVDE2K2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32682LPMVME7K2",
     "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
@@ -565,15 +565,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "40mm",
     "Imagem": "imagens/mondaine/32683LPMVPE4K2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32693LPMVRE3K2",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "25mm",
-    "Imagem": "imagens/mondaine/32693LPMVRE3K2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -619,15 +610,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "25mm",
     "Imagem": "imagens/mondaine/32714LPMKDH2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32714LPMKDH3",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "25mm",
-    "Imagem": "imagens/mondaine/32714LPMKDH3.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -745,15 +727,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "28mm",
     "Imagem": "imagens/mondaine/32793L0MKNH2K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32793LPMKDH1K1",
-    "Valor_Reajustado": 258.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "28mm",
-    "Imagem": "imagens/mondaine/32793LPMKDH1K1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -1045,6 +1018,15 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
+    "Referencia": "32962LPMKDE2K1",
+    "Valor_Reajustado": 382.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Feminino",
+    "Tamanho": "40mm",
+    "Imagem": "imagens/mondaine/32962LPMKDE2K1.jpg"
+  },
+  {
+    "Marca": "Mondaine",
     "Referencia": "32962LPMKDE3K1",
     "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
@@ -1105,15 +1087,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "28mm",
     "Imagem": "imagens/mondaine/32965LPMKDE1K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32990LPMKDE1K1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "28mm",
-    "Imagem": "imagens/mondaine/32990LPMKDE1K1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -1222,15 +1195,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "39mm",
     "Imagem": "imagens/mondaine/53748L0MKNE3K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "53748L0MKNE3K2",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "39mm",
-    "Imagem": "imagens/mondaine/53748L0MKNE3K2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -1558,24 +1522,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99850L0MVNE2K1",
-    "Valor_Reajustado": 270.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "25mm",
-    "Imagem": "imagens/mondaine/99850L0MVNE2K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99862L0MVNE2K1",
-    "Valor_Reajustado": 270.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "38mm",
-    "Imagem": "imagens/mondaine/99862L0MVNE2K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99863L0MVNE2K1",
     "Valor_Reajustado": 270.9,
     "Resistencia": "5 ATM",
@@ -1627,15 +1573,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "38mm",
     "Imagem": "imagens/mondaine/99866LPMVDE1K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99872LPMVDE1K2",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "38mm",
-    "Imagem": "imagens/mondaine/99872LPMVDE1K2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -1756,6 +1693,24 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
+    "Referencia": "99878LPMKBE3K1",
+    "Valor_Reajustado": 337.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Feminino",
+    "Tamanho": "40mm",
+    "Imagem": "imagens/mondaine/99878LPMKBE3K1.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "99878LPMKDE1K1",
+    "Valor_Reajustado": 337.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Feminino",
+    "Tamanho": "40mm",
+    "Imagem": "imagens/mondaine/99878LPMKDE1K1.jpg"
+  },
+  {
+    "Marca": "Mondaine",
     "Referencia": "99879L0MKNE2K1",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
@@ -1834,15 +1789,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "38mm",
     "Imagem": "imagens/mondaine/99881LPMKDE1K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99882LPMKDM1",
-    "Valor_Reajustado": 450.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "23X24",
-    "Imagem": "imagens/mondaine/99882LPMKDM1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -2134,15 +2080,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99922L0MKNE2K1",
-    "Valor_Reajustado": 270.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/99922L0MKNE2K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99922LPMKBE3K1",
     "Valor_Reajustado": 292.9,
     "Resistencia": "5 ATM",
@@ -2260,30 +2197,12 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99798LPMVDH1",
-    "Valor_Reajustado": 292.9,
-    "Resistencia": "WR",
-    "Genero": "Feminino",
-    "Tamanho": "26x40mm",
-    "Imagem": "imagens/mondaine/99798LPMVDH1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32103L0MVNE2",
     "Valor_Reajustado": 281.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "25X39MM",
     "Imagem": "imagens/mondaine/32103L0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32154LPMVDE2",
-    "Valor_Reajustado": 281.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "32mm",
-    "Imagem": "imagens/mondaine/32154LPMVDE2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -2395,6 +2314,15 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
+    "Referencia": "32425LPMVBE5",
+    "Valor_Reajustado": 281.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Feminino",
+    "Tamanho": "25mm",
+    "Imagem": "imagens/mondaine/32425LPMVBE5.jpg"
+  },
+  {
+    "Marca": "Mondaine",
     "Referencia": "32425LPMVDE1",
     "Valor_Reajustado": 281.9,
     "Resistencia": "5 ATM",
@@ -2437,15 +2365,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "22mm",
     "Imagem": "imagens/mondaine/32497LPMVDM1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32587LPMVBE3",
-    "Valor_Reajustado": 292.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "28mm",
-    "Imagem": "imagens/mondaine/32587LPMVBE3.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -2539,15 +2458,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32699LPMVDE1",
-    "Valor_Reajustado": 281.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "28mm",
-    "Imagem": "imagens/mondaine/32699LPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32703L0MVNE1",
     "Valor_Reajustado": 258.9,
     "Resistencia": "5 ATM",
@@ -2563,33 +2473,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "32mm",
     "Imagem": "imagens/mondaine/32703LPMVDE3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32704LPMVBE1",
-    "Valor_Reajustado": 281.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "32mm",
-    "Imagem": "imagens/mondaine/32704LPMVBE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32726LPMVDE1",
-    "Valor_Reajustado": 281.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "28mm",
-    "Imagem": "imagens/mondaine/32726LPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32730LPMVBE2",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "25mm",
-    "Imagem": "imagens/mondaine/32730LPMVBE2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -2755,15 +2638,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32803LPMVBE2",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "25mm",
-    "Imagem": "imagens/mondaine/32803LPMVBE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32803LPMVDE1",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
@@ -2917,15 +2791,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32908LPMVDM1",
-    "Valor_Reajustado": 427.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "23x28mm",
-    "Imagem": "imagens/mondaine/32908LPMVDM1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32909L0MVNM3",
     "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
@@ -2971,15 +2836,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32924L0MVNE2",
-    "Valor_Reajustado": 247.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "32mm",
-    "Imagem": "imagens/mondaine/32924L0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32934L0MVNM2",
     "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
@@ -3016,15 +2872,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32936LPMVDE1",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "21x33mm",
-    "Imagem": "imagens/mondaine/32936LPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32938LPMVRM3",
     "Valor_Reajustado": 258.9,
     "Resistencia": "5 ATM",
@@ -3043,39 +2890,12 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32955LPMVDM1",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "20mm",
-    "Imagem": "imagens/mondaine/32955LPMVDM1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32956LPMVBM2",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "20mm",
-    "Imagem": "imagens/mondaine/32956LPMVBM2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32957L0MVNE2",
     "Valor_Reajustado": 360.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
     "Imagem": "imagens/mondaine/32957L0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32957LPMVDE1",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "20mm",
-    "Imagem": "imagens/mondaine/32957LPMVDE1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -3349,15 +3169,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32985LPMVDM2",
-    "Valor_Reajustado": 427.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "20X39MM",
-    "Imagem": "imagens/mondaine/32985LPMVDM2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32988L0MVNE2",
     "Valor_Reajustado": 382.9,
     "Resistencia": "3 ATM",
@@ -3382,15 +3193,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "23X32",
     "Imagem": "imagens/mondaine/32997L0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32997LPMVBE3",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "23X32",
-    "Imagem": "imagens/mondaine/32997LPMVBE3.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -3466,15 +3268,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "33008L0MVNE2",
-    "Valor_Reajustado": 292.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "30mm",
-    "Imagem": "imagens/mondaine/33008L0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "33008LPMVDE1",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
@@ -3529,30 +3322,12 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "33019LPMVDE1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "28X33MM",
-    "Imagem": "imagens/mondaine/33019LPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "33022L0MVNE2",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "28mm",
     "Imagem": "imagens/mondaine/33022L0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33022LPMVDE1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "28mm",
-    "Imagem": "imagens/mondaine/33022LPMVDE1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -3781,24 +3556,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99805LPMVDE1",
-    "Valor_Reajustado": 270.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "28mm",
-    "Imagem": "imagens/mondaine/99805LPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99816L0MVNE2",
-    "Valor_Reajustado": 270.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "23mm",
-    "Imagem": "imagens/mondaine/99816L0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99816LPMVBE3",
     "Valor_Reajustado": 292.9,
     "Resistencia": "5 ATM",
@@ -3832,6 +3589,15 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "32mm",
     "Imagem": "imagens/mondaine/99819LPMVDE1.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "99819LPMVDE3",
+    "Valor_Reajustado": 315.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Feminino",
+    "Tamanho": "32mm",
+    "Imagem": "imagens/mondaine/99819LPMVDE3.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -3943,15 +3709,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99847LPMVDE1",
-    "Valor_Reajustado": 258.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "25mm",
-    "Imagem": "imagens/mondaine/99847LPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99848L0MVNE2",
     "Valor_Reajustado": 247.9,
     "Resistencia": "5 ATM",
@@ -3985,15 +3742,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "25mm",
     "Imagem": "imagens/mondaine/99850L0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99850LPMVBE3",
-    "Valor_Reajustado": 258.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "25mm",
-    "Imagem": "imagens/mondaine/99850LPMVBE3.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -4066,15 +3814,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "20mm",
     "Imagem": "imagens/mondaine/99855L0MVNM2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99855LPMVBM3",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "20mm",
-    "Imagem": "imagens/mondaine/99855LPMVBM3.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -4213,15 +3952,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99885LPMVDM1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "23X29",
-    "Imagem": "imagens/mondaine/99885LPMVDM1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99886L0MVNM2",
     "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
@@ -4285,15 +4015,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99892LPMVDE1",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "32mm",
-    "Imagem": "imagens/mondaine/99892LPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32117L0MVNE2",
     "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
@@ -4336,15 +4057,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "26x34mm",
     "Imagem": "imagens/mondaine/32218LPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32283L0MVNE3",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/32283L0MVNE3.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -4501,15 +4213,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32662L0MVNE3",
-    "Valor_Reajustado": 258.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/32662L0MVNE3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32666LPMVPE2",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
@@ -4597,15 +4300,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "36mm",
     "Imagem": "imagens/mondaine/32741L0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32743LPMVRE3",
-    "Valor_Reajustado": 495.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/32743LPMVRE3.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -4978,24 +4672,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "33001LPMVBE3",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "36mm",
-    "Imagem": "imagens/mondaine/33001LPMVBE3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33001LPMVDE1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "36mm",
-    "Imagem": "imagens/mondaine/33001LPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "33002L0MVNE2",
     "Valor_Reajustado": 382.9,
     "Resistencia": "3 ATM",
@@ -5365,15 +5041,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "53601LPMVDE4",
-    "Valor_Reajustado": 292.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/53601LPMVDE4.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "53601LPMVRE3",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
@@ -5470,15 +5137,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "42mm",
     "Imagem": "imagens/mondaine/99719L0MVNE3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99719LPMVBE2",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/99719LPMVBE2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -6121,12 +5779,12 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32820LPMVDH3",
-    "Valor_Reajustado": 337.9,
+    "Referencia": "32821L0MKNE2",
+    "Valor_Reajustado": 382.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
-    "Tamanho": "22mm",
-    "Imagem": "imagens/mondaine/32820LPMVDH3.jpg"
+    "Tamanho": "23x32mm",
+    "Imagem": "imagens/mondaine/32821L0MKNE2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -6220,15 +5878,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32923LPMVDE1",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "36mm",
-    "Imagem": "imagens/mondaine/32923LPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32937L0MVNM2",
     "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
@@ -6253,15 +5902,6 @@ window.PRODUTOS = [
     "Genero": "Feminino",
     "Tamanho": "23mm",
     "Imagem": "imagens/mondaine/32994L0MVNM2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32994LPMVDM1",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Feminino",
-    "Tamanho": "23mm",
-    "Imagem": "imagens/mondaine/32994LPMVDM1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -6337,15 +5977,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32736G0MVNA3",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "10 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/32736G0MVNA3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32736GPMVDA5",
     "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
@@ -6370,33 +6001,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "38mm",
     "Imagem": "imagens/mondaine/33033GPMVDA1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33043G0MVNA2",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "38mm",
-    "Imagem": "imagens/mondaine/33043G0MVNA2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33043GPMVBA3",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "38mm",
-    "Imagem": "imagens/mondaine/33043GPMVBA3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33043GPMVDA1",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "38mm",
-    "Imagem": "imagens/mondaine/33043GPMVDA1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -6499,24 +6103,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99736G0MVNA2",
-    "Valor_Reajustado": 281.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "46mm",
-    "Imagem": "imagens/mondaine/99736G0MVNA2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99736G0MVNA4",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "46mm",
-    "Imagem": "imagens/mondaine/99736G0MVNA4.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32280G0MVNI3",
     "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
@@ -6532,15 +6118,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "42mm",
     "Imagem": "imagens/mondaine/32549GPMVDI5.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32644G0MVNI1",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/32644G0MVNI1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -6571,30 +6148,12 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32883GPMVCI1",
-    "Valor_Reajustado": 495.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/32883GPMVCI1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32898GPMVKI2",
     "Valor_Reajustado": 270.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
     "Imagem": "imagens/mondaine/32898GPMVKI2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32902G0MVNI1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/32902G0MVNI1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -6613,15 +6172,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "47mm",
     "Imagem": "imagens/mondaine/32927GPMVPI3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32949GPMVCI2",
-    "Valor_Reajustado": 630.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42X56MM",
-    "Imagem": "imagens/mondaine/32949GPMVCI2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -6715,24 +6265,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "33032G0MVNI2",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "43mm",
-    "Imagem": "imagens/mondaine/33032G0MVNI2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33039GPMVPI2",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "43mm",
-    "Imagem": "imagens/mondaine/33039GPMVPI2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "33040G0MVNI1",
     "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
@@ -6748,15 +6280,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "42mm",
     "Imagem": "imagens/mondaine/33042G0MVNI2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33044G0MVNI2",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "44mm",
-    "Imagem": "imagens/mondaine/33044G0MVNI2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -6829,15 +6352,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "42mm",
     "Imagem": "imagens/mondaine/33069G0MVNI2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33069GPMVPI1",
-    "Valor_Reajustado": 675.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/33069GPMVPI1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -7048,6 +6562,15 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
+    "Referencia": "99787GPMVPI2",
+    "Valor_Reajustado": 337.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Masculino",
+    "Tamanho": "48mm",
+    "Imagem": "imagens/mondaine/99787GPMVPI2.jpg"
+  },
+  {
+    "Marca": "Mondaine",
     "Referencia": "99813GPMVCI1",
     "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
@@ -7129,24 +6652,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99903G0MVNI2",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "46mm",
-    "Imagem": "imagens/mondaine/99903G0MVNI2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99903G0MVNI3",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "46mm",
-    "Imagem": "imagens/mondaine/99903G0MVNI3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99928G0MVNI3",
     "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
@@ -7174,39 +6679,12 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32763G0MVNH1",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/32763G0MVNH1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32786G0MVNH2",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "44mm",
-    "Imagem": "imagens/mondaine/32786G0MVNH2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32900G0MVNO1",
     "Valor_Reajustado": 495.9,
     "Resistencia": "3 ATM",
     "Genero": "Masculino",
     "Tamanho": "32X40MM",
     "Imagem": "imagens/mondaine/32900G0MVNO1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32900G0MVNO2",
-    "Valor_Reajustado": 303.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "32X40MM",
-    "Imagem": "imagens/mondaine/32900G0MVNO2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -7225,15 +6703,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "42X56MM",
     "Imagem": "imagens/mondaine/32901GPMVNO1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32946G0MVNO2",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/32946G0MVNO2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -7264,15 +6733,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32948GPMVDO1",
-    "Valor_Reajustado": 630.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/32948GPMVDO1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "33038G0MVNO7",
     "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
@@ -7300,30 +6760,21 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "36002G0MVNH2",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "44mm",
-    "Imagem": "imagens/mondaine/36002G0MVNH2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "40002G0MVNH4",
-    "Valor_Reajustado": 270.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/40002G0MVNH4.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "40003GPMVDH2",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "41mm",
     "Imagem": "imagens/mondaine/40003GPMVDH2.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "40004G0MVNH2",
+    "Valor_Reajustado": 315.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Masculino",
+    "Tamanho": "44mm",
+    "Imagem": "imagens/mondaine/40004G0MVNH2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -7372,15 +6823,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99665GPMVDH1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "46mm",
-    "Imagem": "imagens/mondaine/99665GPMVDH1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99739G0MVNH1",
     "Valor_Reajustado": 292.9,
     "Resistencia": "5 ATM",
@@ -7414,15 +6856,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "48mm",
     "Imagem": "imagens/mondaine/99791G0MVNH1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99809G0MVNH2",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "44mm",
-    "Imagem": "imagens/mondaine/99809G0MVNH2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -7471,15 +6904,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32558G0MVNE3K1",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/32558G0MVNE3K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32567G0MVNE2K1",
     "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
@@ -7498,24 +6922,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32577G0MVNH2K3",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/32577G0MVNH2K3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32603G0MVNE2K1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/32603G0MVNE2K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32635G0MVNE2K1",
     "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
@@ -7525,30 +6931,12 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32635GPMVDE1K2",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/32635GPMVDE1K2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32639G0MVNE3K1",
     "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
     "Imagem": "imagens/mondaine/32639G0MVNE3K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32645G0MVNE1K1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/32645G0MVNE1K1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -7567,15 +6955,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "48mm",
     "Imagem": "imagens/mondaine/32656G0MVNE1K2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32660GPMVDE1K2",
-    "Valor_Reajustado": 405.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/32660GPMVDE1K2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -7639,6 +7018,15 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "43mm",
     "Imagem": "imagens/mondaine/33035GPMKDE1K1.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "33035GPMKDI6K1",
+    "Valor_Reajustado": 506.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Masculino",
+    "Tamanho": "43mm",
+    "Imagem": "imagens/mondaine/33035GPMKDI6K1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -7720,15 +7108,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "42mm",
     "Imagem": "imagens/mondaine/83526G0MVNE3K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99406GPMVPE2K2",
-    "Valor_Reajustado": 382.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/99406GPMVPE2K2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -7831,15 +7210,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99739G0MVNH1K2",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/99739G0MVNH1K2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99739G0MVNH3K1",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
@@ -7882,15 +7252,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "48mm",
     "Imagem": "imagens/mondaine/99752GPMVDE1K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99753GPMVPE1K1",
-    "Valor_Reajustado": 405.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/99753GPMVPE1K1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -7984,30 +7345,12 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99835G0MVNH2K1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/99835G0MVNH2K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99835G0MVNH3K1",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
     "Imagem": "imagens/mondaine/99835G0MVNH3K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99835GPMVDH1K1",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/99835GPMVDH1K1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -8026,15 +7369,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "45mm",
     "Imagem": "imagens/mondaine/99837G0MVNE1K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99837G0MVNE4K1",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "45mm",
-    "Imagem": "imagens/mondaine/99837G0MVNE4K1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -8062,24 +7396,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "46mm",
     "Imagem": "imagens/mondaine/99843GPMKDE1K1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99739G0MVNH3",
-    "Valor_Reajustado": 292.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/99739G0MVNH3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99739GPMVDH2",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/99739GPMVDH2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -8197,15 +7513,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "48mm",
     "Imagem": "imagens/mondaine/32558G0MVNE3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32567G0MVNE2",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/32567G0MVNE2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -8416,15 +7723,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32656G0MVNE2",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/32656G0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32656GPMVDE3",
     "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
@@ -8449,6 +7747,15 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "48mm",
     "Imagem": "imagens/mondaine/32660GPMVDE1.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "32763G0MVNE2",
+    "Valor_Reajustado": 337.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Masculino",
+    "Tamanho": "40mm",
+    "Imagem": "imagens/mondaine/32763G0MVNE2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -8503,6 +7810,15 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "41mm",
     "Imagem": "imagens/mondaine/32815GPMVCE5.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "32815GPMVOE6",
+    "Valor_Reajustado": 630.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Masculino",
+    "Tamanho": "41mm",
+    "Imagem": "imagens/mondaine/32815GPMVOE6.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -8614,15 +7930,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32930GPMVPE3",
-    "Valor_Reajustado": 742.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "44mm",
-    "Imagem": "imagens/mondaine/32930GPMVPE3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32930GPMVPE5",
     "Valor_Reajustado": 742.9,
     "Resistencia": "5 ATM",
@@ -8731,21 +8038,21 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32952G0MVNE2",
-    "Valor_Reajustado": 405.9,
-    "Resistencia": "3 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40X47,5MM",
-    "Imagem": "imagens/mondaine/32952G0MVNE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32952GPMVDE1",
     "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Masculino",
     "Tamanho": "40X47,5MM",
     "Imagem": "imagens/mondaine/32952GPMVDE1.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "33025G0MVNE3",
+    "Valor_Reajustado": 337.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Masculino",
+    "Tamanho": "43mm",
+    "Imagem": "imagens/mondaine/33025G0MVNE3.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -8875,15 +8182,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "33036GPMVBE2",
-    "Valor_Reajustado": 315.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/33036GPMVBE2.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "33036GPMVDE1",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
@@ -8929,39 +8227,12 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "33038G0MVNE4",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/33038G0MVNE4.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33038G0MVNE5",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/33038G0MVNE5.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "33038G0MVNE6",
     "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
     "Imagem": "imagens/mondaine/33038G0MVNE6.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33045G0MVNE3",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "44mm",
-    "Imagem": "imagens/mondaine/33045G0MVNE3.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -9025,6 +8296,15 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "44mm",
     "Imagem": "imagens/mondaine/40000GPMVCE2.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "40000GPMVOE1",
+    "Valor_Reajustado": 360.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Masculino",
+    "Tamanho": "44mm",
+    "Imagem": "imagens/mondaine/40000GPMVOE1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -9196,15 +8476,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "42mm",
     "Imagem": "imagens/mondaine/83515G0MVNE3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "83515GPMVDE1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/83515GPMVDE1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -9469,15 +8740,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99747GPMVDE1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "48mm",
-    "Imagem": "imagens/mondaine/99747GPMVDE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99770G0MVNE1",
     "Valor_Reajustado": 315.9,
     "Resistencia": "5 ATM",
@@ -9511,15 +8773,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "44mm",
     "Imagem": "imagens/mondaine/99785GPMVDE3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99806GPMVDE2",
-    "Valor_Reajustado": 360.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/99806GPMVDE2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -9565,15 +8818,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "44mm",
     "Imagem": "imagens/mondaine/99807GPMVDE5.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "99815G0MVNE1",
-    "Valor_Reajustado": 472.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "46mm",
-    "Imagem": "imagens/mondaine/99815G0MVNE1.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -9802,15 +9046,6 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "99930G0MVNE1",
-    "Valor_Reajustado": 337.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "45mm",
-    "Imagem": "imagens/mondaine/99930G0MVNE1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "99930G0MVNE2",
     "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
@@ -9853,6 +9088,24 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "44mm",
     "Imagem": "imagens/mondaine/99931GPMVDE3.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "99941G0MVNE1",
+    "Valor_Reajustado": 360.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Masculino",
+    "Tamanho": "42mm",
+    "Imagem": "imagens/mondaine/99941G0MVNE1.jpg"
+  },
+  {
+    "Marca": "Mondaine",
+    "Referencia": "99941G0MVNE2",
+    "Valor_Reajustado": 360.9,
+    "Resistencia": "5 ATM",
+    "Genero": "Masculino",
+    "Tamanho": "42mm",
+    "Imagem": "imagens/mondaine/99941G0MVNE2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -9964,30 +9217,12 @@ window.PRODUTOS = [
   },
   {
     "Marca": "Mondaine",
-    "Referencia": "32851G0MVNC3",
-    "Valor_Reajustado": 1237.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "40mm",
-    "Imagem": "imagens/mondaine/32851G0MVNC3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
     "Referencia": "32851GPMVDA1",
     "Valor_Reajustado": 1350.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
     "Imagem": "imagens/mondaine/32851GPMVDA1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32888G0MVNA4",
-    "Valor_Reajustado": 720.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "36mm",
-    "Imagem": "imagens/mondaine/32888G0MVNA4.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -10015,15 +9250,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "36mm",
     "Imagem": "imagens/mondaine/32888GPMVDC1.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "32888GPMVDC2",
-    "Valor_Reajustado": 787.9,
-    "Resistencia": "5 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "36mm",
-    "Imagem": "imagens/mondaine/32888GPMVDC2.jpg"
   },
   {
     "Marca": "Mondaine",
@@ -10132,15 +9358,6 @@ window.PRODUTOS = [
     "Genero": "Masculino",
     "Tamanho": "42mm",
     "Imagem": "imagens/mondaine/33055GPMVRC3.jpg"
-  },
-  {
-    "Marca": "Mondaine",
-    "Referencia": "33055GPMVRC4",
-    "Valor_Reajustado": 1237.9,
-    "Resistencia": "10 ATM",
-    "Genero": "Masculino",
-    "Tamanho": "42mm",
-    "Imagem": "imagens/mondaine/33055GPMVRC4.jpg"
   },
   {
     "Marca": "Mondaine",
