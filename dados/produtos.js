@@ -10253,7 +10253,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20091L0SVNA4",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "14mm",
@@ -10262,7 +10262,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20091LPSVDA3",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "14mm",
@@ -10271,7 +10271,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20176L0SVNB4",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "14mm",
@@ -10280,7 +10280,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20176LPSVDB2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "14mm",
@@ -10289,7 +10289,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23690LPSVBA3",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "17mm",
@@ -10298,7 +10298,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23748L0SVNA3",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "14mm",
@@ -10307,7 +10307,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23748LPSVBA2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "14mm",
@@ -10316,7 +10316,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23748LPSVDA1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "14mm",
@@ -10325,7 +10325,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44067LPSVBB2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "17mm",
@@ -10334,7 +10334,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44068LPSVDA1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "13x12mm",
@@ -10343,7 +10343,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44093LPSVDB1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "17mm",
@@ -10352,7 +10352,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44315LPSVDB1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -10361,7 +10361,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44355L0SVNB2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "16mm",
@@ -10370,7 +10370,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44355LPSVDB1",
-    "Valor_Reajustado": 1100.9,
+    "Valor_Reajustado": 1237.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "16mm",
@@ -10379,7 +10379,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77357L0SVNB2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -10388,7 +10388,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77357LPSVDB1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -10397,7 +10397,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20954LPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "33mm",
@@ -10406,7 +10406,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23758L0SVNA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -10415,7 +10415,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44086LPSVDA1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -10424,7 +10424,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44088L0SVNA3",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "28mm",
@@ -10433,7 +10433,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44140LPSVDA1",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -10442,7 +10442,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44187L0SVNA2",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "25x33mm",
@@ -10451,7 +10451,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44190LPSVDA1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -10460,7 +10460,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44193LPSVDA1",
-    "Valor_Reajustado": 430.9,
+    "Valor_Reajustado": 483.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "25mm",
@@ -10469,7 +10469,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44195LPSVBA2",
-    "Valor_Reajustado": 430.9,
+    "Valor_Reajustado": 483.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -10478,7 +10478,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44195LPSVDA1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -10487,7 +10487,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44196LPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -10496,7 +10496,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44309LPSVDA1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -10505,7 +10505,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44336L0SVNA3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -10514,7 +10514,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44336LPSVDA1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -10523,7 +10523,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44337L0SVNA3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -10532,7 +10532,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44337LPSVDA1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -10541,7 +10541,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44343L0SVNA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -10550,7 +10550,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44343LPSVDA1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -10559,7 +10559,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44335LPSVDS1",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "19mm",
@@ -10568,7 +10568,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77009L0SVNA3",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -10577,7 +10577,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77134L0SVNA3",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "25mm",
@@ -10586,7 +10586,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77134LPSVDA1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "25mm",
@@ -10595,7 +10595,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77245LPSVBA5",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -10604,7 +10604,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77245LPSVDA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -10613,7 +10613,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77245LPSVDA2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -10622,7 +10622,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77256LPSVDA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -10631,7 +10631,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77323L0SVNA2",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -10640,7 +10640,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77323LPSVDA1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -10649,7 +10649,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77324LPSVDA1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -10658,7 +10658,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77330L0SVNA3",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -10667,7 +10667,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77330LPSVBA2",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -10676,7 +10676,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77330LPSVDA1",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -10685,7 +10685,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77331LPSVBA2",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -10694,7 +10694,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77331LPSVDA1",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -10703,7 +10703,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77362LPSVEA1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -10712,7 +10712,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77362LPSVFA2",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -10721,7 +10721,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23765LPSVDS1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10730,7 +10730,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23765LPSVBS2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10739,7 +10739,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44365LPSVBB2",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10748,7 +10748,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44365LPSVDB1",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10757,7 +10757,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44385LPSVDA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -10766,7 +10766,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "21001L0SVNC1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -10775,7 +10775,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23696L0SVNB4",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10784,7 +10784,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23722LPSVDS1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -10793,7 +10793,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23735LPSVDA1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10802,7 +10802,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23735LPSVPA2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10811,7 +10811,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23736L0SVNB2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10820,7 +10820,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23736LPSVDB1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10829,7 +10829,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23745L0SVNS2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "23mm",
@@ -10838,7 +10838,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23747LPSVDS1",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "28mm",
@@ -10847,7 +10847,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23749L0SVNS2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -10856,7 +10856,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23749LPSVDS1",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -10865,7 +10865,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23750L0SVNB2",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10874,7 +10874,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23750LPSVDB1",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10883,7 +10883,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23759L0SVNB2",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10892,7 +10892,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23759LPSVDB1",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10901,7 +10901,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23761L0SVNS2",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10910,7 +10910,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23761LPSVDS1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10919,7 +10919,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23762L0SVNB2",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "37mm",
@@ -10928,7 +10928,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23762LPSVDB1",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "37mm",
@@ -10937,7 +10937,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23765L0SVNS3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10946,7 +10946,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23766L0SVNS3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10955,7 +10955,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23766LPSVDS1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10964,7 +10964,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23766LPSVDS2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -10973,7 +10973,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39000L0SVNB2",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "16mm",
@@ -10982,7 +10982,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39000LPSVDB1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "16mm",
@@ -10991,7 +10991,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39001L0SVNB2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "17mm",
@@ -11000,7 +11000,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39001LPSVDB1",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "17mm",
@@ -11009,7 +11009,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39003LPSVDB1",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -11018,7 +11018,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44275L0SVNA2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "23mm",
@@ -11027,7 +11027,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44276LPSVDA1",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -11036,7 +11036,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44277LPSVDR1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -11045,7 +11045,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44277LPSVDS2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -11054,7 +11054,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44287L0SVNS3",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -11063,7 +11063,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44287LPSVDS1",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -11072,7 +11072,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44287LPSVPS2",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -11081,7 +11081,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44288LPSVDA2",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -11090,7 +11090,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44379LPSVDC4",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "16mm",
@@ -11099,7 +11099,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44354L0SVNB2",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "26mm",
@@ -11108,7 +11108,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44354LPSVDB1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "26mm",
@@ -11117,7 +11117,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44335L0SVNS2",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "19mm",
@@ -11126,7 +11126,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44369L0SVNA5",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -11135,7 +11135,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44379L0SVNC5",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "16mm",
@@ -11144,7 +11144,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44379LPSVDC3",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "16mm",
@@ -11153,7 +11153,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77152LPSVDS1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -11162,7 +11162,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77281L0SVNS3",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -11171,7 +11171,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77281LPSVDS1",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -11180,7 +11180,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77325L0SVNS2",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -11189,7 +11189,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77325LPSVDS1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -11198,7 +11198,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77344LPSVDR2",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "21mm",
@@ -11207,7 +11207,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77354LPSVDS2",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "28mm",
@@ -11216,7 +11216,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77365L0SVNB2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "17mm",
@@ -11225,7 +11225,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77365LPSVDB1",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "17mm",
@@ -11234,7 +11234,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39004LPSVDB1",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "31mm",
@@ -11243,7 +11243,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44385LPSVDA2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11252,7 +11252,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "21005L0SVNS2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -11261,7 +11261,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "21005LPSVDS1",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -11270,7 +11270,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23720LPSVRB2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -11279,7 +11279,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23755L0SVNS2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -11288,7 +11288,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23755LPSVDS1",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -11297,7 +11297,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23756L0SVNB2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "33mm",
@@ -11306,7 +11306,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44260LPSVDS1",
-    "Valor_Reajustado": 378.9,
+    "Valor_Reajustado": 425.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "42mm",
@@ -11315,7 +11315,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44284L0SVNS3",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -11324,7 +11324,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44284LPSVBS2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -11333,7 +11333,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44284LPSVDS1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -11342,7 +11342,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44306L0SVNS2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11351,7 +11351,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44306LPSVDS1",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11360,7 +11360,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44307LPSVDS1",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "37mm",
@@ -11369,7 +11369,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44307LPSVDS2",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "37mm",
@@ -11378,7 +11378,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44333L0SVNS3",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11387,7 +11387,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44333LPSVDS1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11396,7 +11396,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44333LPSVDS2",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11405,7 +11405,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44334L0SVNS2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11414,7 +11414,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44334LPSVDS1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11423,7 +11423,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44349LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -11432,7 +11432,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44349LPSVRS3",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -11441,7 +11441,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44350L0SVNS3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11450,7 +11450,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44350LPSVDS1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11459,7 +11459,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44351LPSVDB1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "35mm",
@@ -11468,7 +11468,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44351LPSVRB2",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "35mm",
@@ -11477,7 +11477,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44352L0SVNB2",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "31mm",
@@ -11486,7 +11486,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44352LPSVDB1",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "31mm",
@@ -11495,7 +11495,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44361L0SVNS2",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11504,7 +11504,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44361LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11513,7 +11513,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44367L0SVNB2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -11522,7 +11522,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44367L0SVNB4",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -11531,7 +11531,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44367LPSVDB1",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -11540,7 +11540,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44367LPSVRB3",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -11549,7 +11549,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44368L0SVNB4",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -11558,7 +11558,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44368LPSVDB1",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "19mm",
@@ -11567,7 +11567,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44368LPSVRB3",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "19mm",
@@ -11576,7 +11576,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39003L0SVNB2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -11585,7 +11585,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44383LPSVDS1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -11594,7 +11594,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77074LPSVDS3",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11603,7 +11603,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77082LPSVDS1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "32x39mm",
@@ -11612,7 +11612,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77092LPSVDS1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11621,7 +11621,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77100L0SVNS3",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -11630,7 +11630,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77100LPSVDS1",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -11639,7 +11639,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77110LPSVDS1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "34x44mm",
@@ -11648,7 +11648,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77116LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11657,7 +11657,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77144LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "22x44mm",
@@ -11666,7 +11666,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77145LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11675,7 +11675,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77147LPSVDS1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "42mm",
@@ -11684,7 +11684,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77165LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "42mm",
@@ -11693,7 +11693,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77170LPSVDS1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11702,7 +11702,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77170LPSVRS3",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11711,7 +11711,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77174LPSVRS3",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -11720,7 +11720,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77192LPSVDS1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11729,7 +11729,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77231LPSVDS1",
-    "Valor_Reajustado": 422.9,
+    "Valor_Reajustado": 474.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -11738,7 +11738,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77231LPSVRS2",
-    "Valor_Reajustado": 422.9,
+    "Valor_Reajustado": 474.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -11747,7 +11747,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77247LPSVBS3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11756,7 +11756,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77247LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11765,7 +11765,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77249LPSVBS3",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11774,7 +11774,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77249LPSVDS1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11783,7 +11783,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77250LPSVDS1",
-    "Valor_Reajustado": 430.9,
+    "Valor_Reajustado": 483.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11792,7 +11792,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77251LPSVDS1",
-    "Valor_Reajustado": 430.9,
+    "Valor_Reajustado": 483.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11801,7 +11801,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77251LPSVDS2",
-    "Valor_Reajustado": 430.9,
+    "Valor_Reajustado": 483.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11810,7 +11810,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77252LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11819,7 +11819,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77253LPSVDS1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11828,7 +11828,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77264L0SVNS3",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11837,7 +11837,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77266LPSVBS3",
-    "Valor_Reajustado": 430.9,
+    "Valor_Reajustado": 483.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11846,7 +11846,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77267LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11855,7 +11855,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77268LPSVDS1",
-    "Valor_Reajustado": 430.9,
+    "Valor_Reajustado": 483.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11864,7 +11864,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77269LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11873,7 +11873,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77273LPSVDB1",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11882,7 +11882,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77276LPSVRB2",
-    "Valor_Reajustado": 358.9,
+    "Valor_Reajustado": 402.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -11891,7 +11891,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77287LPSVDS1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11900,7 +11900,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77295L0SVNS2",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "42mm",
@@ -11909,7 +11909,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77295LPSVBS3",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "42mm",
@@ -11918,7 +11918,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77295LPSVDS1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "10 ATM",
     "Genero": "Feminino",
     "Tamanho": "42mm",
@@ -11927,7 +11927,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77305LPSVDS1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "42mm",
@@ -11936,7 +11936,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77309LPSVDS1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11945,7 +11945,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77309LPSVDS2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11954,7 +11954,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77309LPSVRS4",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11963,7 +11963,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77317LPSVDS1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11972,7 +11972,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77318LPSVBS2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11981,7 +11981,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77318LPSVDS1",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -11990,7 +11990,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77321L0SVNS2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -11999,7 +11999,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77321LPSVDS1",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -12008,7 +12008,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77329L0SVNB2",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "21mm",
@@ -12017,7 +12017,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77329LPSVDB1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "21mm",
@@ -12026,7 +12026,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77332L0SVNS2",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12035,7 +12035,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77332LPSVDS1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12044,7 +12044,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77332LPSVPS3",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12053,7 +12053,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77333L0SVNB4",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -12062,7 +12062,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77333LPSVDB8",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -12071,7 +12071,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77333LPSVEB5",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -12080,7 +12080,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77333LPSVFB9",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -12089,7 +12089,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77333LPSVKB7",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -12098,7 +12098,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77333LPSVMB6",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -12107,7 +12107,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77334L0SVNB2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "21mm",
@@ -12116,7 +12116,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77334LPSVDB1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "21mm",
@@ -12125,7 +12125,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77334LPSVPB3",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "21mm",
@@ -12134,7 +12134,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77346LPSVDS1",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12143,7 +12143,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77346LPSVDS2",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12152,7 +12152,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77346LPSVDS4",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12161,7 +12161,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77346LPSVRS3",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12170,7 +12170,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77346LPSVRS5",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12179,7 +12179,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77353LPSVBS3",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12188,7 +12188,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77355LPSVDB1",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -12197,7 +12197,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77355LPSVPB2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -12206,7 +12206,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44385L0SVNA3",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12215,7 +12215,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39002LPSVDB1",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -12224,7 +12224,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44379LPSVDC6",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "16mm",
@@ -12233,7 +12233,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77364L0SVNA1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -12242,7 +12242,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39004L0SVNB3",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "31mm",
@@ -12251,7 +12251,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44383L0SVNS3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12260,7 +12260,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "21004LPSVDA1K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12269,7 +12269,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23722L0SVNS3K1",
-    "Valor_Reajustado": 420.9,
+    "Valor_Reajustado": 472.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -12278,7 +12278,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23737L0SKNA2K1",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -12287,7 +12287,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23737LPSKDA1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -12296,7 +12296,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23764L0SKNS2K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -12305,7 +12305,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23764LPSKDS1K1",
-    "Valor_Reajustado": 430.9,
+    "Valor_Reajustado": 483.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -12314,7 +12314,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44049LPSVDA1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -12323,7 +12323,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44089LPSVDA1K2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "28mm",
@@ -12332,7 +12332,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44135LPSVDA1K1",
-    "Valor_Reajustado": 410.9,
+    "Valor_Reajustado": 461.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -12341,7 +12341,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44135LPSVDA2K1",
-    "Valor_Reajustado": 410.9,
+    "Valor_Reajustado": 461.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -12350,7 +12350,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44140LPSVDA1K1",
-    "Valor_Reajustado": 410.9,
+    "Valor_Reajustado": 461.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -12359,7 +12359,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44187L0SVNA2K1",
-    "Valor_Reajustado": 410.9,
+    "Valor_Reajustado": 461.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "25x33mm",
@@ -12368,7 +12368,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44190LPSVDA1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -12377,7 +12377,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44194LPSVDA1K2",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -12386,7 +12386,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44195LPSVDA1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -12395,7 +12395,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44278L0SKNB2K1",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "19mm",
@@ -12404,7 +12404,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44278LPSKDB1K1",
-    "Valor_Reajustado": 580.9,
+    "Valor_Reajustado": 652.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "19mm",
@@ -12413,7 +12413,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44334LPSVDS1K2",
-    "Valor_Reajustado": 470.9,
+    "Valor_Reajustado": 528.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12422,7 +12422,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44340LPSKDS1K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12431,7 +12431,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44341L0SKNS2K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12440,7 +12440,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44341LPSKDS1K1",
-    "Valor_Reajustado": 430.9,
+    "Valor_Reajustado": 483.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12449,7 +12449,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44344LPSKBA2K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -12458,7 +12458,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44344LPSKDA1K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -12467,7 +12467,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44345LPSKDA1K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "30mm",
@@ -12476,7 +12476,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77009L0SVNA3K1",
-    "Valor_Reajustado": 410.9,
+    "Valor_Reajustado": 461.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -12485,7 +12485,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77092LPSVDS1K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12494,7 +12494,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77110L0SVNS3K2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "34x44mm",
@@ -12503,7 +12503,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77110L0SVNS3K3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "34x44mm",
@@ -12512,7 +12512,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77110LPSVDS1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "34x44mm",
@@ -12521,7 +12521,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77115LPSVDS1K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12530,7 +12530,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77116LPSVDS1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12539,7 +12539,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77134L0SVNA3K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "25mm",
@@ -12548,7 +12548,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77152LPSVDS1K1",
-    "Valor_Reajustado": 420.9,
+    "Valor_Reajustado": 472.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12557,7 +12557,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77177LPSKDS2K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "46mm",
@@ -12566,7 +12566,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77245LPSVDA1K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -12575,7 +12575,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77245LPSVRA4K1",
-    "Valor_Reajustado": 278.9,
+    "Valor_Reajustado": 312.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -12584,7 +12584,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77247LPSVBS3K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12593,7 +12593,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77250LPSVDS1K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12602,7 +12602,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77251LPSVDS1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12611,7 +12611,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77253LPSVRS3K1",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12620,7 +12620,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77255LPSVDA1K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -12629,7 +12629,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77256L0SVNA2K2",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -12638,7 +12638,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77256LPSVDA1K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -12647,7 +12647,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77269LPSVDS1K2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12656,7 +12656,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77281L0SVNS3K1",
-    "Valor_Reajustado": 420.9,
+    "Valor_Reajustado": 472.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -12665,7 +12665,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77281LPSVRS2K1",
-    "Valor_Reajustado": 420.9,
+    "Valor_Reajustado": 472.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -12674,7 +12674,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77309LPSVDS2K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12683,7 +12683,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77317LPSVDS2K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12692,7 +12692,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77319L0SVNS2K1",
-    "Valor_Reajustado": 420.9,
+    "Valor_Reajustado": 472.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12701,7 +12701,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77326LPSKDA1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -12710,7 +12710,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77326LPSKDA1K1",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -12719,7 +12719,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77327LPSKDS1K1",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12728,7 +12728,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77327LPSKRS2K1",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12737,7 +12737,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77331L0SVNA3K1",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12746,7 +12746,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77331LPSVDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12755,7 +12755,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77345L0SKNS2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12764,7 +12764,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77345LPSKDS1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12773,7 +12773,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77346LPSVRS5K1",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12782,7 +12782,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20939LPSKDS1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12791,7 +12791,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20981LPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12800,7 +12800,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "35019LPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12809,7 +12809,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44013LPSKDA1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12818,7 +12818,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44036LPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12827,7 +12827,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44040LPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12836,7 +12836,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44090LPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12845,7 +12845,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44091LPSKDA1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12854,7 +12854,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44145LPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -12863,7 +12863,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44146LPSKDA1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -12872,7 +12872,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44155LPSKDA1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -12881,7 +12881,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44312LPSVDQ1",
-    "Valor_Reajustado": 1200.9,
+    "Valor_Reajustado": 1350.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "23mm",
@@ -12890,7 +12890,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44312LPSVDQ2",
-    "Valor_Reajustado": 1200.9,
+    "Valor_Reajustado": 1350.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "23mm",
@@ -12899,7 +12899,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44313LPSVDQ1",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -12908,7 +12908,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44313LPSVDQ2",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -12917,7 +12917,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44313LPSVRQ3",
-    "Valor_Reajustado": 1100.9,
+    "Valor_Reajustado": 1237.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -12926,7 +12926,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44339LPSVDQ1",
-    "Valor_Reajustado": 1200.9,
+    "Valor_Reajustado": 1350.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -12935,7 +12935,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44356LPSVDQ1",
-    "Valor_Reajustado": 1100.9,
+    "Valor_Reajustado": 1237.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "19mm",
@@ -12944,7 +12944,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44356LPSVDQ2",
-    "Valor_Reajustado": 1100.9,
+    "Valor_Reajustado": 1237.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "19mm",
@@ -12953,7 +12953,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44356LPSVRQ3",
-    "Valor_Reajustado": 1100.9,
+    "Valor_Reajustado": 1237.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "19mm",
@@ -12962,7 +12962,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77228LPSVDQ1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -12971,7 +12971,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77228LPSVRQ3",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -12980,7 +12980,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77230LPSVDQ1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "23x32mm",
@@ -12989,7 +12989,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77230LPSVRQ2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "32x37mm",
@@ -12998,7 +12998,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77237LPSVDQ1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "25x38mm",
@@ -13007,7 +13007,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77237LPSVRQ2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "25x40mm",
@@ -13016,7 +13016,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77237LPSVRQ3",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "25x40mm",
@@ -13025,7 +13025,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77238LPSVDQ1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -13034,7 +13034,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77238LPSVRQ2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -13043,7 +13043,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77238LPSVRQ3",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "24mm",
@@ -13052,7 +13052,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77279LPSVDQ2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "38mm",
@@ -13061,7 +13061,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77293LPSVDQ1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -13070,7 +13070,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77293LPSVDQ2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -13079,7 +13079,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77293LPSVRQ3",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -13088,7 +13088,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77293LPSVRQ4",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "40mm",
@@ -13097,7 +13097,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77294LPSVDQ1",
-    "Valor_Reajustado": 1200.9,
+    "Valor_Reajustado": 1350.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -13106,7 +13106,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77294LPSVDQ2",
-    "Valor_Reajustado": 1200.9,
+    "Valor_Reajustado": 1350.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -13115,7 +13115,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77294LPSVRQ3",
-    "Valor_Reajustado": 1200.9,
+    "Valor_Reajustado": 1350.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -13124,7 +13124,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77294LPSVRQ4",
-    "Valor_Reajustado": 1200.9,
+    "Valor_Reajustado": 1350.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "15mm",
@@ -13133,7 +13133,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77356LPSVRQ2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "32mm",
@@ -13142,7 +13142,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39002L0SVNB2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "22mm",
@@ -13151,7 +13151,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44291LPSVDA2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "28mm",
@@ -13160,7 +13160,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44292LPSVDA1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "28mm",
@@ -13169,7 +13169,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44292LPSVRA2",
-    "Valor_Reajustado": 1100.9,
+    "Valor_Reajustado": 1237.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "28mm",
@@ -13178,7 +13178,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44365L0SVNB3",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "20mm",
@@ -13187,7 +13187,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44383LPSVBS2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Feminino",
     "Tamanho": "36mm",
@@ -13196,7 +13196,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77364LPSVDA2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Feminino",
     "Tamanho": "34mm",
@@ -13205,7 +13205,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44377G0SVNA2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "37mm",
@@ -13214,7 +13214,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77376GPSVPC4",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -13223,7 +13223,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20785G0SVNA2",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13232,7 +13232,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20786G0SVNA1",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13241,7 +13241,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20786G0SVNA4",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13250,7 +13250,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20786GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13259,7 +13259,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20786GPSVDA3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13268,7 +13268,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20787GPSVDA3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13277,7 +13277,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20802G0SVNA3",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13286,7 +13286,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20802GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13295,7 +13295,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20805GPSVDA1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13304,7 +13304,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20807G0SVNA1",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13313,7 +13313,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20807GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13322,7 +13322,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20809G0SVNA5",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13331,7 +13331,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20809GPSVDA2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13340,7 +13340,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20928G0SVNA2",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13349,7 +13349,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20929G0SVNA2",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13358,7 +13358,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20958G0SVNA4",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13367,7 +13367,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23729G0SVNA1",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13376,7 +13376,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23729GPSVDA2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13385,7 +13385,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23730G0SVNA1",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13394,7 +13394,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23730GPSVDA2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13403,7 +13403,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23742GPSVDA2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13412,7 +13412,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23752G0SVNA1",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "41mm",
@@ -13421,7 +13421,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23752GPSVDA2",
-    "Valor_Reajustado": 580.9,
+    "Valor_Reajustado": 652.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "41mm",
@@ -13430,7 +13430,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44011G0SVNA1",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13439,7 +13439,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44011G0SVNA2",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13448,7 +13448,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44011GPSVDA3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13457,7 +13457,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44042GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13466,7 +13466,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44197G0SVNA1",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -13475,7 +13475,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44197GPSVBA3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -13484,7 +13484,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44197GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -13493,7 +13493,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44200GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -13502,7 +13502,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44203G0SVNA1",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13511,7 +13511,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44203GPSVBA3",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13520,7 +13520,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44203GPSVDA2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13529,7 +13529,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44203GPSVDA4",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13538,7 +13538,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44204G0SVNA2",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13547,7 +13547,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44206G0SVNA1",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13556,7 +13556,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44206GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13565,7 +13565,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44206GPSVPA3",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13574,7 +13574,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44207GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13583,7 +13583,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44210G0SVNA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -13592,7 +13592,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44210G0SVNA2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -13601,7 +13601,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44210GPSVBA5",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -13610,7 +13610,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44210GPSVDA3",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -13619,7 +13619,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44210GPSVDA4",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -13628,7 +13628,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44211GPSVDA3",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -13637,7 +13637,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44212G0SVNA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -13646,7 +13646,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44212GPSVDA4",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -13655,7 +13655,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44213GPSVBA3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13664,7 +13664,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44213GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13673,7 +13673,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44215G0SVNA2",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13682,7 +13682,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44215GPSVDA4",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13691,7 +13691,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44216G0SVNA1",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13700,7 +13700,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44216GPSVDA3",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13709,7 +13709,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44217G0SVNA1",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13718,7 +13718,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44217GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13727,7 +13727,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44218G0SVNA2",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13736,7 +13736,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44232GPSVPA3",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -13745,7 +13745,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44254GPSVDA2",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -13754,7 +13754,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44254GPSVPA3",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -13763,7 +13763,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44263G0SVNA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -13772,7 +13772,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44263G0SVNA5",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -13781,7 +13781,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44263GPSVDA3",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -13790,7 +13790,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44263GPSVDA6",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -13799,7 +13799,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44264G0SVNA1",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -13808,7 +13808,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44264GPSVDA4",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -13817,7 +13817,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44265G0SVNA2",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13826,7 +13826,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44265GPSVDA1",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13835,7 +13835,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44293G0SVNA2",
-    "Valor_Reajustado": 300.9,
+    "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13844,7 +13844,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44293GPSVDA3",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13853,7 +13853,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44293GPSVDA4",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13862,7 +13862,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44294G0SVNA1",
-    "Valor_Reajustado": 300.9,
+    "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13871,7 +13871,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44294GPSVDA3",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13880,7 +13880,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44294GPSVDA4",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13889,7 +13889,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44295G0SVNA2",
-    "Valor_Reajustado": 300.9,
+    "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13898,7 +13898,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44295G0SVNA3",
-    "Valor_Reajustado": 300.9,
+    "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13907,7 +13907,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44296G0SVNA2",
-    "Valor_Reajustado": 300.9,
+    "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13916,7 +13916,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44296GPSVDA3",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13925,7 +13925,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44296GPSVDA4",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13934,7 +13934,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44297G0SVNA1",
-    "Valor_Reajustado": 300.9,
+    "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13943,7 +13943,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44297GPSVDA4",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13952,7 +13952,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44297GPSVDA5",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -13961,7 +13961,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44316G0SVNA1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13970,7 +13970,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44316GPSVDA3",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13979,7 +13979,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44317GPSVDA2",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13988,7 +13988,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44317GPSVSA3",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -13997,7 +13997,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44320G0SVNA1",
-    "Valor_Reajustado": 300.9,
+    "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14006,7 +14006,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44320GPSVBA3",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14015,7 +14015,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44320GPSVDA2",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14024,7 +14024,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44321G0SVNA1",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14033,7 +14033,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44321G0SVNA2",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14042,7 +14042,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44321GPSVDA3",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14051,7 +14051,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44322G0SVNA1",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14060,7 +14060,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44322G0SVNA2",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14069,7 +14069,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44322GPSVDA3",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14078,7 +14078,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44322GPSVDA4",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14087,7 +14087,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44323G0SVNA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -14096,7 +14096,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44323G0SVNA2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -14105,7 +14105,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44323GPSVDA3",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -14114,7 +14114,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44324G0SVNA1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "3 ATM",
     "Genero": "Masculino",
     "Tamanho": "30X40MM",
@@ -14123,7 +14123,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44346G0SVNA1",
-    "Valor_Reajustado": 300.9,
+    "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14132,7 +14132,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44346G0SVNA2",
-    "Valor_Reajustado": 300.9,
+    "Valor_Reajustado": 337.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14141,7 +14141,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44346GPSVDA3",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14150,7 +14150,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44347G0SVNA1",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14159,7 +14159,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77367G0SVNA1",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14168,7 +14168,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44377G0SVNA1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "37mm",
@@ -14177,7 +14177,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77263G0SKNA3K1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14186,7 +14186,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77199GPSVPA4",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14195,7 +14195,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77240G0SVNA1",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -14204,7 +14204,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77240GPSVDA2",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -14213,7 +14213,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77241GPSVDA2",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14222,7 +14222,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77242G0SVNA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14231,7 +14231,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77243G0SVNA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14240,7 +14240,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77243GPSVDA2",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14249,7 +14249,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77244GPSVDA2",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14258,7 +14258,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77259GPSVDA2",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14267,7 +14267,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77260GPSVDA2",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14276,7 +14276,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77261G0SVNA1",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14285,7 +14285,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77261GPSVPA2",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14294,7 +14294,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77262G0SVNA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14303,7 +14303,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77263GPSVPA2",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14312,7 +14312,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77271G0SVNA1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -14321,7 +14321,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77271G0SVNA2",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -14330,7 +14330,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77299G0SVNA1",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -14339,7 +14339,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77299GPSVDA2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -14348,7 +14348,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77312G0SVNA1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14357,7 +14357,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77312G0SVNA3",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14366,7 +14366,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77312GPSVDA2",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14375,7 +14375,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77335G0SVNA1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "35mm",
@@ -14384,7 +14384,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77335GPSVDA2",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "35mm",
@@ -14393,7 +14393,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77335GPSVPA3",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "35mm",
@@ -14402,7 +14402,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77347G0SVNA2",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14411,7 +14411,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77347GPSVDA3",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14420,7 +14420,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77348GPSVDA2",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14429,7 +14429,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77375GPSVDA2",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14438,7 +14438,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44377GPSVDC3",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "37mm",
@@ -14447,7 +14447,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44200G0SKNA4K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -14456,7 +14456,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44391GPSVDA1",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -14465,7 +14465,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77374G0SVNA3",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14474,7 +14474,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20785G0SVNA2K5",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14483,7 +14483,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20786G0SVNA1K4",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14492,7 +14492,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20786GPSVDA2K2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14501,7 +14501,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20786GPSVDA2K4",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14510,7 +14510,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20786GPSVDA2K5",
-    "Valor_Reajustado": 420.9,
+    "Valor_Reajustado": 472.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14519,7 +14519,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20786GPSVDA3K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14528,7 +14528,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20787GPSVDA3K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14537,7 +14537,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20791G0SVNU1K5",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -14546,7 +14546,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20802G0SVNA3K1",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14555,7 +14555,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20802G0SVNA3K4",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14564,7 +14564,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20802G0SVNA3K5",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14573,7 +14573,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20802GPSVDA1K5",
-    "Valor_Reajustado": 420.9,
+    "Valor_Reajustado": 472.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14582,7 +14582,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20807G0SVNA1K3",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14591,7 +14591,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20807GPSVDA2K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14600,7 +14600,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20928G0SVNA2K2",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14609,7 +14609,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20929G0SVNA2K3",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14618,7 +14618,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23730G0SVNA1K2",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14627,7 +14627,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44026GPSKDA1K2",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14636,7 +14636,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77372G0SVNA3",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14645,7 +14645,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77367GPSVDA3",
-    "Valor_Reajustado": 490.9,
+    "Valor_Reajustado": 551.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14654,7 +14654,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23767GPSVDC3",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14663,7 +14663,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39007G0SVNQ3",
-    "Valor_Reajustado": 1500.9,
+    "Valor_Reajustado": 1687.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14672,7 +14672,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44203G0SVNA1K2",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14681,7 +14681,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44203GPSVDA2K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14690,7 +14690,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44206G0SVNA1K1",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14699,7 +14699,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44206G0SVNA1K2",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14708,7 +14708,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44209G0SVNA1K3",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14717,7 +14717,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44213GPSVBA3K1",
-    "Valor_Reajustado": 420.9,
+    "Valor_Reajustado": 472.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14726,7 +14726,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44216G0SVNA1K2",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14735,7 +14735,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44217G0SVNA1K2",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14744,7 +14744,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44220G0SVNU1K1",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -14753,7 +14753,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44228G0SVNU2K2",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -14762,7 +14762,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44229G0SVNU1K5",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14771,7 +14771,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44231G0SVNA1K2",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14780,7 +14780,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44231G0SVNA1K3",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -14789,7 +14789,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44265G0SVNA2K1",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14798,7 +14798,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44265GPSVDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14807,7 +14807,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44293G0SVNA1K1",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14816,7 +14816,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44293G0SVNA1K2",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14825,7 +14825,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44293G0SVNA1K4",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14834,7 +14834,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44293G0SVNA2K1",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14843,7 +14843,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44293GPSVDA3K1",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14852,7 +14852,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44293GPSVDA3K2",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14861,7 +14861,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44293GPSVDA4K1",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14870,7 +14870,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44294GPSVDA3K1",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14879,7 +14879,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44295G0SVNA2K2",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14888,7 +14888,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44295G0SVNA3K2",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14897,7 +14897,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44297G0SVNA1K4",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14906,7 +14906,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44297G0SVNA3K1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14915,7 +14915,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44297G0SVNA3K2",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14924,7 +14924,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44316GPSVDA3K1",
-    "Valor_Reajustado": 590.9,
+    "Valor_Reajustado": 663.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14933,7 +14933,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44317GPSVSA3K1",
-    "Valor_Reajustado": 640.9,
+    "Valor_Reajustado": 720.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -14942,7 +14942,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44320G0SVNA1K5",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -14951,7 +14951,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44346G0SVNA1K1",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14960,7 +14960,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44346G0SVNA2K1",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14969,7 +14969,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44348G0SKNU1K1",
-    "Valor_Reajustado": 420.9,
+    "Valor_Reajustado": 472.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -14978,7 +14978,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44359G0SKNC1K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14987,7 +14987,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44359GPSKPC2K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -14996,7 +14996,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44360G0SKNA1K1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15005,7 +15005,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44360GPSKDA2K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15014,7 +15014,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77222GPSKDA2K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -15023,7 +15023,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77242G0SVNA1K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -15032,7 +15032,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77258G0SVNA1K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -15041,7 +15041,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77259G0SVNA1K3",
-    "Valor_Reajustado": 420.9,
+    "Valor_Reajustado": 472.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -15050,7 +15050,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77261G0SVNA1K2",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -15059,7 +15059,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77261G0SVNA1K4",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -15068,7 +15068,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77261GPSVPA2K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -15077,7 +15077,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77262GPSVDA2K1",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -15086,7 +15086,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39007GPSVDQ4",
-    "Valor_Reajustado": 1600.9,
+    "Valor_Reajustado": 1800.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15095,7 +15095,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77374GPSVDC2",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15104,7 +15104,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77307G0SVNC5",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15113,7 +15113,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44372GPSVSC1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -15122,7 +15122,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77263GPSVPA2K1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -15131,7 +15131,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77347G0SVNA1K1",
-    "Valor_Reajustado": 560.9,
+    "Valor_Reajustado": 630.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -15140,7 +15140,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77348G0SVNA1K1",
-    "Valor_Reajustado": 540.9,
+    "Valor_Reajustado": 607.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -15149,7 +15149,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77348GPSVDA2K1",
-    "Valor_Reajustado": 590.9,
+    "Valor_Reajustado": 663.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -15158,7 +15158,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77358G0SKNA2K1",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -15167,7 +15167,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77358GPSKDA3K1",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -15176,7 +15176,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77358GPSKDA4K1",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -15185,7 +15185,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77359G0SKNA1K1",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -15194,7 +15194,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77359GPSKDA3K1",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -15203,7 +15203,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77359GPSKDA4K1",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -15212,7 +15212,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20791G0SVNU1",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15221,7 +15221,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20882G0SVNU2",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15230,7 +15230,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20882GPSVDU1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15239,7 +15239,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20902G0SVNU2",
-    "Valor_Reajustado": 350.9,
+    "Valor_Reajustado": 393.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15248,7 +15248,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20902GPSVDU1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15257,7 +15257,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20913GPSVDU2",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -15266,7 +15266,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20913GPSVPU3",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -15275,7 +15275,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44005G0SVNU1",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15284,7 +15284,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44073GPSVPU1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15293,7 +15293,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44131G0SVCA1",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "52mm",
@@ -15302,7 +15302,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44131GPSVHA2",
-    "Valor_Reajustado": 552.9,
+    "Valor_Reajustado": 621.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "52mm",
@@ -15311,7 +15311,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44223GPSVPU4",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15320,7 +15320,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44227G0SVNU1",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -15329,7 +15329,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44227G0SVNU4",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -15338,7 +15338,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44230G0SVNU1",
-    "Valor_Reajustado": 320.9,
+    "Valor_Reajustado": 360.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -15347,7 +15347,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44248GPSVHU2",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15356,7 +15356,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44267G0SVNA1",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "52mm",
@@ -15365,7 +15365,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44267GPSVDA2",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "52mm",
@@ -15374,7 +15374,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44279GPSVPU3",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15383,7 +15383,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44280GPSVMU2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -15392,7 +15392,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44280GPSVPU1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -15401,7 +15401,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44325G0SVNU1",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15410,7 +15410,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44325GPSVDU2",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15419,7 +15419,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44326G0SVNU1",
-    "Valor_Reajustado": 340.9,
+    "Valor_Reajustado": 382.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -15428,7 +15428,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44327G0SVNC1",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -15437,7 +15437,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44327GPSVPC2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -15446,7 +15446,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77374G0SVNC1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15455,7 +15455,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44377G0SVNC4",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "37mm",
@@ -15464,7 +15464,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44372G0SVNC2",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -15473,7 +15473,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77371G0SVNU1",
-    "Valor_Reajustado": 2000.9,
+    "Valor_Reajustado": 2250.9,
     "Resistencia": "30 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -15482,7 +15482,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77375G0SVNA1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15491,7 +15491,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77376G0SVNA2",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15500,7 +15500,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77337G0SVNA1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -15509,7 +15509,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77337GPSVDA2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -15518,7 +15518,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39007G0SVNQ1",
-    "Valor_Reajustado": 1500.9,
+    "Valor_Reajustado": 1687.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15527,7 +15527,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39007G0SVNQ2",
-    "Valor_Reajustado": 1500.9,
+    "Valor_Reajustado": 1687.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15536,7 +15536,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44200GPSKDA5K1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -15545,7 +15545,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77349G0SVNA5",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15554,7 +15554,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44391G0SVNA3",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -15563,7 +15563,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44391G0SVNA4",
-    "Valor_Reajustado": 330.9,
+    "Valor_Reajustado": 371.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -15572,7 +15572,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44391GPSVDA2",
-    "Valor_Reajustado": 370.9,
+    "Valor_Reajustado": 416.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -15581,7 +15581,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77367G0SVNA2",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -15590,7 +15590,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77372G0SVNC1",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15599,7 +15599,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77371G0SVNU2",
-    "Valor_Reajustado": 2000.9,
+    "Valor_Reajustado": 2250.9,
     "Resistencia": "30 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -15608,7 +15608,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77376G0SVNA1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15617,7 +15617,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44386G0SVNA2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15626,7 +15626,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23715G0SVNA4",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42x48mm",
@@ -15635,7 +15635,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23715GPSVDA3",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42x48mm",
@@ -15644,7 +15644,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23725G0SVNC3",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -15653,7 +15653,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23731GPSVDA2",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "41mm",
@@ -15662,7 +15662,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23743G0SVNC1",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -15671,7 +15671,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23752G0SVNC3",
-    "Valor_Reajustado": 520.9,
+    "Valor_Reajustado": 585.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "41mm",
@@ -15680,7 +15680,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77307G0SVNC4",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15689,7 +15689,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "39007G0SVNQ5",
-    "Valor_Reajustado": 1500.9,
+    "Valor_Reajustado": 1687.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15698,7 +15698,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77263GPSKDA4K1",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -15707,7 +15707,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "24214GPSEDA1",
-    "Valor_Reajustado": 552.9,
+    "Valor_Reajustado": 621.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15716,7 +15716,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44250G0SVNT1",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -15725,7 +15725,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44255GPSVDC3",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15734,7 +15734,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44281G0SVNC1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -15743,7 +15743,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44281GPSVDC2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -15752,7 +15752,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44303G0SVNA1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "39mm",
@@ -15761,7 +15761,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44303GPSVDA2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "39mm",
@@ -15770,7 +15770,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44328G0SVNC1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -15779,7 +15779,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44328GPSVDC2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -15788,7 +15788,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44357G0SVNA2",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -15797,7 +15797,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44357GPSVDA1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -15806,7 +15806,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44358G0SVNC3",
-    "Valor_Reajustado": 440.9,
+    "Valor_Reajustado": 495.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -15815,7 +15815,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44375GPSVDA3",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15824,7 +15824,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44375G0SVNA2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15833,7 +15833,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44375GPSVBA4",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15842,7 +15842,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77376GPSVDA3",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15851,7 +15851,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77181G0SVNA1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -15860,7 +15860,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77181GPSVDA2",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -15869,7 +15869,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77182G0SVNA1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -15878,7 +15878,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77182GPSVDA2",
-    "Valor_Reajustado": 412.9,
+    "Valor_Reajustado": 463.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -15887,7 +15887,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77282G0SVNA1",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15896,7 +15896,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77282GPSVDA2",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15905,7 +15905,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77288G0SVNA1",
-    "Valor_Reajustado": 480.9,
+    "Valor_Reajustado": 540.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15914,7 +15914,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77314G0SVNA1",
-    "Valor_Reajustado": 550.9,
+    "Valor_Reajustado": 618.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "33mm",
@@ -15923,7 +15923,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77314GPSVDA2",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "33mm",
@@ -15932,7 +15932,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77338GPSVDC2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15941,7 +15941,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77339G0SVNC1",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15950,7 +15950,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77339GPSVDC2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15959,7 +15959,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77363G0SVNA1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15968,7 +15968,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77363GPSVDA3",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15977,7 +15977,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23767G0SVNC1",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15986,7 +15986,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44375G0SVNA1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -15995,7 +15995,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77372GPSVDC2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -16004,7 +16004,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44386GPSVDA1",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -16013,7 +16013,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20779GPSVDU5",
-    "Valor_Reajustado": 552.9,
+    "Valor_Reajustado": 621.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16022,7 +16022,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20909G0SVNA4",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16031,7 +16031,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20911GPSVHA4",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "52mm",
@@ -16040,7 +16040,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20923GPSVDA1",
-    "Valor_Reajustado": 1600.9,
+    "Valor_Reajustado": 1800.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16049,7 +16049,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23732GPSVDU3",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16058,7 +16058,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23732GPSVIU2",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16067,7 +16067,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23753GPSVSU1",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "49mm",
@@ -16076,7 +16076,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23753GPSVXU2",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "49mm",
@@ -16085,7 +16085,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44076GPSVDA2",
-    "Valor_Reajustado": 640.9,
+    "Valor_Reajustado": 720.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -16094,7 +16094,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44107GPSVDA2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16103,7 +16103,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44163G0SVNA1",
-    "Valor_Reajustado": 450.9,
+    "Valor_Reajustado": 506.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -16112,7 +16112,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44163GPSVDA2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -16121,7 +16121,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44183GPSVDA1",
-    "Valor_Reajustado": 552.9,
+    "Valor_Reajustado": 621.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16130,7 +16130,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44184GPSVHA1",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16139,7 +16139,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44224GPSVDA1",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16148,7 +16148,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44244GPSVDA2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "52mm",
@@ -16157,7 +16157,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44244GPSVRC3",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "52mm",
@@ -16166,7 +16166,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44251GPSVDA1",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16175,7 +16175,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44252GPSVGU3",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16184,7 +16184,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44258GPSVDC2",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -16193,7 +16193,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44261GPSVLA2",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -16202,7 +16202,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44271GPSVDA2",
-    "Valor_Reajustado": 1100.9,
+    "Valor_Reajustado": 1237.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -16211,7 +16211,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44272GPSVDA2",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16220,7 +16220,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44273GPSVHC2",
-    "Valor_Reajustado": 1500.9,
+    "Valor_Reajustado": 1687.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16229,7 +16229,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44273GPSVVC1",
-    "Valor_Reajustado": 1500.9,
+    "Valor_Reajustado": 1687.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16238,7 +16238,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44282G0SVNC1",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -16247,7 +16247,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44282GPSVSC3",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -16256,7 +16256,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44283G0SVNA1",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16265,7 +16265,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44283GPSVDA2",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16274,7 +16274,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44283GPSVPA3",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16283,7 +16283,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44305GPSVDA2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -16292,7 +16292,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44305GPSVUA3",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -16301,7 +16301,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44318GPSVCA1",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16310,7 +16310,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44318GPSVDA2",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16319,7 +16319,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44318GPSVPA3",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16328,7 +16328,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44319GPSVHA2",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16337,7 +16337,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44319GPSVOA1",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16346,7 +16346,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44319GPSVSA3",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16355,7 +16355,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44330G0SVNA1",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16364,7 +16364,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44330GPSVDA2",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16373,7 +16373,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44330GPSVPA3",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16382,7 +16382,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77164GPSVDA1",
-    "Valor_Reajustado": 846.9,
+    "Valor_Reajustado": 951.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16391,7 +16391,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77207GPSVDA1",
-    "Valor_Reajustado": 780.9,
+    "Valor_Reajustado": 877.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16400,7 +16400,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77220GPSVDA1",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "50mm",
@@ -16409,7 +16409,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77272GPSVBA4",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16418,7 +16418,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77272GPSVLA2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16427,7 +16427,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77272GPSVUA3",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16436,7 +16436,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77283GPSVDA2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "43mm",
@@ -16445,7 +16445,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77290GPSVDA2",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -16454,7 +16454,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77290GPSVPA3",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -16463,7 +16463,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77291GPSVDA1",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16472,7 +16472,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77291GPSVPA2",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16481,7 +16481,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77300GPSVHA2",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -16490,7 +16490,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77301GPSVCA1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16499,7 +16499,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77301GPSVVU3",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16508,7 +16508,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77302GPSVCA1",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16517,7 +16517,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77302GPSVPA2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16526,7 +16526,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77303G0SVNA1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "52mm",
@@ -16535,7 +16535,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77303GPSVDA2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "52mm",
@@ -16544,7 +16544,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77307G0SVNC1",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -16553,7 +16553,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77307GPSVDC2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -16562,7 +16562,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77308G0SVNC1",
-    "Valor_Reajustado": 750.9,
+    "Valor_Reajustado": 843.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -16571,7 +16571,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77308GPSVDC2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -16580,7 +16580,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77316GPSVHA2",
-    "Valor_Reajustado": 950.9,
+    "Valor_Reajustado": 1068.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -16589,7 +16589,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77316GPSVOA1",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -16598,7 +16598,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77328G0SVNA1",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16607,7 +16607,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77328GPSVDA2",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16616,7 +16616,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77328GPSVSC3",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16625,7 +16625,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77340GPSVCA1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -16634,7 +16634,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77340GPSVHA2",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -16643,7 +16643,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77350G0SVNA1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "43mm",
@@ -16652,7 +16652,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77350GPSVDA2",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "43mm",
@@ -16661,7 +16661,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77351GPSVCA1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -16670,7 +16670,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77351GPSVHA3",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -16679,7 +16679,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "23767G0SVNC2",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -16688,7 +16688,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77336G0SVNU1",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -16697,7 +16697,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77336GPSVPU2",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -16706,7 +16706,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "RPNP79004G",
-    "Valor_Reajustado": 116.9,
+    "Valor_Reajustado": 130.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16715,7 +16715,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "RPSL79004G",
-    "Valor_Reajustado": 84.9,
+    "Valor_Reajustado": 94.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16724,7 +16724,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20980GPSKDA1K1",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16733,7 +16733,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20982GPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "41mm",
@@ -16742,7 +16742,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "20983GPSKDA1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16751,7 +16751,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "35014GPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16760,7 +16760,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44009G0SKNA2K1",
-    "Valor_Reajustado": 460.9,
+    "Valor_Reajustado": 517.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16769,7 +16769,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44009GPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16778,7 +16778,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44009GPSKDA1K2",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16787,7 +16787,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44025GPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16796,7 +16796,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44026GPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16805,7 +16805,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44078GPSKDA1K1",
-    "Valor_Reajustado": 500.9,
+    "Valor_Reajustado": 562.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -16814,7 +16814,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44132GPSKDA1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16823,7 +16823,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44133GPSKDA1K1",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16832,7 +16832,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44270GPSVOA3",
-    "Valor_Reajustado": 850.9,
+    "Valor_Reajustado": 956.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16841,7 +16841,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44270GPSVPA7",
-    "Valor_Reajustado": 900.9,
+    "Valor_Reajustado": 1012.9,
     "Resistencia": "15 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -16850,7 +16850,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77139GPSVDU2",
-    "Valor_Reajustado": 390.9,
+    "Valor_Reajustado": 438.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "49mm",
@@ -16859,7 +16859,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77139GPSVPA5",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "49mm",
@@ -16868,7 +16868,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77219G0SVNN3",
-    "Valor_Reajustado": 700.9,
+    "Valor_Reajustado": 787.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "43x52mm",
@@ -16877,7 +16877,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77304GPSVPA2",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -16886,7 +16886,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77304GPSVPU1",
-    "Valor_Reajustado": 800.9,
+    "Valor_Reajustado": 900.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "45mm",
@@ -16895,7 +16895,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77341GPSVHA2",
-    "Valor_Reajustado": 1100.9,
+    "Valor_Reajustado": 1237.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -16904,7 +16904,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77341GPSVOA1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -16913,7 +16913,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77341GPSVPA3",
-    "Valor_Reajustado": 1100.9,
+    "Valor_Reajustado": 1237.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "44mm",
@@ -16922,7 +16922,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77280GPSVCQ5",
-    "Valor_Reajustado": 1200.9,
+    "Valor_Reajustado": 1350.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -16931,7 +16931,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77280GPSVDQ2",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -16940,7 +16940,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77280GPSVEQ1",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -16949,7 +16949,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77280GPSVPQ3",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -16958,7 +16958,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77280GPSVSQ4",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -16967,7 +16967,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77289GPSVPQ3",
-    "Valor_Reajustado": 1500.9,
+    "Valor_Reajustado": 1687.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "47mm",
@@ -16976,7 +16976,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77352GPSVEQ3",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -16985,7 +16985,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77352GPSVPQ2",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -16994,7 +16994,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44110GPSVDA1",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "3 ATM",
     "Genero": "Masculino",
     "Tamanho": "44x53mm",
@@ -17003,7 +17003,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44237G0SVNA1",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -17012,7 +17012,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44237G0SVNA2",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -17021,7 +17021,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44237G0SVNA5",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -17030,7 +17030,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44237G0SVNA6",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -17039,7 +17039,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44237GPSVDA3",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -17048,7 +17048,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44237GPSVDA7",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -17057,7 +17057,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44237GPSVPA4",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "42mm",
@@ -17066,7 +17066,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44304G0SVNA4",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "41mm",
@@ -17075,7 +17075,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44304GPSVBA2",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "41mm",
@@ -17084,7 +17084,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44304GPSVDA1",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "41mm",
@@ -17093,7 +17093,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44304GPSVDC3",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "41mm",
@@ -17102,7 +17102,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44329GPSVDA1",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "10 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -17111,7 +17111,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77313G0SVNA1",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -17120,7 +17120,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77313G0SVNA2",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -17129,7 +17129,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77313GPSVDA3",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -17138,7 +17138,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77313GPSVDA4",
-    "Valor_Reajustado": 1400.9,
+    "Valor_Reajustado": 1575.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -17147,7 +17147,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77349G0SVNA1",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -17156,7 +17156,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77349G0SVNA2",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -17165,7 +17165,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77349GPSVDA3",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -17174,7 +17174,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77349GPSVDA4",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -17183,7 +17183,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77361G0SVNA1",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -17192,7 +17192,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77361G0SVNC8",
-    "Valor_Reajustado": 1000.9,
+    "Valor_Reajustado": 1125.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -17201,7 +17201,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77361GPSVBA6",
-    "Valor_Reajustado": 1060.9,
+    "Valor_Reajustado": 1192.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -17210,7 +17210,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77361GPSVBA7",
-    "Valor_Reajustado": 1060.9,
+    "Valor_Reajustado": 1192.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -17219,7 +17219,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77361GPSVDA4",
-    "Valor_Reajustado": 1060.9,
+    "Valor_Reajustado": 1192.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -17228,7 +17228,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77361GPSVDA5",
-    "Valor_Reajustado": 1060.9,
+    "Valor_Reajustado": 1192.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "38mm",
@@ -17237,7 +17237,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77369G0SVNC1",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -17246,7 +17246,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77369G0SVNC2",
-    "Valor_Reajustado": 1300.9,
+    "Valor_Reajustado": 1462.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "40mm",
@@ -17255,7 +17255,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44034G0SVNU1",
-    "Valor_Reajustado": 360.9,
+    "Valor_Reajustado": 405.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -17264,7 +17264,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44116GPSVDA2",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -17273,7 +17273,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44201G0SVNA3",
-    "Valor_Reajustado": 380.9,
+    "Valor_Reajustado": 427.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -17282,7 +17282,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "44201GPSVDA1",
-    "Valor_Reajustado": 400.9,
+    "Valor_Reajustado": 450.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "46mm",
@@ -17291,7 +17291,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77315G0SVNA1",
-    "Valor_Reajustado": 600.9,
+    "Valor_Reajustado": 675.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -17300,7 +17300,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77315GPSVDA2",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
@@ -17309,7 +17309,7 @@ window.PRODUTOS = [
   {
     "Marca": "Seculus",
     "Referencia": "77315GPSVSC3",
-    "Valor_Reajustado": 650.9,
+    "Valor_Reajustado": 731.9,
     "Resistencia": "5 ATM",
     "Genero": "Masculino",
     "Tamanho": "48mm",
