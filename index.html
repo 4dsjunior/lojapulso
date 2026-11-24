@@ -62,6 +62,13 @@
     .fab { position: fixed; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); z-index: 1030;
            border-radius: 999px; padding: .65rem 1.1rem; box-shadow: 0 4px 18px rgba(0, 0, 0, .45); }
 
+    /* Botão "Voltar ao topo" (canto inferior esquerdo; o do carrinho fica no direito) */
+    .btn-topo { position: fixed; left: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); z-index: 1030;
+                width: 48px; height: 48px; padding: 0; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+                background: #fff; color: var(--pulso-charcoal); border: 2px solid var(--pulso-orange);
+                box-shadow: 0 4px 18px rgba(0, 0, 0, .45); }
+    .btn-topo:hover, .btn-topo:active { background: var(--pulso-orange); color: #000; }
+
     /* ===== Cards =====
        Em repouso: só um filete laranja marcando o card.
        Ao passar o mouse (ou ao pressionar com o dedo): luz neon por baixo do card refletindo para fora,
@@ -216,6 +223,12 @@
   <!-- Botão flutuante do carrinho -->
   <button id="fab" class="btn btn-pulso fab d-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#carrinho" aria-controls="carrinho">
     Ver pedido (<span id="fabQtd">0</span>) · <span id="fabTotal"></span>
+  </button>
+
+  <!-- Botão voltar ao topo (aparece depois de rolar a página) -->
+  <button id="btnTopo" class="btn btn-topo d-none" type="button" aria-label="Voltar ao topo" title="Voltar ao topo">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
   </button>
 
   <!-- Detalhes do produto (imagem ampliada) -->
@@ -592,6 +605,11 @@
     // ===================== TOPO FIXO =====================
     // O topo acompanha a rolagem (sempre com acesso ao carrinho) e encolhe um pouco depois de rolar.
     // Os limites diferentes (90 / 20) evitam que ele "pisque" perto do ponto de troca.
+    const btnTopo = $('btnTopo');
+    btnTopo.addEventListener('click', () => {
+      const reduzir = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: reduzir ? 'auto' : 'smooth' });
+    });
     const topo = document.querySelector('.topo');
     let topoCompacto = false;
     function atualizarTopo() {
@@ -599,6 +617,7 @@
       if (!topoCompacto && y > 90) topoCompacto = true;
       else if (topoCompacto && y < 20) topoCompacto = false;
       topo.classList.toggle('compacto', topoCompacto);
+      btnTopo.classList.toggle('d-none', y < 800);      // "voltar ao topo" só aparece depois de rolar bastante
     }
     window.addEventListener('scroll', atualizarTopo, { passive: true });
     atualizarTopo();
