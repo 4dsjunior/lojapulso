@@ -999,7 +999,7 @@
       // gêneros vêm dos dados (novos, como "Infantil", aparecem sozinhos); clicar de novo desmarca
       [...new Set(lista.map(p => p.Genero))].filter(Boolean).sort().forEach(g =>
         $('sugGenero').appendChild(criarChip(g, () => e.genero === g, () => { e.genero = e.genero === g ? '' : g; })));
-      COL.colecoes.forEach(c =>
+      COL.colecoes.filter(c => c.mostrar !== false).forEach(c =>
         $('sugColecao').appendChild(criarChip(c.nome, () => e.colecao === c.id, () => { e.colecao = e.colecao === c.id ? '' : c.id; })));
       COL.faixasPreco.forEach((f, i) =>
         $('sugFaixa').appendChild(criarChip(f.rotulo, () => e.faixa === i, () => { e.faixa = e.faixa === i ? null : i; })));

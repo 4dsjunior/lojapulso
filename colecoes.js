@@ -50,6 +50,8 @@ window.COLECOES = {
   colecoes: [
     {
       id: 'presentes',
+      mostrar: false,        // false = não aparece como botão de estilo (a 1ª pergunta já é "Para mim / Para presentear"),
+                             // mas continua valendo para a prioridade de "Para presentear" (veja prioridadePresente)
       nome: 'Presentes',
       descricao: 'Kits prontos para presentear.',
       regras: [ { tipo: ['Kit'] } ],
