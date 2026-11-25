@@ -167,7 +167,6 @@
         </a>
         <div class="d-flex flex-column align-items-end">
           <div class="d-flex gap-2">
-            <button id="btnSugestao" class="btn btn-pulso" type="button" aria-haspopup="dialog" aria-controls="modalSugestao">Sugestão</button>
             <button class="btn btn-carrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#carrinho" aria-controls="carrinho">
               Carrinho <span id="contador" class="badge badge-pulso ms-1">0</span>
             </button>
@@ -203,7 +202,7 @@
             </select>
           </div>
           <div class="col-8 col-md-9">
-            <input id="busca" type="search" class="form-control" placeholder="Buscar referência" aria-label="Buscar pela referência">
+            <button id="btnSugestao" class="btn btn-pulso w-100" type="button" aria-haspopup="dialog" aria-controls="modalSugestao">Sugestão</button>
           </div>
           <div class="col-4 col-md-3">
             <button id="limparFiltros" class="btn btn-mais w-100" type="button">
@@ -391,7 +390,7 @@
     const porChave = new Map(lista.map(p => [chave(p), p]));
     const fmt = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
     // o formato de moeda usa um espaço "invisível" (U+00A0 / U+202F); trocamos por espaço normal
-    const moeda = v => fmt.format(v).replace(/\s/g, ' '); // \s inclui os espaços especiais (U+00A0 e U+202F). Resto da linha antiga, ignorado: /[  ]/g, ' ');
+    const moeda = v => fmt.format(v).replace(/\s/g, ' '); // \s inclui os espaços especiais (U+00A0 e U+202F). Resto da linha antiga, ignorado: /[  ]/g, ' '); // resto da linha antiga (ignorado): /[  ]/g, ' '); // (resto da linha antiga, ignorado): /[  ]/g, ' '); //  ]/g, ' ');
 
     function h(tag, classe, texto) {
       const e = document.createElement(tag);
@@ -583,7 +582,7 @@
     function filtrar() {
       const m = $('marca').value, g = $('genero').value;
       const t = $('tipo').value, pu = $('pulseira').value, c = $('cor').value;
-      const q = $('busca').value.trim().toLowerCase(), o = $('ordem').value;
+      const o = $('ordem').value;
       const fx = (COL && faixaAtiva !== null) ? COL.faixasPreco[faixaAtiva] : null;
 
       const r = lista.filter(p =>
@@ -592,8 +591,7 @@
         (!t || p.Tipo === t) &&
         (!pu || p.Pulseira === pu) &&
         (!c || p.Cor === c) &&
-        (!fx || noFaixa(p, fx)) &&
-        (!q || p.Referencia.toLowerCase().includes(q)));
+        (!fx || noFaixa(p, fx)));
 
       const gs = agrupar(r);
       if (o === 'menor') gs.sort((a, b) => a.menor - b.menor);
@@ -711,11 +709,9 @@
 
     $('maisProdutos').addEventListener('click', () => { limite += CONFIG.porPagina; renderGrade(); });
     ['marca', 'genero', 'ordem', 'tipo', 'pulseira', 'cor'].forEach(id => $(id).addEventListener('change', filtrar));
-    $('busca').addEventListener('input', filtrar);
     $('chipPreco').addEventListener('click', () => { faixaAtiva = null; filtrar(); });
     $('limparFiltros').addEventListener('click', () => {
       ['marca', 'genero', 'tipo', 'pulseira', 'cor', 'ordem'].forEach(id => { $(id).value = ''; });
-      $('busca').value = '';
       faixaAtiva = null;
       filtrar();
     });
@@ -1029,8 +1025,7 @@
     }
 
     if (COL && Array.isArray(COL.colecoes) && Array.isArray(COL.faixasPreco) && lista.length) iniciarSugestao();
-    else $('btnSugestao').classList.add('d-none');            // sem colecoes.js (ou sem produtos): o botão não aparece
-
+    else $('btnSugestao').parentElement.classList.add('d-none');   // sem colecoes.js (ou sem produtos): o botão não aparece
     // ===================== TOPO FIXO =====================
     // O topo acompanha a rolagem (sempre com acesso ao carrinho) e encolhe um pouco depois de rolar.
     // Os limites diferentes (90 / 20) evitam que ele "pisque" perto do ponto de troca.
