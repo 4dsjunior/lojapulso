@@ -60,6 +60,10 @@
                     --bs-btn-hover-bg: var(--pulso-gold); --bs-btn-hover-border-color: var(--pulso-gold); --bs-btn-hover-color: #000;
                     --bs-btn-active-bg: var(--pulso-gold); --bs-btn-active-border-color: var(--pulso-gold); --bs-btn-active-color: #000; }
     .badge-pulso { background: var(--pulso-gold); color: #000; font-weight: 700; }
+    /* "Ordenar ↓/↑" ao lado da contagem: texto simples; fica dourado quando uma ordem está ativa */
+    .btn-ordenar { --bs-btn-color: #cfcfcf; --bs-btn-hover-color: var(--pulso-gold); --bs-btn-active-color: var(--pulso-gold);
+                   padding: 0; border: 0; font-size: .85rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
+    .btn-ordenar.ativo { color: var(--pulso-gold); }
     .form-control:focus, .form-select:focus { border-color: var(--pulso-gold); box-shadow: 0 0 0 .2rem rgba(218, 166, 57, .25); }
     .btn:focus-visible { box-shadow: 0 0 0 .2rem rgba(218, 166, 57, .45); }
 
@@ -195,11 +199,7 @@
             <select id="cor" class="form-select" aria-label="Cor"><option value="">Cor</option></select>
           </div>
           <div class="col-4 col-md-2">
-            <select id="ordem" class="form-select" aria-label="Ordenar">
-              <option value="">Ordenar</option>
-              <option value="menor">Menor preço</option>
-              <option value="maior">Maior preço</option>
-            </select>
+            <select id="faixa" class="form-select" aria-label="Faixa de preço"><option value="">Preço</option></select>
           </div>
           <div class="col-8 col-md-9">
             <button id="btnSugestao" class="btn btn-pulso w-100" type="button" aria-haspopup="dialog" aria-controls="modalSugestao">Sugestão</button>
@@ -216,10 +216,10 @@
 
   <!-- Vista 1: lista de modelos -->
   <main id="vistaLista" class="container pb-5 pt-3">
-    <div class="d-flex flex-wrap align-items-center gap-2 mb-3">
+    <div class="d-flex justify-content-between align-items-center gap-2 mb-3">
       <p id="contagem" class="small mb-0" style="color: #cfcfcf"></p>
-      <!-- aparece quando "Ver todos" (tela de Sugestão) aplicou uma faixa de preço; clicar remove -->
-      <button id="chipPreco" class="btn btn-pulso btn-sm py-0 px-2 d-none" type="button" aria-label="Remover filtro de preço"></button>
+      <!-- clique alterna: ordem do catálogo → menor preço (↓) → maior preço (↑) -->
+      <button id="btnOrdenar" class="btn btn-link btn-ordenar" type="button">Ordenar</button>
     </div>
     <div id="grade" class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3"></div>
     <div class="text-center mt-4">
@@ -565,13 +565,23 @@
     preencher($('tipo'),     ['Relógio', 'Kit', 'Pulseira avulsa'].filter(v => lista.some(p => p.Tipo === v)));
     preencher($('pulseira'), [...new Set(lista.map(p => p.Pulseira))].filter(Boolean).sort());
     preencher($('cor'),      [...new Set(lista.map(p => p.Cor))].filter(Boolean).sort());
+    // Faixa de preço: as faixas vêm do colecoes.js (sem ele, o campo some)
+    if (COL && Array.isArray(COL.faixasPreco)) {
+      COL.faixasPreco.forEach((f, i) => {
+        const o = document.createElement('option');
+        o.value = String(i); o.textContent = f.rotulo;
+        $('faixa').appendChild(o);
+      });
+    } else {
+      $('faixa').parentElement.classList.add('d-none');
+    }
     // JSON antigo, sem os campos novos: esconde os filtros de tipo, pulseira e cor
     if (!lista.some(p => p.Tipo || p.Pulseira || p.Cor)) {
       ['tipo', 'pulseira', 'cor'].forEach(id => $(id).parentElement.classList.add('d-none'));
     }
 
     let grupos = [], totalProdutos = 0, limite = CONFIG.porPagina;
-    let faixaAtiva = null;      // índice da faixa de preço (colecoes.js) aplicada por "Ver todos"; null = sem filtro de preço
+    let ordemAtual = '';        // '' = ordem do catálogo | 'menor' | 'maior' (botão "Ordenar" ao lado da contagem)
 
     // Faixa de preço: o valor mínimo é incluído; o máximo, não (max: null = sem limite)
     function noFaixa(p, f) {
@@ -582,8 +592,8 @@
     function filtrar() {
       const m = $('marca').value, g = $('genero').value;
       const t = $('tipo').value, pu = $('pulseira').value, c = $('cor').value;
-      const o = $('ordem').value;
-      const fx = (COL && faixaAtiva !== null) ? COL.faixasPreco[faixaAtiva] : null;
+      const o = ordemAtual;
+      const fx = (COL && $('faixa').value !== '') ? COL.faixasPreco[Number($('faixa').value)] : null;
 
       const r = lista.filter(p =>
         (!m || p.Marca === m) &&
@@ -696,23 +706,38 @@
       const restantes = grupos.length - limite;
       $('maisProdutos').classList.toggle('d-none', restantes <= 0);
       $('maisProdutos').textContent = 'Mostrar mais (' + Math.max(restantes, 0) + ')';
-      $('contagem').textContent = grupos.length + ' modelo(s) · ' + totalProdutos + ' produto(s)';
-
-      const cp = $('chipPreco');
-      if (COL && faixaAtiva !== null) {
-        cp.textContent = 'Preço: ' + COL.faixasPreco[faixaAtiva].rotulo + ' ✕';
-        cp.classList.remove('d-none');
-      } else {
-        cp.classList.add('d-none');
-      }
-    }
+      $('contagem').textContent = grupos.length + ' modelo(s) · ' + totalProdutos + ' produto(s)';    }
 
     $('maisProdutos').addEventListener('click', () => { limite += CONFIG.porPagina; renderGrade(); });
-    ['marca', 'genero', 'ordem', 'tipo', 'pulseira', 'cor'].forEach(id => $(id).addEventListener('change', filtrar));
-    $('chipPreco').addEventListener('click', () => { faixaAtiva = null; filtrar(); });
+    ['marca', 'genero', 'faixa', 'tipo', 'pulseira', 'cor'].forEach(id => $(id).addEventListener('change', filtrar));
+
+    // "Ordenar": cada clique alterna entre ordem do catálogo, menor preço (↓) e maior preço (↑).
+    // Para inverter o significado das setas, troque os textos "↓" e "↑" abaixo.
+    const ORDENS = [
+      { valor: '',      texto: 'Ordenar',   dica: 'ordem do catálogo' },
+      { valor: 'menor', texto: 'Ordenar ↓', dica: 'menor preço primeiro' },
+      { valor: 'maior', texto: 'Ordenar ↑', dica: 'maior preço primeiro' }
+    ];
+    function atualizarOrdenar() {
+      const o = ORDENS.find(x => x.valor === ordemAtual) || ORDENS[0];
+      const b = $('btnOrdenar');
+      b.textContent = o.texto;
+      b.title = 'Ordenar por preço (agora: ' + o.dica + '). Clique para alternar.';
+      b.setAttribute('aria-label', b.title);
+      b.classList.toggle('ativo', o.valor !== '');
+    }
+    $('btnOrdenar').addEventListener('click', () => {
+      const i = ORDENS.findIndex(x => x.valor === ordemAtual);
+      ordemAtual = ORDENS[(i + 1) % ORDENS.length].valor;
+      atualizarOrdenar();
+      filtrar();
+    });
+    atualizarOrdenar();
+
     $('limparFiltros').addEventListener('click', () => {
-      ['marca', 'genero', 'tipo', 'pulseira', 'cor', 'ordem'].forEach(id => { $(id).value = ''; });
-      faixaAtiva = null;
+      ['marca', 'genero', 'tipo', 'pulseira', 'cor', 'faixa'].forEach(id => { $(id).value = ''; });
+      ordemAtual = '';
+      atualizarOrdenar();
       filtrar();
     });
 
@@ -1018,7 +1043,7 @@
           rotear();
         }
         if (e.genero) $('genero').value = e.genero;
-        faixaAtiva = e.faixa;
+        $('faixa').value = e.faixa === null ? '' : String(e.faixa);
         filtrar();
         window.scrollTo(0, 0);
       }));
