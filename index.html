@@ -70,6 +70,12 @@
     /* Topo + filtros fixos juntos: ficam sempre visíveis ao rolar */
     .barra-fixa { position: sticky; top: 0; z-index: 1020; }
     .filtros { background: var(--pulso-graphite); padding: .75rem 0 .6rem; box-shadow: 0 6px 12px -6px rgba(0, 0, 0, .6); }
+    /* Filtros sempre visíveis; no celular ficam compactos (3 por linha) para ocupar pouco espaço */
+    @media (max-width: 767.98px) {
+      .filtros { padding: .5rem 0 .4rem; }
+      .filtros .form-select, .filtros .form-control { padding-top: .3rem; padding-bottom: .3rem; padding-left: .5rem; }
+      .filtros .form-select { padding-right: 1.5rem; background-position: right .4rem center; background-size: 12px 9px; }
+    }
     .em-modelo .filtros { display: none; }            /* na página de um modelo os filtros da lista não se aplicam */
 
     /* Botão "Voltar ao topo" (canto inferior esquerdo; o do carrinho fica no direito) */
@@ -155,42 +161,35 @@
     <div class="filtros">
       <div class="container">
         <div class="row g-2">
-          <div class="col-6 col-md-3">
-            <select id="marca" class="form-select" aria-label="Marca"><option value="">Todas as marcas</option></select>
+          <div class="col-4 col-md-2">
+            <select id="marca" class="form-select" aria-label="Marca"><option value="">Marca</option></select>
           </div>
-          <div class="col-6 col-md-3">
-            <select id="genero" class="form-select" aria-label="Gênero"><option value="">Todos os gêneros</option></select>
+          <div class="col-4 col-md-2">
+            <select id="genero" class="form-select" aria-label="Gênero"><option value="">Gênero</option></select>
           </div>
-          <div class="col-7 col-md-3">
-            <input id="busca" type="search" class="form-control" placeholder="Buscar referência" aria-label="Buscar pela referência">
+          <div class="col-4 col-md-2">
+            <select id="tipo" class="form-select" aria-label="Tipo: relógios, kits ou pulseiras"><option value="">Tipo</option></select>
           </div>
-          <div class="col-5 col-md-3">
+          <div class="col-4 col-md-2">
+            <select id="pulseira" class="form-select" aria-label="Pulseira"><option value="">Pulseira</option></select>
+          </div>
+          <div class="col-4 col-md-2">
+            <select id="cor" class="form-select" aria-label="Cor"><option value="">Cor</option></select>
+          </div>
+          <div class="col-4 col-md-2">
             <select id="ordem" class="form-select" aria-label="Ordenar">
-              <option value="">Catálogo</option>
+              <option value="">Ordenar</option>
               <option value="menor">Menor preço</option>
               <option value="maior">Maior preço</option>
             </select>
           </div>
-          <div class="col-12" id="colMais">
-            <button id="btnMais" class="btn btn-link btn-sm p-0 text-decoration-none" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#maisFiltros" aria-expanded="false" aria-controls="maisFiltros"
-                    style="color: var(--pulso-gold)">Mais filtros <span id="nFiltros" class="badge badge-pulso d-none">0</span> ▾</button>
+          <div class="col-8 col-md-9">
+            <input id="busca" type="search" class="form-control" placeholder="Buscar referência" aria-label="Buscar pela referência">
           </div>
-        </div>
-        <div class="collapse" id="maisFiltros">
-          <div class="row g-2 pt-2">
-            <div class="col-6 col-md-3">
-              <select id="tipo" class="form-select" aria-label="Tipo"><option value="">Relógios, kits e pulseiras</option></select>
-            </div>
-            <div class="col-6 col-md-3">
-              <select id="pulseira" class="form-select" aria-label="Pulseira"><option value="">Todas as pulseiras</option></select>
-            </div>
-            <div class="col-6 col-md-3">
-              <select id="cor" class="form-select" aria-label="Cor"><option value="">Todas as cores</option></select>
-            </div>
-            <div class="col-6 col-md-3">
-              <button id="limparFiltros" class="btn btn-mais w-100" type="button">Limpar filtros</button>
-            </div>
+          <div class="col-4 col-md-3">
+            <button id="limparFiltros" class="btn btn-mais w-100" type="button">
+              <span class="d-none d-md-inline">Limpar filtros</span><span class="d-md-none">Limpar</span>
+            </button>
           </div>
         </div>
       </div>
@@ -492,8 +491,10 @@
     preencher($('tipo'),     ['Relógio', 'Kit', 'Pulseira avulsa'].filter(v => lista.some(p => p.Tipo === v)));
     preencher($('pulseira'), [...new Set(lista.map(p => p.Pulseira))].filter(Boolean).sort());
     preencher($('cor'),      [...new Set(lista.map(p => p.Cor))].filter(Boolean).sort());
-    // JSON antigo, sem os campos novos: esconde o botão "Mais filtros"
-    if (!lista.some(p => p.Tipo || p.Pulseira || p.Cor)) $('colMais').classList.add('d-none');
+    // JSON antigo, sem os campos novos: esconde os filtros de tipo, pulseira e cor
+    if (!lista.some(p => p.Tipo || p.Pulseira || p.Cor)) {
+      ['tipo', 'pulseira', 'cor'].forEach(id => $(id).parentElement.classList.add('d-none'));
+    }
 
     let grupos = [], totalProdutos = 0, limite = CONFIG.porPagina;
 
@@ -501,8 +502,7 @@
       const m = $('marca').value, g = $('genero').value;
       const t = $('tipo').value, pu = $('pulseira').value, c = $('cor').value;
       const nAtivos = [t, pu, c].filter(Boolean).length;          // filtros ativos no painel "Mais filtros"
-      $('nFiltros').textContent = nAtivos;
-      $('nFiltros').classList.toggle('d-none', nAtivos === 0);
+      // (os filtros ficam sempre visíveis; não há mais contador de "Mais filtros")
       const q = $('busca').value.trim().toLowerCase(), o = $('ordem').value;
 
       const r = lista.filter(p =>
