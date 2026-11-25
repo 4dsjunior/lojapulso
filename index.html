@@ -70,6 +70,7 @@
     /* Topo + filtros fixos juntos: ficam sempre visíveis ao rolar */
     .barra-fixa { position: sticky; top: 0; z-index: 1020; }
     .filtros { background: var(--pulso-graphite); padding: .75rem 0 .6rem; box-shadow: 0 6px 12px -6px rgba(0, 0, 0, .6); }
+    .em-modelo .filtros { display: none; }            /* na página de um modelo os filtros da lista não se aplicam */
 
     /* Botão "Voltar ao topo" (canto inferior esquerdo; o do carrinho fica no direito) */
     .btn-topo { position: fixed; left: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); z-index: 1030;
@@ -93,13 +94,17 @@
       .produto:hover { border-color: var(--pulso-gold); box-shadow: 0 0 11px 1px rgba(218, 166, 57, .9); }
       .produto:hover::before { box-shadow: 0 0 38px 9px rgba(218, 166, 57, .45), 0 20px 46px -8px rgba(218, 166, 57, .58); }
     }
+    .selo-kit { position: absolute; top: 8px; left: 8px; z-index: 1; background: var(--pulso-gold); color: #000;
+                font-size: .62rem; font-weight: 700; letter-spacing: .12em; padding: .15rem .55rem; border-radius: 999px; }
     .produto-img { height: 220px; object-fit: contain; background: #fff; border-radius: .6rem .6rem 0 0; cursor: zoom-in; }
     .sem-foto { height: 220px; background: var(--pulso-graphite); border-radius: .6rem .6rem 0 0; }
     .p-marca { font-family: "Montserrat", sans-serif; font-size: .66rem; letter-spacing: .2em;
                text-transform: uppercase; color: var(--pulso-gray-txt); }
     .p-ref { font-weight: 600; color: var(--pulso-black); font-size: .9rem; word-break: break-all; }
     .p-preco { font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 1.15rem; color: var(--pulso-black); }
+    .p-apartir { font-size: .68rem; color: var(--pulso-gray-txt); margin-top: .2rem; line-height: 1; }
     .p-det { font-size: .78rem; color: var(--pulso-graphite); }
+    .p-opcoes { font-size: .72rem; font-weight: 600; color: var(--pulso-gray-txt); margin-bottom: .45rem; }
 
     /* Detalhes do produto (janela de ampliação) */
     .zoom-area { height: min(58vh, 520px); background: #fff; border: 1px solid var(--pulso-line); border-radius: .5rem;
@@ -166,17 +171,50 @@
               <option value="maior">Maior preço</option>
             </select>
           </div>
+          <div class="col-12" id="colMais">
+            <button id="btnMais" class="btn btn-link btn-sm p-0 text-decoration-none" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#maisFiltros" aria-expanded="false" aria-controls="maisFiltros"
+                    style="color: var(--pulso-gold)">Mais filtros <span id="nFiltros" class="badge badge-pulso d-none">0</span> ▾</button>
+          </div>
+        </div>
+        <div class="collapse" id="maisFiltros">
+          <div class="row g-2 pt-2">
+            <div class="col-6 col-md-3">
+              <select id="tipo" class="form-select" aria-label="Tipo"><option value="">Relógios, kits e pulseiras</option></select>
+            </div>
+            <div class="col-6 col-md-3">
+              <select id="pulseira" class="form-select" aria-label="Pulseira"><option value="">Todas as pulseiras</option></select>
+            </div>
+            <div class="col-6 col-md-3">
+              <select id="cor" class="form-select" aria-label="Cor"><option value="">Todas as cores</option></select>
+            </div>
+            <div class="col-6 col-md-3">
+              <button id="limparFiltros" class="btn btn-mais w-100" type="button">Limpar filtros</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <main class="container pb-5 pt-3">
+  <!-- Vista 1: lista de modelos -->
+  <main id="vistaLista" class="container pb-5 pt-3">
     <p id="contagem" class="small" style="color: #cfcfcf"></p>
     <div id="grade" class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3"></div>
     <div class="text-center mt-4">
       <button id="maisProdutos" class="btn btn-mais px-4 d-none" type="button">Mostrar mais</button>
     </div>
+  </main>
+
+  <!-- Vista 2: página de um modelo (todas as variações) -->
+  <main id="vistaModelo" class="container pb-5 pt-3" hidden>
+    <button id="voltarLista" class="btn btn-mais btn-sm mb-3" type="button">‹ Voltar ao catálogo</button>
+    <div class="mb-3">
+      <div id="mdMarca" class="p-marca" style="color: #cfcfcf"></div>
+      <h1 id="mdTitulo" class="h4 titulo text-white mb-1"></h1>
+      <div id="mdSub" class="small" style="color: #cfcfcf"></div>
+    </div>
+    <div id="mdGrade" class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3"></div>
   </main>
 
   <!-- Botão flutuante do carrinho -->
@@ -216,7 +254,7 @@
             </div>
           </div>
         </div>
-        <div class="modal-footer justify-content-between border-0 pt-0">
+        <div id="mpRodape" class="modal-footer justify-content-between border-0 pt-0">
           <button id="mpPrev" class="btn btn-add btn-sm" type="button">‹ Anterior</button>
           <span id="mpPos" class="small" style="color: var(--pulso-gray-txt)"></span>
           <button id="mpNext" class="btn btn-add btn-sm" type="button">Próximo ›</button>
@@ -263,9 +301,14 @@
     const CONFIG = {
       whatsapp: '5527981159408',     // 55 (Brasil) + DDD + número, só dígitos
       limiteUrl: 1900,               // acima disso o WhatsApp pode cortar a mensagem
-      porPagina: 60                  // produtos mostrados por vez
+      porPagina: 60,                 // modelos mostrados por vez
+      // Como identificar o "modelo" de um produto (para agrupar variações de cor e pulseira).
+      // Padrão: os 5 primeiros dígitos da referência. Para uma marca nova com outro padrão, acrescente abaixo.
+      modeloPadrao: /^\d{5}/,
+      modeloPorMarca: {}             // ex.: { 'NovaMarca': /^[A-Z]{3}\d{4}/ }
     };
     const BASE = 'dados/';           // pasta dos dados e imagens
+    const TITULO_PADRAO = document.title;
     // ========================================================
 
     const lista = window.PRODUTOS || [];
@@ -293,6 +336,31 @@
       if (m) return 'Resistente à água ' + m[1] + ' m';
       return v;
     }
+
+    // ===================== MODELOS (variações agrupadas) =====================
+    function codigoModelo(p) {
+      const re = CONFIG.modeloPorMarca[p.Marca] || CONFIG.modeloPadrao;
+      const m = p.Referencia.match(re);
+      return m ? m[0] : p.Referencia;            // sem o padrão: cada produto é um modelo
+    }
+    const chaveModelo = p => p.Marca + '|' + codigoModelo(p);
+
+    function agrupar(produtos) {
+      const mapa = new Map();
+      produtos.forEach(p => {
+        const k = chaveModelo(p);
+        if (!mapa.has(k)) mapa.set(k, { chave: k, marca: p.Marca, codigo: codigoModelo(p), itens: [] });
+        mapa.get(k).itens.push(p);
+      });
+      const gs = [...mapa.values()];
+      gs.forEach(g => {
+        const precos = g.itens.map(i => i.Valor_Reajustado);
+        g.menor = Math.min(...precos);
+        g.maior = Math.max(...precos);
+      });
+      return gs;
+    }
+    const modelos = new Map(agrupar(lista).map(g => [g.chave, g]));   // todos os modelos (sem filtros)
 
     // ===================== CARRINHO =====================
     const LS_CARRINHO = 'pulso_carrinho', LS_NOME = 'pulso_nome';
@@ -410,7 +478,7 @@
       renderCarrinho();
     });
 
-    // ===================== VITRINE =====================
+    // ===================== FILTROS =====================
     function preencher(select, valores) {
       valores.forEach(v => {
         const o = document.createElement('option');
@@ -418,85 +486,151 @@
         select.appendChild(o);
       });
     }
+    // As opções vêm sempre dos dados: novos gêneros (ex.: Infantil), marcas, pulseiras e cores aparecem sozinhos.
     preencher($('marca'),  [...new Set(lista.map(p => p.Marca))].sort());
     preencher($('genero'), [...new Set(lista.map(p => p.Genero))].filter(Boolean).sort());
+    preencher($('tipo'),     ['Relógio', 'Kit', 'Pulseira avulsa'].filter(v => lista.some(p => p.Tipo === v)));
+    preencher($('pulseira'), [...new Set(lista.map(p => p.Pulseira))].filter(Boolean).sort());
+    preencher($('cor'),      [...new Set(lista.map(p => p.Cor))].filter(Boolean).sort());
+    // JSON antigo, sem os campos novos: esconde o botão "Mais filtros"
+    if (!lista.some(p => p.Tipo || p.Pulseira || p.Cor)) $('colMais').classList.add('d-none');
 
-    let resultado = [], limite = CONFIG.porPagina;
+    let grupos = [], totalProdutos = 0, limite = CONFIG.porPagina;
 
     function filtrar() {
       const m = $('marca').value, g = $('genero').value;
+      const t = $('tipo').value, pu = $('pulseira').value, c = $('cor').value;
+      const nAtivos = [t, pu, c].filter(Boolean).length;          // filtros ativos no painel "Mais filtros"
+      $('nFiltros').textContent = nAtivos;
+      $('nFiltros').classList.toggle('d-none', nAtivos === 0);
       const q = $('busca').value.trim().toLowerCase(), o = $('ordem').value;
+
       const r = lista.filter(p =>
         (!m || p.Marca === m) &&
         (!g || p.Genero === g) &&
+        (!t || p.Tipo === t) &&
+        (!pu || p.Pulseira === pu) &&
+        (!c || p.Cor === c) &&
         (!q || p.Referencia.toLowerCase().includes(q)));
-      if (o === 'menor') r.sort((a, b) => a.Valor_Reajustado - b.Valor_Reajustado);
-      if (o === 'maior') r.sort((a, b) => b.Valor_Reajustado - a.Valor_Reajustado);
-      resultado = r; limite = CONFIG.porPagina;
+
+      const gs = agrupar(r);
+      if (o === 'menor') gs.sort((a, b) => a.menor - b.menor);
+      if (o === 'maior') gs.sort((a, b) => b.maior - a.maior);
+      grupos = gs; totalProdutos = r.length; limite = CONFIG.porPagina;
       renderGrade();
+    }
+
+    // ----- elementos de card -----
+    function criarSelo(p) {
+      return (p.Tipo === 'Kit' || p.Tipo === 'Pulseira avulsa')
+        ? h('span', 'selo-kit', p.Tipo === 'Kit' ? 'KIT' : 'PULSEIRA') : null;
+    }
+    function criarImagem(p, aoAbrir) {
+      if (!p || !p.Imagem) return h('div', 'sem-foto');
+      const img = h('img', 'produto-img p-2');
+      img.src = BASE + p.Imagem;
+      img.alt = p.Marca + ' ' + p.Referencia;
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.tabIndex = 0;
+      img.setAttribute('role', 'button');
+      img.setAttribute('aria-label', 'Ampliar ' + p.Marca + ' ' + p.Referencia);
+      img.addEventListener('click', aoAbrir);
+      img.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); aoAbrir(); }
+      });
+      return img;
+    }
+    function botaoAdicionar(p) {
+      const btn = h('button', 'btn btn-add mt-auto', 'Adicionar');
+      btn.type = 'button';
+      btn.addEventListener('click', () => {
+        adicionar(p);
+        btn.textContent = 'Adicionado ✓';
+        setTimeout(() => { btn.textContent = 'Adicionar'; }, 1000);
+      });
+      return btn;
+    }
+
+    // Card de um MODELO na lista (um ou mais produtos)
+    function criarCardModelo(g) {
+      const rep = g.itens.find(i => i.Imagem) || g.itens[0];
+      const multi = g.itens.length > 1;
+      const abrir = () => multi ? abrirModelo(g.chave) : abrirProduto(0, g.itens);
+
+      const col = h('div', 'col');
+      const card = h('div', 'produto h-100 d-flex flex-column');
+      if (g.itens.every(i => i.Tipo === rep.Tipo)) {
+        const selo = criarSelo(rep);
+        if (selo) card.appendChild(selo);
+      }
+      card.appendChild(criarImagem(rep, abrir));
+
+      const corpo = h('div', 'p-2 p-sm-3 pt-1 text-center d-flex flex-column flex-grow-1');
+      corpo.appendChild(h('div', 'p-marca', g.marca));
+      corpo.appendChild(h('div', 'p-ref', multi ? 'Modelo ' + g.codigo : rep.Referencia));
+      if (multi && g.menor < g.maior) corpo.appendChild(h('div', 'p-apartir', 'a partir de'));
+      corpo.appendChild(h('div', 'p-preco mb-1', moeda(g.menor)));
+      corpo.appendChild(h('div', 'p-det mb-1',
+        [rotuloResistencia(rep.Resistencia), rep.Genero, rep.Tamanho].filter(Boolean).join(' · ')));
+      if (multi) corpo.appendChild(h('div', 'p-opcoes', g.itens.length + ' opções'));
+
+      if (multi) {
+        const btn = h('button', 'btn btn-add mt-auto', 'Ver ' + g.itens.length + ' opções');
+        btn.type = 'button';
+        btn.addEventListener('click', abrir);
+        corpo.appendChild(btn);
+      } else {
+        corpo.appendChild(botaoAdicionar(rep));
+      }
+      card.appendChild(corpo);
+      col.appendChild(card);
+      return col;
+    }
+
+    // Card de uma VARIAÇÃO (dentro da página do modelo)
+    function criarCardVariante(p, i, contexto) {
+      const col = h('div', 'col');
+      const card = h('div', 'produto h-100 d-flex flex-column');
+      const selo = criarSelo(p);
+      if (selo) card.appendChild(selo);
+      card.appendChild(criarImagem(p, () => abrirProduto(i, contexto)));
+
+      const corpo = h('div', 'p-2 p-sm-3 pt-1 text-center d-flex flex-column flex-grow-1');
+      corpo.appendChild(h('div', 'p-ref', p.Referencia));
+      corpo.appendChild(h('div', 'p-preco my-1', moeda(p.Valor_Reajustado)));
+      corpo.appendChild(h('div', 'p-det mb-2', [p.Cor, p.Pulseira].filter(Boolean).join(' · ')));
+      corpo.appendChild(botaoAdicionar(p));
+      card.appendChild(corpo);
+      col.appendChild(card);
+      return col;
     }
 
     function renderGrade() {
       const grade = $('grade');
       grade.replaceChildren();
-      resultado.slice(0, limite).forEach((p, i) => {
-        const col = h('div', 'col');
-        const card = h('div', 'produto h-100 d-flex flex-column');
+      grupos.slice(0, limite).forEach(g => grade.appendChild(criarCardModelo(g)));
 
-        if (p.Imagem) {
-          const img = h('img', 'produto-img p-2');
-          img.src = BASE + p.Imagem;
-          img.alt = p.Marca + ' ' + p.Referencia;
-          img.loading = 'lazy';
-          img.decoding = 'async';
-          img.tabIndex = 0;
-          img.setAttribute('role', 'button');
-          img.setAttribute('aria-label', 'Ampliar ' + p.Marca + ' ' + p.Referencia);
-          img.addEventListener('click', () => abrirProduto(i));
-          img.addEventListener('keydown', e => {
-            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); abrirProduto(i); }
-          });
-          card.appendChild(img);
-        } else {
-          card.appendChild(h('div', 'sem-foto'));
-        }
-
-        const corpo = h('div', 'p-2 p-sm-3 pt-1 text-center d-flex flex-column flex-grow-1');
-        corpo.appendChild(h('div', 'p-marca', p.Marca));
-        corpo.appendChild(h('div', 'p-ref', p.Referencia));
-        corpo.appendChild(h('div', 'p-preco my-1', moeda(p.Valor_Reajustado)));
-        corpo.appendChild(h('div', 'p-det mb-2',
-          [rotuloResistencia(p.Resistencia), p.Genero, p.Tamanho].filter(Boolean).join(' · ')));
-
-        const btn = h('button', 'btn btn-add mt-auto', 'Adicionar');
-        btn.type = 'button';
-        btn.addEventListener('click', () => {
-          adicionar(p);
-          btn.textContent = 'Adicionado ✓';
-          setTimeout(() => { btn.textContent = 'Adicionar'; }, 1000);
-        });
-        corpo.appendChild(btn);
-
-        card.appendChild(corpo);
-        col.appendChild(card);
-        grade.appendChild(col);
-      });
-
-      const restantes = resultado.length - limite;
+      const restantes = grupos.length - limite;
       $('maisProdutos').classList.toggle('d-none', restantes <= 0);
       $('maisProdutos').textContent = 'Mostrar mais (' + Math.max(restantes, 0) + ')';
-      $('contagem').textContent = resultado.length + ' produto(s)';
+      $('contagem').textContent = grupos.length + ' modelo(s) · ' + totalProdutos + ' produto(s)';
     }
 
     $('maisProdutos').addEventListener('click', () => { limite += CONFIG.porPagina; renderGrade(); });
-    ['marca', 'genero', 'ordem'].forEach(id => $(id).addEventListener('change', filtrar));
+    ['marca', 'genero', 'ordem', 'tipo', 'pulseira', 'cor'].forEach(id => $(id).addEventListener('change', filtrar));
     $('busca').addEventListener('input', filtrar);
+    $('limparFiltros').addEventListener('click', () => {
+      ['marca', 'genero', 'tipo', 'pulseira', 'cor', 'ordem'].forEach(id => { $(id).value = ''; });
+      $('busca').value = '';
+      filtrar();
+    });
 
     // ===================== DETALHES / AMPLIAR IMAGEM =====================
     const modalEl = $('modalProduto');
     const modal = new bootstrap.Modal(modalEl);
     const zoomArea = $('mpZoom'), mpImg = $('mpImg');
-    let idxModal = -1;
+    let listaModal = [], idxModal = -1;
 
     function resetZoom() {
       zoomArea.classList.remove('zoomed');
@@ -509,9 +643,9 @@
     }
 
     function mostrarProduto(i) {
-      if (i < 0 || i >= resultado.length) return;
+      if (i < 0 || i >= listaModal.length) return;
       idxModal = i;
-      const p = resultado[i];
+      const p = listaModal[i];
       resetZoom();
       $('mpMarca').textContent = p.Marca;
       $('mpTitulo').textContent = p.Referencia;
@@ -526,17 +660,19 @@
       }
       const det = $('mpDetalhes');
       det.replaceChildren();
-      [['Resistência', rotuloResistencia(p.Resistencia)], ['Gênero', p.Genero], ['Tamanho', p.Tamanho]].forEach(par => {
+      [['Tipo', p.Tipo], ['Resistência', rotuloResistencia(p.Resistencia)], ['Gênero', p.Genero], ['Tamanho', p.Tamanho],
+       ['Pulseira', p.Pulseira], ['Cor', p.Cor]].forEach(par => {
         if (!par[1]) return;
         det.appendChild(h('dt', 'col-5 fw-semibold', par[0]));
         det.appendChild(h('dd', 'col-7 mb-1', par[1]));
       });
-      $('mpPos').textContent = (i + 1) + ' de ' + resultado.length;
+      $('mpRodape').classList.toggle('d-none', listaModal.length < 2);     // sem "anterior/próximo" se for um só
+      $('mpPos').textContent = (i + 1) + ' de ' + listaModal.length;
       $('mpPrev').disabled = i === 0;
-      $('mpNext').disabled = i === resultado.length - 1;
+      $('mpNext').disabled = i === listaModal.length - 1;
       $('mpAdd').textContent = 'Adicionar ao carrinho';
     }
-    function abrirProduto(i) { mostrarProduto(i); modal.show(); }
+    function abrirProduto(i, lista) { listaModal = lista; mostrarProduto(i); modal.show(); }
 
     zoomArea.addEventListener('click', e => {
       if (zoomArea.classList.toggle('zoomed')) moverZoom(e);
@@ -550,7 +686,7 @@
     $('mpNext').addEventListener('click', () => mostrarProduto(idxModal + 1));
     $('mpAdd').addEventListener('click', () => {
       if (idxModal < 0) return;
-      adicionar(resultado[idxModal]);
+      adicionar(listaModal[idxModal]);
       const b = $('mpAdd');
       b.textContent = 'Adicionado ✓';
       setTimeout(() => { b.textContent = 'Adicionar ao carrinho'; }, 1200);
@@ -559,6 +695,52 @@
       if (!modalEl.classList.contains('show')) return;
       if (e.key === 'ArrowLeft') mostrarProduto(idxModal - 1);
       if (e.key === 'ArrowRight') mostrarProduto(idxModal + 1);
+    });
+
+    // ===================== PÁGINA DO MODELO (navegação por endereço #modelo=...) =====================
+    const vistaLista = $('vistaLista'), vistaModelo = $('vistaModelo');
+    let scrollLista = 0, vindoDaLista = false;
+
+    function abrirModelo(k) {
+      scrollLista = window.scrollY;
+      vindoDaLista = true;
+      location.hash = 'modelo=' + encodeURIComponent(k);
+    }
+    function mostrarLista() {
+      vistaModelo.hidden = true;
+      vistaLista.hidden = false;
+      document.body.classList.remove('em-modelo');
+      document.title = TITULO_PADRAO;
+      window.scrollTo(0, scrollLista);               // volta para onde a pessoa estava na lista
+    }
+    function mostrarModelo(g) {
+      const rep = g.itens[0];
+      vistaLista.hidden = true;
+      vistaModelo.hidden = false;
+      document.body.classList.add('em-modelo');
+      $('mdMarca').textContent = g.marca;
+      $('mdTitulo').textContent = g.itens.length > 1 ? 'Modelo ' + g.codigo : rep.Referencia;
+      $('mdSub').textContent = [rotuloResistencia(rep.Resistencia), rep.Genero, rep.Tamanho].filter(Boolean).join(' · ')
+        + (g.itens.length > 1 ? ' · ' + g.itens.length + ' opções' : '');
+      const grade = $('mdGrade');
+      grade.replaceChildren();
+      g.itens.forEach((p, i) => grade.appendChild(criarCardVariante(p, i, g.itens)));
+      document.title = (g.itens.length > 1 ? 'Modelo ' + g.codigo : rep.Referencia) + ' – ' + TITULO_PADRAO;
+      window.scrollTo(0, 0);
+    }
+    function rotear() {
+      let alvo = '';
+      try { alvo = decodeURIComponent(location.hash.slice(1)); } catch (e) { alvo = ''; }
+      if (alvo.startsWith('modelo=')) {
+        const g = modelos.get(alvo.slice(7));
+        if (g) { mostrarModelo(g); return; }
+      }
+      mostrarLista();
+    }
+    window.addEventListener('hashchange', rotear);
+    $('voltarLista').addEventListener('click', () => {
+      if (vindoDaLista) { vindoDaLista = false; history.back(); }
+      else { history.replaceState(null, '', location.pathname + location.search); rotear(); }
     });
 
     // ===================== TOPO FIXO =====================
@@ -583,6 +765,7 @@
 
     filtrar();
     renderCarrinho();
+    rotear();                                            // abre direto na página de um modelo, se o endereço tiver #modelo=...
   </script>
 </body>
 </html>
