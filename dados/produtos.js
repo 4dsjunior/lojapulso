@@ -8608,7 +8608,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Taquímetro"
+    ],
     "Imagem": "imagens/mondaine/32735G0MVNA2.jpg"
   },
   {
@@ -8920,7 +8922,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Taquímetro"
+    ],
     "Imagem": "imagens/mondaine/32927GPMVPI3.jpg"
   },
   {
@@ -8998,7 +9002,11 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Multi-fuso",
+      "Alarme"
+    ],
     "Imagem": "imagens/mondaine/32952G0MVNI3.jpg"
   },
   {
@@ -9011,7 +9019,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Multi-fuso"
+    ],
     "Imagem": "imagens/mondaine/32952G0MVNI4.jpg"
   },
   {
@@ -9024,7 +9035,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Multi-fuso"
+    ],
     "Imagem": "imagens/mondaine/32952GPMVPI5.jpg"
   },
   {
@@ -9180,7 +9194,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/mondaine/33069G0MVNI2.jpg"
   },
   {
@@ -9661,7 +9677,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/mondaine/32900G0MVNO1.jpg"
   },
   {
@@ -9674,7 +9692,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/mondaine/32900G0MVNO3.jpg"
   },
   {
@@ -10090,7 +10110,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Taquímetro"
+    ],
     "Imagem": "imagens/mondaine/33027G0MVNE2K1.jpg"
   },
   {
@@ -10116,7 +10138,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Taquímetro"
+    ],
     "Imagem": "imagens/mondaine/33034G0MKNE2K1.jpg"
   },
   {
@@ -10987,7 +11011,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Taquímetro"
+    ],
     "Imagem": "imagens/mondaine/32638G0MVNE2.jpg"
   },
   {
@@ -11000,7 +11026,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Taquímetro"
+    ],
     "Imagem": "imagens/mondaine/32638GPMVDE4.jpg"
   },
   {
@@ -11260,7 +11288,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Alarme"
+    ],
     "Imagem": "imagens/mondaine/32812G0MVNF1.jpg"
   },
   {
@@ -11273,7 +11304,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Alarme"
+    ],
     "Imagem": "imagens/mondaine/32812G0MVNF2.jpg"
   },
   {
@@ -11338,7 +11372,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/mondaine/32875G0MVNE2.jpg"
   },
   {
@@ -11403,7 +11439,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/mondaine/32894GPMVPE2.jpg"
   },
   {
@@ -11416,7 +11454,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/mondaine/32895GPMVPE3.jpg"
   },
   {
@@ -11455,7 +11495,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/mondaine/32930GPMVJE6.jpg"
   },
   {
@@ -11481,7 +11523,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/mondaine/32930GPMVSE4.jpg"
   },
   {
@@ -11624,7 +11668,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Multi-fuso"
+    ],
     "Imagem": "imagens/mondaine/32952GPMVDE1.jpg"
   },
   {
@@ -11741,7 +11788,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Taquímetro"
+    ],
     "Imagem": "imagens/mondaine/33027G0MVNE2.jpg"
   },
   {
@@ -11754,7 +11803,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Taquímetro"
+    ],
     "Imagem": "imagens/mondaine/33027GPMVDE1.jpg"
   },
   {
@@ -13275,7 +13326,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/mondaine/32850G0MVNA4.jpg"
   },
   {
@@ -13288,7 +13342,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/mondaine/32850G0MVNC2.jpg"
   },
   {
@@ -13301,7 +13358,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/mondaine/32850GPMVDC1.jpg"
   },
   {
@@ -13314,7 +13374,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira"
+    ],
     "Imagem": "imagens/mondaine/32851G0MVNA2.jpg"
   },
   {
@@ -13327,7 +13389,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira"
+    ],
     "Imagem": "imagens/mondaine/32851GPMVDA1.jpg"
   },
   {
@@ -13431,7 +13495,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/mondaine/32993G0MVNA5.jpg"
   },
   {
@@ -13444,7 +13511,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/mondaine/32993G0MVNA6.jpg"
   },
   {
@@ -13457,7 +13527,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/mondaine/32993G0MVNC7.jpg"
   },
   {
@@ -13486,7 +13558,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "21 jewels"
+    ],
     "Imagem": "imagens/mondaine/32993GPMVBA3.jpg"
   },
   {
@@ -13499,7 +13573,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/mondaine/32993GPMVDA1.jpg"
   },
   {
@@ -13512,7 +13589,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/mondaine/32993GPMVDA2.jpg"
   },
   {
@@ -13564,7 +13644,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/mondaine/99944G0MVNN1.jpg"
   },
   {
@@ -13577,7 +13660,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/mondaine/99944G0MVNX3.jpg"
   },
   {
@@ -13590,7 +13676,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/mondaine/99944G0MVNX4.jpg"
   },
   {
@@ -13603,7 +13692,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/mondaine/99944G0MVNX5.jpg"
   },
   {
@@ -13616,7 +13708,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/mondaine/99944GPMVKC2.jpg"
   },
   {
@@ -13642,7 +13737,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Alarme"
+    ],
     "Imagem": "imagens/mondaine/32867M0MVNE3.jpg"
   },
   {
@@ -13655,7 +13753,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Alarme"
+    ],
     "Imagem": "imagens/mondaine/32867M0MVNE4.jpg"
   },
   {
@@ -13668,7 +13769,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Alarme"
+    ],
     "Imagem": "imagens/mondaine/32867MPMVDE1.jpg"
   },
   {
@@ -13681,7 +13785,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Alarme"
+    ],
     "Imagem": "imagens/mondaine/32867MPMVDE2.jpg"
   },
   {
@@ -13902,7 +14009,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20954LPSVDA2.jpg"
   },
   {
@@ -13915,7 +14024,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/23758L0SVNA2.jpg"
   },
   {
@@ -13928,7 +14039,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44086LPSVDA1.jpg"
   },
   {
@@ -13941,7 +14054,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44088L0SVNA3.jpg"
   },
   {
@@ -13954,7 +14069,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44140LPSVDA1.jpg"
   },
   {
@@ -13967,7 +14084,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44187L0SVNA2.jpg"
   },
   {
@@ -14006,7 +14125,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44195LPSVBA2.jpg"
   },
   {
@@ -14019,7 +14140,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44195LPSVDA1.jpg"
   },
   {
@@ -14032,7 +14155,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44196LPSVDA2.jpg"
   },
   {
@@ -14045,7 +14170,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44309LPSVDA1.jpg"
   },
   {
@@ -14058,7 +14185,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44336L0SVNA3.jpg"
   },
   {
@@ -14071,7 +14200,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44336LPSVDA1.jpg"
   },
   {
@@ -14084,7 +14215,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44337L0SVNA3.jpg"
   },
   {
@@ -14097,7 +14230,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44337LPSVDA1.jpg"
   },
   {
@@ -14110,7 +14245,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44343L0SVNA2.jpg"
   },
   {
@@ -14123,7 +14260,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44343LPSVDA1.jpg"
   },
   {
@@ -14162,7 +14301,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77134L0SVNA3.jpg"
   },
   {
@@ -14175,7 +14316,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77134LPSVDA1.jpg"
   },
   {
@@ -14188,7 +14331,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77245LPSVBA5.jpg"
   },
   {
@@ -14201,7 +14346,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77245LPSVDA1.jpg"
   },
   {
@@ -14214,7 +14361,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77245LPSVDA2.jpg"
   },
   {
@@ -14227,7 +14376,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77256LPSVDA1.jpg"
   },
   {
@@ -14240,7 +14391,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77323L0SVNA2.jpg"
   },
   {
@@ -14253,7 +14406,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77323LPSVDA1.jpg"
   },
   {
@@ -14266,7 +14421,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77324LPSVDA1.jpg"
   },
   {
@@ -14279,7 +14436,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77330L0SVNA3.jpg"
   },
   {
@@ -14292,7 +14451,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77330LPSVBA2.jpg"
   },
   {
@@ -14305,7 +14466,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77330LPSVDA1.jpg"
   },
   {
@@ -14318,7 +14481,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77331LPSVBA2.jpg"
   },
   {
@@ -14331,7 +14496,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77331LPSVDA1.jpg"
   },
   {
@@ -14344,7 +14511,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77362LPSVEA1.jpg"
   },
   {
@@ -14357,7 +14526,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77362LPSVFA2.jpg"
   },
   {
@@ -14422,7 +14593,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44385LPSVDA1.jpg"
   },
   {
@@ -16517,7 +16690,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44385L0SVNA3.jpg"
   },
   {
@@ -16621,7 +16796,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/23737L0SKNA2K1.jpg"
   },
   {
@@ -16634,7 +16811,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/23737LPSKDA1.jpg"
   },
   {
@@ -16766,7 +16945,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44194LPSVDA1K2.jpg"
   },
   {
@@ -16883,7 +17064,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44344LPSKDA1K1.jpg"
   },
   {
@@ -16909,7 +17092,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77009L0SVNA3K1.jpg"
   },
   {
@@ -17000,7 +17185,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77134L0SVNA3K1.jpg"
   },
   {
@@ -17052,7 +17239,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Fase da lua"
+    ],
     "Imagem": "imagens/seculus/77245LPSVRA4K1.jpg"
   },
   {
@@ -17182,7 +17371,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Fase da lua"
+    ],
     "Imagem": "imagens/seculus/77281LPSVRS2K1.jpg"
   },
   {
@@ -17234,7 +17425,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77326LPSKDA1.jpg"
   },
   {
@@ -17247,7 +17440,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77326LPSKDA1K1.jpg"
   },
   {
@@ -17494,7 +17689,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/44312LPSVDQ1.jpg"
   },
   {
@@ -17507,7 +17705,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/44312LPSVDQ2.jpg"
   },
   {
@@ -17520,7 +17721,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/44313LPSVDQ1.jpg"
   },
   {
@@ -17533,7 +17737,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/44313LPSVDQ2.jpg"
   },
   {
@@ -17546,7 +17753,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/44313LPSVRQ3.jpg"
   },
   {
@@ -17611,7 +17821,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77228LPSVDQ1.jpg"
   },
   {
@@ -17624,7 +17837,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77228LPSVRQ3.jpg"
   },
   {
@@ -17637,7 +17853,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77230LPSVDQ1.jpg"
   },
   {
@@ -17650,7 +17869,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77230LPSVRQ2.jpg"
   },
   {
@@ -17663,7 +17885,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77237LPSVDQ1.jpg"
   },
   {
@@ -17676,7 +17901,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77237LPSVRQ2.jpg"
   },
   {
@@ -17689,7 +17917,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77237LPSVRQ3.jpg"
   },
   {
@@ -17728,7 +17959,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77238LPSVRQ3.jpg"
   },
   {
@@ -17741,7 +17975,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77279LPSVDQ2.jpg"
   },
   {
@@ -17754,7 +17991,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77293LPSVDQ1.jpg"
   },
   {
@@ -17767,7 +18007,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77293LPSVDQ2.jpg"
   },
   {
@@ -17780,7 +18023,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77293LPSVRQ3.jpg"
   },
   {
@@ -17793,7 +18039,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77293LPSVRQ4.jpg"
   },
   {
@@ -17858,7 +18107,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77356LPSVRQ2.jpg"
   },
   {
@@ -17884,7 +18136,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/seculus/44291LPSVDA2.jpg"
   },
   {
@@ -17910,7 +18165,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Rosé",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44292LPSVRA2.jpg"
   },
   {
@@ -17962,7 +18219,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Solar"
+    ],
     "Imagem": "imagens/seculus/44377G0SVNA2.jpg"
   },
   {
@@ -17988,7 +18247,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20785G0SVNA2.jpg"
   },
   {
@@ -18001,7 +18262,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20786G0SVNA1.jpg"
   },
   {
@@ -18014,7 +18277,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20786G0SVNA4.jpg"
   },
   {
@@ -18027,7 +18292,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20786GPSVDA2.jpg"
   },
   {
@@ -18040,7 +18307,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20786GPSVDA3.jpg"
   },
   {
@@ -18053,7 +18322,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20787GPSVDA3.jpg"
   },
   {
@@ -18066,7 +18337,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20802G0SVNA3.jpg"
   },
   {
@@ -18079,7 +18352,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20802GPSVDA2.jpg"
   },
   {
@@ -18092,7 +18367,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20805GPSVDA1.jpg"
   },
   {
@@ -18105,7 +18382,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20807G0SVNA1.jpg"
   },
   {
@@ -18118,7 +18397,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20807GPSVDA2.jpg"
   },
   {
@@ -18131,7 +18412,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20809G0SVNA5.jpg"
   },
   {
@@ -18144,7 +18427,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20809GPSVDA2.jpg"
   },
   {
@@ -18157,7 +18442,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20928G0SVNA2.jpg"
   },
   {
@@ -18170,7 +18457,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20929G0SVNA2.jpg"
   },
   {
@@ -18183,7 +18472,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20958G0SVNA4.jpg"
   },
   {
@@ -18196,7 +18487,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/23729G0SVNA1.jpg"
   },
   {
@@ -18209,7 +18502,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/23729GPSVDA2.jpg"
   },
   {
@@ -18222,7 +18517,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/23730G0SVNA1.jpg"
   },
   {
@@ -18235,7 +18532,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/23730GPSVDA2.jpg"
   },
   {
@@ -18248,7 +18547,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/23742GPSVDA2.jpg"
   },
   {
@@ -18261,7 +18562,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/23752G0SVNA1.jpg"
   },
   {
@@ -18274,7 +18577,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/23752GPSVDA2.jpg"
   },
   {
@@ -18287,7 +18592,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44011G0SVNA1.jpg"
   },
   {
@@ -18300,7 +18607,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44011G0SVNA2.jpg"
   },
   {
@@ -18313,7 +18622,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44011GPSVDA3.jpg"
   },
   {
@@ -18326,7 +18637,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44042GPSVDA2.jpg"
   },
   {
@@ -18339,7 +18652,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44197G0SVNA1.jpg"
   },
   {
@@ -18352,7 +18667,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44197GPSVBA3.jpg"
   },
   {
@@ -18365,7 +18682,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44197GPSVDA2.jpg"
   },
   {
@@ -18378,7 +18697,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44200GPSVDA2.jpg"
   },
   {
@@ -18391,7 +18712,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44203G0SVNA1.jpg"
   },
   {
@@ -18404,7 +18727,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44203GPSVBA3.jpg"
   },
   {
@@ -18417,7 +18742,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44203GPSVDA2.jpg"
   },
   {
@@ -18430,7 +18757,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44203GPSVDA4.jpg"
   },
   {
@@ -18443,7 +18772,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44204G0SVNA2.jpg"
   },
   {
@@ -18469,7 +18800,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44206GPSVDA2.jpg"
   },
   {
@@ -18482,7 +18815,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44206GPSVPA3.jpg"
   },
   {
@@ -18495,7 +18830,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44207GPSVDA2.jpg"
   },
   {
@@ -18508,7 +18845,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44210G0SVNA1.jpg"
   },
   {
@@ -18521,7 +18860,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44210G0SVNA2.jpg"
   },
   {
@@ -18534,7 +18875,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44210GPSVBA5.jpg"
   },
   {
@@ -18547,7 +18890,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44210GPSVDA3.jpg"
   },
   {
@@ -18560,7 +18905,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44210GPSVDA4.jpg"
   },
   {
@@ -18573,7 +18920,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44211GPSVDA3.jpg"
   },
   {
@@ -18586,7 +18935,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44212G0SVNA1.jpg"
   },
   {
@@ -18599,7 +18950,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44212GPSVDA4.jpg"
   },
   {
@@ -18612,7 +18965,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44213GPSVBA3.jpg"
   },
   {
@@ -18625,7 +18980,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44213GPSVDA2.jpg"
   },
   {
@@ -18638,7 +18995,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44215G0SVNA2.jpg"
   },
   {
@@ -18664,7 +19023,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44216G0SVNA1.jpg"
   },
   {
@@ -18677,7 +19038,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44216GPSVDA3.jpg"
   },
   {
@@ -18690,7 +19053,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44217G0SVNA1.jpg"
   },
   {
@@ -18703,7 +19068,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44217GPSVDA2.jpg"
   },
   {
@@ -18716,7 +19083,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44218G0SVNA2.jpg"
   },
   {
@@ -18729,7 +19098,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44232GPSVPA3.jpg"
   },
   {
@@ -18742,7 +19113,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44254GPSVDA2.jpg"
   },
   {
@@ -18755,7 +19128,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44254GPSVPA3.jpg"
   },
   {
@@ -18768,7 +19143,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44263G0SVNA1.jpg"
   },
   {
@@ -18781,7 +19158,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44263G0SVNA5.jpg"
   },
   {
@@ -18794,7 +19173,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44263GPSVDA3.jpg"
   },
   {
@@ -18807,7 +19188,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44263GPSVDA6.jpg"
   },
   {
@@ -18820,7 +19203,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44264G0SVNA1.jpg"
   },
   {
@@ -18833,7 +19218,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44264GPSVDA4.jpg"
   },
   {
@@ -18846,7 +19233,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44265G0SVNA2.jpg"
   },
   {
@@ -18859,7 +19248,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44265GPSVDA1.jpg"
   },
   {
@@ -18872,7 +19263,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44293G0SVNA2.jpg"
   },
   {
@@ -18885,7 +19278,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44293GPSVDA3.jpg"
   },
   {
@@ -18898,7 +19293,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44293GPSVDA4.jpg"
   },
   {
@@ -18911,7 +19308,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44294G0SVNA1.jpg"
   },
   {
@@ -18924,7 +19323,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44294GPSVDA3.jpg"
   },
   {
@@ -18937,7 +19338,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44294GPSVDA4.jpg"
   },
   {
@@ -18950,7 +19353,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44295G0SVNA2.jpg"
   },
   {
@@ -18963,7 +19368,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44295G0SVNA3.jpg"
   },
   {
@@ -18976,7 +19383,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44296G0SVNA2.jpg"
   },
   {
@@ -18989,7 +19398,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44296GPSVDA3.jpg"
   },
   {
@@ -19002,7 +19413,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44296GPSVDA4.jpg"
   },
   {
@@ -19015,7 +19428,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44297G0SVNA1.jpg"
   },
   {
@@ -19028,7 +19443,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44297GPSVDA4.jpg"
   },
   {
@@ -19041,7 +19458,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44297GPSVDA5.jpg"
   },
   {
@@ -19054,7 +19473,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44316G0SVNA1.jpg"
   },
   {
@@ -19067,7 +19488,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44316GPSVDA3.jpg"
   },
   {
@@ -19080,7 +19503,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44317GPSVDA2.jpg"
   },
   {
@@ -19093,7 +19518,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44317GPSVSA3.jpg"
   },
   {
@@ -19106,7 +19533,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44320G0SVNA1.jpg"
   },
   {
@@ -19119,7 +19548,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44320GPSVBA3.jpg"
   },
   {
@@ -19132,7 +19563,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44320GPSVDA2.jpg"
   },
   {
@@ -19145,7 +19578,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44321G0SVNA1.jpg"
   },
   {
@@ -19158,7 +19593,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44321G0SVNA2.jpg"
   },
   {
@@ -19171,7 +19608,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44321GPSVDA3.jpg"
   },
   {
@@ -19184,7 +19623,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44322G0SVNA1.jpg"
   },
   {
@@ -19197,7 +19638,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44322G0SVNA2.jpg"
   },
   {
@@ -19210,7 +19653,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44322GPSVDA3.jpg"
   },
   {
@@ -19223,7 +19668,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44322GPSVDA4.jpg"
   },
   {
@@ -19236,7 +19683,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44323G0SVNA1.jpg"
   },
   {
@@ -19249,7 +19698,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44323G0SVNA2.jpg"
   },
   {
@@ -19262,7 +19713,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44323GPSVDA3.jpg"
   },
   {
@@ -19275,7 +19728,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44324G0SVNA1.jpg"
   },
   {
@@ -19288,7 +19743,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44346G0SVNA1.jpg"
   },
   {
@@ -19301,7 +19758,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44346G0SVNA2.jpg"
   },
   {
@@ -19314,7 +19773,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44346GPSVDA3.jpg"
   },
   {
@@ -19327,7 +19788,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44347G0SVNA1.jpg"
   },
   {
@@ -19340,7 +19803,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77367G0SVNA1.jpg"
   },
   {
@@ -19353,7 +19818,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Solar"
+    ],
     "Imagem": "imagens/seculus/44377G0SVNA1.jpg"
   },
   {
@@ -19366,7 +19833,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77263G0SKNA3K1.jpg"
   },
   {
@@ -19379,7 +19848,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77199GPSVPA4.jpg"
   },
   {
@@ -19392,7 +19863,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77240G0SVNA1.jpg"
   },
   {
@@ -19405,7 +19878,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77240GPSVDA2.jpg"
   },
   {
@@ -19418,7 +19893,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77241GPSVDA2.jpg"
   },
   {
@@ -19431,7 +19908,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77242G0SVNA1.jpg"
   },
   {
@@ -19444,7 +19923,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77243G0SVNA1.jpg"
   },
   {
@@ -19457,7 +19938,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77243GPSVDA2.jpg"
   },
   {
@@ -19470,7 +19953,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77244GPSVDA2.jpg"
   },
   {
@@ -19483,7 +19968,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77259GPSVDA2.jpg"
   },
   {
@@ -19496,7 +19983,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77260GPSVDA2.jpg"
   },
   {
@@ -19509,7 +19998,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77261G0SVNA1.jpg"
   },
   {
@@ -19522,7 +20013,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77261GPSVPA2.jpg"
   },
   {
@@ -19535,7 +20028,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77262G0SVNA1.jpg"
   },
   {
@@ -19548,7 +20043,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77263GPSVPA2.jpg"
   },
   {
@@ -19561,7 +20058,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77271G0SVNA1.jpg"
   },
   {
@@ -19574,7 +20073,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77271G0SVNA2.jpg"
   },
   {
@@ -19587,7 +20088,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77299G0SVNA1.jpg"
   },
   {
@@ -19600,7 +20103,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77299GPSVDA2.jpg"
   },
   {
@@ -19626,7 +20131,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77312G0SVNA3.jpg"
   },
   {
@@ -19639,7 +20146,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77312GPSVDA2.jpg"
   },
   {
@@ -19652,7 +20161,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77335G0SVNA1.jpg"
   },
   {
@@ -19665,7 +20176,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77335GPSVDA2.jpg"
   },
   {
@@ -19678,7 +20191,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77335GPSVPA3.jpg"
   },
   {
@@ -19691,7 +20206,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77347G0SVNA2.jpg"
   },
   {
@@ -19704,7 +20221,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77347GPSVDA3.jpg"
   },
   {
@@ -19717,7 +20236,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77348GPSVDA2.jpg"
   },
   {
@@ -19730,7 +20251,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77375GPSVDA2.jpg"
   },
   {
@@ -19743,7 +20266,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Solar"
+    ],
     "Imagem": "imagens/seculus/44377GPSVDC3.jpg"
   },
   {
@@ -19756,7 +20281,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44200G0SKNA4K1.jpg"
   },
   {
@@ -19769,7 +20296,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44391GPSVDA1.jpg"
   },
   {
@@ -19782,7 +20311,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77374G0SVNA3.jpg"
   },
   {
@@ -19808,7 +20339,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20786G0SVNA1K4.jpg"
   },
   {
@@ -19821,7 +20354,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20786GPSVDA2K2.jpg"
   },
   {
@@ -19834,7 +20369,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20786GPSVDA2K4.jpg"
   },
   {
@@ -19847,7 +20384,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20786GPSVDA2K5.jpg"
   },
   {
@@ -19899,7 +20438,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20802G0SVNA3K1.jpg"
   },
   {
@@ -19925,7 +20466,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20802G0SVNA3K5.jpg"
   },
   {
@@ -19938,7 +20481,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20802GPSVDA1K5.jpg"
   },
   {
@@ -19951,7 +20496,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20807G0SVNA1K3.jpg"
   },
   {
@@ -19977,7 +20524,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20928G0SVNA2K2.jpg"
   },
   {
@@ -19990,7 +20539,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/20929G0SVNA2K3.jpg"
   },
   {
@@ -20029,7 +20580,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77372G0SVNA3.jpg"
   },
   {
@@ -20042,7 +20595,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77367GPSVDA3.jpg"
   },
   {
@@ -20055,7 +20610,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira"
+    ],
     "Imagem": "imagens/seculus/23767GPSVDC3.jpg"
   },
   {
@@ -20068,7 +20625,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/39007G0SVNQ3.jpg"
   },
   {
@@ -20081,7 +20641,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44203G0SVNA1K2.jpg"
   },
   {
@@ -20094,7 +20656,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44203GPSVDA2K1.jpg"
   },
   {
@@ -20107,7 +20671,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44206G0SVNA1K1.jpg"
   },
   {
@@ -20120,7 +20686,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44206G0SVNA1K2.jpg"
   },
   {
@@ -20133,7 +20701,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44209G0SVNA1K3.jpg"
   },
   {
@@ -20159,7 +20729,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44216G0SVNA1K2.jpg"
   },
   {
@@ -20224,7 +20796,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44231G0SVNA1K2.jpg"
   },
   {
@@ -20237,7 +20811,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44231G0SVNA1K3.jpg"
   },
   {
@@ -20250,7 +20826,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44265G0SVNA2K1.jpg"
   },
   {
@@ -20263,7 +20841,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44265GPSVDA1K1.jpg"
   },
   {
@@ -20276,7 +20856,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44293G0SVNA1K1.jpg"
   },
   {
@@ -20289,7 +20871,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44293G0SVNA1K2.jpg"
   },
   {
@@ -20302,7 +20886,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44293G0SVNA1K4.jpg"
   },
   {
@@ -20315,7 +20901,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44293G0SVNA2K1.jpg"
   },
   {
@@ -20328,7 +20916,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44293GPSVDA3K1.jpg"
   },
   {
@@ -20341,7 +20931,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44293GPSVDA3K2.jpg"
   },
   {
@@ -20369,7 +20961,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44294GPSVDA3K1.jpg"
   },
   {
@@ -20382,7 +20976,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44295G0SVNA2K2.jpg"
   },
   {
@@ -20395,7 +20991,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44295G0SVNA3K2.jpg"
   },
   {
@@ -20408,7 +21006,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44297G0SVNA1K4.jpg"
   },
   {
@@ -20421,7 +21021,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44297G0SVNA3K1.jpg"
   },
   {
@@ -20434,7 +21036,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44297G0SVNA3K2.jpg"
   },
   {
@@ -20447,7 +21051,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44316GPSVDA3K1.jpg"
   },
   {
@@ -20460,7 +21066,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44317GPSVSA3K1.jpg"
   },
   {
@@ -20473,7 +21081,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44320G0SVNA1K5.jpg"
   },
   {
@@ -20486,7 +21096,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44346G0SVNA1K1.jpg"
   },
   {
@@ -20499,7 +21111,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44346G0SVNA2K1.jpg"
   },
   {
@@ -20551,7 +21165,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44360G0SKNA1K1.jpg"
   },
   {
@@ -20564,7 +21180,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44360GPSKDA2K1.jpg"
   },
   {
@@ -20577,7 +21195,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77222GPSKDA2K1.jpg"
   },
   {
@@ -20590,7 +21210,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77242G0SVNA1K1.jpg"
   },
   {
@@ -20603,7 +21225,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77258G0SVNA1K1.jpg"
   },
   {
@@ -20616,7 +21240,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77259G0SVNA1K3.jpg"
   },
   {
@@ -20629,7 +21255,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77261G0SVNA1K2.jpg"
   },
   {
@@ -20642,7 +21270,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77261G0SVNA1K4.jpg"
   },
   {
@@ -20655,7 +21285,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77261GPSVPA2K1.jpg"
   },
   {
@@ -20668,7 +21300,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77262GPSVDA2K1.jpg"
   },
   {
@@ -20681,7 +21315,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/39007GPSVDQ4.jpg"
   },
   {
@@ -20733,7 +21370,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77263GPSVPA2K1.jpg"
   },
   {
@@ -20746,7 +21385,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77347G0SVNA1K1.jpg"
   },
   {
@@ -20759,7 +21400,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77348G0SVNA1K1.jpg"
   },
   {
@@ -20772,7 +21415,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77348GPSVDA2K1.jpg"
   },
   {
@@ -20785,7 +21430,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77358G0SKNA2K1.jpg"
   },
   {
@@ -20798,7 +21445,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77358GPSKDA3K1.jpg"
   },
   {
@@ -20811,7 +21460,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77358GPSKDA4K1.jpg"
   },
   {
@@ -20824,7 +21475,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77359G0SKNA1K1.jpg"
   },
   {
@@ -20837,7 +21490,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77359GPSKDA3K1.jpg"
   },
   {
@@ -20850,7 +21505,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77359GPSKDA4K1.jpg"
   },
   {
@@ -20980,7 +21637,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44131G0SVCA1.jpg"
   },
   {
@@ -20993,7 +21652,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44131GPSVHA2.jpg"
   },
   {
@@ -21110,7 +21771,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Borracha",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44280GPSVMU2.jpg"
   },
   {
@@ -21123,7 +21786,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Borracha",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44280GPSVPU1.jpg"
   },
   {
@@ -21214,7 +21879,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Solar"
+    ],
     "Imagem": "imagens/seculus/44377G0SVNC4.jpg"
   },
   {
@@ -21240,7 +21907,11 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Borracha",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Luminoso",
+      "Diver's"
+    ],
     "Imagem": "imagens/seculus/77371G0SVNU1.jpg"
   },
   {
@@ -21253,7 +21924,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77375G0SVNA1.jpg"
   },
   {
@@ -21266,7 +21939,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77376G0SVNA2.jpg"
   },
   {
@@ -21305,7 +21980,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/39007G0SVNQ1.jpg"
   },
   {
@@ -21318,7 +21996,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/39007G0SVNQ2.jpg"
   },
   {
@@ -21331,7 +22012,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44200GPSKDA5K1.jpg"
   },
   {
@@ -21344,7 +22027,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77349G0SVNA5.jpg"
   },
   {
@@ -21357,7 +22043,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44391G0SVNA3.jpg"
   },
   {
@@ -21370,7 +22058,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44391G0SVNA4.jpg"
   },
   {
@@ -21383,7 +22073,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44391GPSVDA2.jpg"
   },
   {
@@ -21396,7 +22088,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77367G0SVNA2.jpg"
   },
   {
@@ -21409,7 +22103,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77372G0SVNC1.jpg"
   },
   {
@@ -21422,7 +22118,11 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Borracha",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Luminoso",
+      "Diver's"
+    ],
     "Imagem": "imagens/seculus/77371G0SVNU2.jpg"
   },
   {
@@ -21435,7 +22135,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77376G0SVNA1.jpg"
   },
   {
@@ -21552,7 +22254,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/39007G0SVNQ5.jpg"
   },
   {
@@ -21565,7 +22270,9 @@ window.PRODUTOS = [
     "Tipo": "Kit",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77263GPSKDA4K1.jpg"
   },
   {
@@ -21591,7 +22298,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Titânio"
+    ],
     "Imagem": "imagens/seculus/44250G0SVNT1.jpg"
   },
   {
@@ -21773,7 +22482,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/77376GPSVDA3.jpg"
   },
   {
@@ -21968,7 +22679,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira"
+    ],
     "Imagem": "imagens/seculus/23767G0SVNC1.jpg"
   },
   {
@@ -21994,7 +22707,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77372GPSVDC2.jpg"
   },
   {
@@ -22033,7 +22748,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/20909G0SVNA4.jpg"
   },
   {
@@ -22059,7 +22776,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira"
+    ],
     "Imagem": "imagens/seculus/20923GPSVDA1.jpg"
   },
   {
@@ -22124,7 +22843,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44076GPSVDA2.jpg"
   },
   {
@@ -22150,7 +22871,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44163G0SVNA1.jpg"
   },
   {
@@ -22163,7 +22886,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44163GPSVDA2.jpg"
   },
   {
@@ -22241,7 +22966,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44251GPSVDA1.jpg"
   },
   {
@@ -22254,7 +22981,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Borracha",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Taquímetro"
+    ],
     "Imagem": "imagens/seculus/44252GPSVGU3.jpg"
   },
   {
@@ -22280,7 +23010,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44261GPSVLA2.jpg"
   },
   {
@@ -22436,7 +23168,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44318GPSVCA1.jpg"
   },
   {
@@ -22449,7 +23183,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44318GPSVDA2.jpg"
   },
   {
@@ -22462,7 +23198,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44318GPSVPA3.jpg"
   },
   {
@@ -22475,7 +23213,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44319GPSVHA2.jpg"
   },
   {
@@ -22488,7 +23228,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44319GPSVOA1.jpg"
   },
   {
@@ -22501,7 +23243,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44319GPSVSA3.jpg"
   },
   {
@@ -22514,7 +23258,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44330G0SVNA1.jpg"
   },
   {
@@ -22527,7 +23273,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44330GPSVDA2.jpg"
   },
   {
@@ -22540,7 +23288,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/44330GPSVPA3.jpg"
   },
   {
@@ -22553,7 +23303,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77164GPSVDA1.jpg"
   },
   {
@@ -22592,7 +23344,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Taquímetro"
+    ],
     "Imagem": "imagens/seculus/77272GPSVBA4.jpg"
   },
   {
@@ -22605,7 +23359,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Taquímetro"
+    ],
     "Imagem": "imagens/seculus/77272GPSVLA2.jpg"
   },
   {
@@ -22618,7 +23374,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Taquímetro"
+    ],
     "Imagem": "imagens/seculus/77272GPSVUA3.jpg"
   },
   {
@@ -22670,7 +23429,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77291GPSVDA1.jpg"
   },
   {
@@ -22709,7 +23470,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77301GPSVCA1.jpg"
   },
   {
@@ -22722,7 +23485,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Borracha",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77301GPSVVU3.jpg"
   },
   {
@@ -22735,7 +23500,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77302GPSVCA1.jpg"
   },
   {
@@ -22748,7 +23515,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo",
+      "Taquímetro"
+    ],
     "Imagem": "imagens/seculus/77302GPSVPA2.jpg"
   },
   {
@@ -22761,7 +23531,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Multi-fuso",
+      "Ana-Digi"
+    ],
     "Imagem": "imagens/seculus/77303G0SVNA1.jpg"
   },
   {
@@ -22816,7 +23589,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77308G0SVNC1.jpg"
   },
   {
@@ -22829,7 +23604,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77308GPSVDC2.jpg"
   },
   {
@@ -22959,7 +23736,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77351GPSVCA1.jpg"
   },
   {
@@ -22972,7 +23751,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Cronógrafo"
+    ],
     "Imagem": "imagens/seculus/77351GPSVHA3.jpg"
   },
   {
@@ -22985,7 +23766,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira"
+    ],
     "Imagem": "imagens/seculus/23767G0SVNC2.jpg"
   },
   {
@@ -23232,7 +24015,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Borracha",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Solar"
+    ],
     "Imagem": "imagens/seculus/77139GPSVDU2.jpg"
   },
   {
@@ -23245,7 +24030,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Solar"
+    ],
     "Imagem": "imagens/seculus/77139GPSVPA5.jpg"
   },
   {
@@ -23258,7 +24045,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Multi-fuso",
+      "Ana-Digi"
+    ],
     "Imagem": "imagens/seculus/77219G0SVNN3.jpg"
   },
   {
@@ -23271,7 +24061,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Ana-Digi"
+    ],
     "Imagem": "imagens/seculus/77304GPSVPA2.jpg"
   },
   {
@@ -23297,7 +24089,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Solar"
+    ],
     "Imagem": "imagens/seculus/77341GPSVHA2.jpg"
   },
   {
@@ -23310,7 +24104,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Solar"
+    ],
     "Imagem": "imagens/seculus/77341GPSVOA1.jpg"
   },
   {
@@ -23323,7 +24119,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Solar"
+    ],
     "Imagem": "imagens/seculus/77341GPSVPA3.jpg"
   },
   {
@@ -23336,7 +24134,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77280GPSVCQ5.jpg"
   },
   {
@@ -23349,7 +24150,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77280GPSVDQ2.jpg"
   },
   {
@@ -23362,7 +24166,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77280GPSVEQ1.jpg"
   },
   {
@@ -23375,7 +24182,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77280GPSVPQ3.jpg"
   },
   {
@@ -23388,7 +24198,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77280GPSVSQ4.jpg"
   },
   {
@@ -23401,7 +24214,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77289GPSVPQ3.jpg"
   },
   {
@@ -23414,7 +24230,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77352GPSVEQ3.jpg"
   },
   {
@@ -23427,7 +24246,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Cerâmica"
+    ],
     "Imagem": "imagens/seculus/77352GPSVPQ2.jpg"
   },
   {
@@ -23453,7 +24275,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44237G0SVNA1.jpg"
   },
   {
@@ -23466,7 +24290,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44237G0SVNA2.jpg"
   },
   {
@@ -23479,7 +24305,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44237G0SVNA5.jpg"
   },
   {
@@ -23492,7 +24320,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44237G0SVNA6.jpg"
   },
   {
@@ -23505,7 +24335,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44237GPSVDA3.jpg"
   },
   {
@@ -23518,7 +24350,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44237GPSVDA7.jpg"
   },
   {
@@ -23531,7 +24365,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Preto",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44237GPSVPA4.jpg"
   },
   {
@@ -23557,7 +24393,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44304GPSVBA2.jpg"
   },
   {
@@ -23570,7 +24408,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44304GPSVDA1.jpg"
   },
   {
@@ -23583,7 +24423,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44304GPSVDC3.jpg"
   },
   {
@@ -23596,7 +24438,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/44329GPSVDA1.jpg"
   },
   {
@@ -23609,7 +24453,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77313G0SVNA1.jpg"
   },
   {
@@ -23622,7 +24469,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77313G0SVNA2.jpg"
   },
   {
@@ -23635,7 +24485,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77313GPSVDA3.jpg"
   },
   {
@@ -23648,7 +24501,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77313GPSVDA4.jpg"
   },
   {
@@ -23661,7 +24517,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77349G0SVNA1.jpg"
   },
   {
@@ -23674,7 +24533,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77349G0SVNA2.jpg"
   },
   {
@@ -23687,7 +24549,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77349GPSVDA3.jpg"
   },
   {
@@ -23700,7 +24565,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77349GPSVDA4.jpg"
   },
   {
@@ -23713,7 +24581,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/seculus/77361G0SVNA1.jpg"
   },
   {
@@ -23726,7 +24597,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/seculus/77361G0SVNC8.jpg"
   },
   {
@@ -23739,7 +24613,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/seculus/77361GPSVBA6.jpg"
   },
   {
@@ -23752,7 +24629,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Bicolor",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/seculus/77361GPSVBA7.jpg"
   },
   {
@@ -23765,7 +24645,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/seculus/77361GPSVDA4.jpg"
   },
   {
@@ -23778,7 +24661,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Automático",
+      "21 jewels"
+    ],
     "Imagem": "imagens/seculus/77361GPSVDA5.jpg"
   },
   {
@@ -23791,7 +24677,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77369G0SVNC1.jpg"
   },
   {
@@ -23804,7 +24693,10 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Couro",
     "Cor": "Prata",
-    "Destaques": [],
+    "Destaques": [
+      "Safira",
+      "Automático"
+    ],
     "Imagem": "imagens/seculus/77369G0SVNC2.jpg"
   },
   {
@@ -23830,7 +24722,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44116GPSVDA2.jpg"
   },
   {
@@ -23856,7 +24750,9 @@ window.PRODUTOS = [
     "Tipo": "Relógio",
     "Pulseira": "Aço",
     "Cor": "Dourado",
-    "Destaques": [],
+    "Destaques": [
+      "Long Life"
+    ],
     "Imagem": "imagens/seculus/44201GPSVDA1.jpg"
   },
   {
