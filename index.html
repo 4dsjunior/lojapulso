@@ -60,6 +60,10 @@
                     --bs-btn-hover-bg: var(--pulso-gold); --bs-btn-hover-border-color: var(--pulso-gold); --bs-btn-hover-color: #000;
                     --bs-btn-active-bg: var(--pulso-gold); --bs-btn-active-border-color: var(--pulso-gold); --bs-btn-active-color: #000; }
     .badge-pulso { background: var(--pulso-gold); color: #000; font-weight: 700; }
+    /* "Ordenar ↓/↑" ao lado da contagem: texto simples; fica dourado quando uma ordem está ativa */
+    .btn-ordenar { --bs-btn-color: #cfcfcf; --bs-btn-hover-color: var(--pulso-gold); --bs-btn-active-color: var(--pulso-gold);
+                   padding: 0; border: 0; font-size: .85rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
+    .btn-ordenar.ativo { color: var(--pulso-gold); }
     .form-control:focus, .form-select:focus { border-color: var(--pulso-gold); box-shadow: 0 0 0 .2rem rgba(218, 166, 57, .25); }
     .btn:focus-visible { box-shadow: 0 0 0 .2rem rgba(218, 166, 57, .45); }
 
@@ -132,11 +136,27 @@
     .qtd { min-width: 1.8rem; text-align: center; font-weight: 600; }
     .btn-qtd { width: 34px; height: 34px; padding: 0; line-height: 1; }
 
+    /* ===== Tela de Sugestão (perguntas + modelos sugeridos) ===== */
+    #modalSugestao .modal-header { background: var(--pulso-black); color: var(--pulso-offwhite); border-bottom: 2px solid var(--pulso-gold); }
+    #modalSugestao .btn-close { filter: invert(1); }
+    #modalSugestao .modal-body { background: var(--pulso-offwhite); isolation: isolate; }  /* isolation: o brilho dos cards aparece sobre o fundo */
+    #modalSugestao .modal-footer { background: #fff; }
+    .sug-pergunta { font-family: "Montserrat", sans-serif; font-size: .74rem; font-weight: 600; letter-spacing: .08em;
+                    text-transform: uppercase; color: var(--pulso-gray-txt); margin-bottom: .4rem; }
+    .sug-dica { font-size: .78rem; color: var(--pulso-gray-txt); min-height: 1.1rem; margin-top: .3rem; }
+    .chip { background: #fff; color: var(--pulso-graphite); border: 1px solid var(--pulso-graphite); border-radius: 999px;
+            padding: .35rem .95rem; font-size: .85rem; font-weight: 600; line-height: 1.3;
+            transition: background-color .15s ease, border-color .15s ease; }
+    .chip:hover { border-color: var(--pulso-gold); }
+    .chip.ativo { background: var(--pulso-gold); border-color: var(--pulso-gold); color: #000; }
+    .chip:focus-visible { outline: none; box-shadow: 0 0 0 .2rem rgba(218, 166, 57, .45); }
+
     /* Celulares */
     @media (max-width: 575.98px) {
       .logo { height: 46px; }
       .topo.compacto .logo { height: 36px; }
       .lema { font-size: .58rem; letter-spacing: .12em; }
+      .topo .btn { padding: .3rem .6rem; font-size: .85rem; }
       .produto-img, .sem-foto { height: 170px; }
       .p-preco { font-size: 1.02rem; }
       .btn-add { font-size: .8rem; padding-top: .5rem; padding-bottom: .5rem; }
@@ -154,9 +174,11 @@
           <img class="logo" src="identidade/logo-principal.png" alt="Pulso Relojoaria">
         </a>
         <div class="d-flex flex-column align-items-end">
-          <button class="btn btn-carrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#carrinho" aria-controls="carrinho">
-            Carrinho <span id="contador" class="badge badge-pulso ms-1">0</span>
-          </button>
+          <div class="d-flex gap-2">
+            <button class="btn btn-carrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#carrinho" aria-controls="carrinho">
+              Carrinho <span id="contador" class="badge badge-pulso ms-1">0</span>
+            </button>
+          </div>
           <div class="lema">Sua marca no tempo.</div>
         </div>
       </div>
@@ -181,14 +203,10 @@
             <select id="cor" class="form-select" aria-label="Cor"><option value="">Cor</option></select>
           </div>
           <div class="col-4 col-md-2">
-            <select id="ordem" class="form-select" aria-label="Ordenar">
-              <option value="">Ordenar</option>
-              <option value="menor">Menor preço</option>
-              <option value="maior">Maior preço</option>
-            </select>
+            <select id="faixa" class="form-select" aria-label="Faixa de preço"><option value="">Preço</option></select>
           </div>
           <div class="col-8 col-md-9">
-            <input id="busca" type="search" class="form-control" placeholder="Buscar referência" aria-label="Buscar pela referência">
+            <button id="btnSugestao" class="btn btn-pulso w-100" type="button" aria-haspopup="dialog" aria-controls="modalSugestao">Sugestão</button>
           </div>
           <div class="col-4 col-md-3">
             <button id="limparFiltros" class="btn btn-mais w-100" type="button">
@@ -202,7 +220,11 @@
 
   <!-- Vista 1: lista de modelos -->
   <main id="vistaLista" class="container pb-5 pt-3">
-    <p id="contagem" class="small" style="color: #cfcfcf"></p>
+    <div class="d-flex justify-content-between align-items-center gap-2 mb-3">
+      <p id="contagem" class="small mb-0" style="color: #cfcfcf"></p>
+      <!-- clique alterna: ordem do catálogo → menor preço (↓) → maior preço (↑) -->
+      <button id="btnOrdenar" class="btn btn-link btn-ordenar" type="button">Ordenar</button>
+    </div>
     <div id="grade" class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3"></div>
     <div class="text-center mt-4">
       <button id="maisProdutos" class="btn btn-mais px-4 d-none" type="button">Mostrar mais</button>
@@ -230,6 +252,55 @@
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
   </button>
+
+  <!-- Tela de Sugestão: perguntas + modelos sugeridos -->
+  <div class="modal fade" id="modalSugestao" tabindex="-1" aria-labelledby="sugTituloModal" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-md-down">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title titulo" id="sugTituloModal">Encontre o relógio ideal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <div class="sug-pergunta">O relógio é</div>
+              <div id="sugPara" class="d-flex flex-wrap gap-2"></div>
+              <div id="sugDicaPara" class="sug-dica"></div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="sug-pergunta">Gênero</div>
+              <div id="sugGenero" class="d-flex flex-wrap gap-2"></div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="sug-pergunta">Que estilo você procura? (opcional)</div>
+              <div id="sugColecao" class="d-flex flex-wrap gap-2"></div>
+              <div id="sugDescColecao" class="sug-dica"></div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="sug-pergunta">Quanto pretende investir? (opcional)</div>
+              <div id="sugFaixa" class="d-flex flex-wrap gap-2"></div>
+            </div>
+          </div>
+
+          <hr class="my-3">
+
+          <div class="d-flex justify-content-between align-items-baseline mb-2">
+            <h6 id="sugTitulo" class="titulo mb-0">Sugestões para você</h6>
+            <span id="sugContagem" class="small" style="color: var(--pulso-gray-txt)"></span>
+          </div>
+          <div id="sugVazio" class="alert alert-warning small d-none">
+            Nenhum modelo combina com essas escolhas. Tente outra faixa de preço, outro estilo ou deixe o gênero em branco.
+          </div>
+          <div id="sugGrade" class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3"></div>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <button id="sugOutras" class="btn btn-add" type="button">Outras sugestões</button>
+          <button id="sugVerTodos" class="btn btn-pulso" type="button">Ver todos</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Detalhes do produto (imagem ampliada) -->
   <div class="modal fade" id="modalProduto" tabindex="-1" aria-labelledby="mpTitulo" aria-hidden="true">
@@ -299,6 +370,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Dados gerados pelo gerar_catalogo.py (funciona também abrindo este arquivo direto no PC) -->
   <script src="dados/produtos.js"></script>
+  <!-- Regras da tela de Sugestão (editável; ver comentários dentro do arquivo). Sem ele, o botão Sugestão some. -->
+  <script src="colecoes.js"></script>
   <script>
     // ===================== CONFIGURAÇÃO =====================
     const CONFIG = {
@@ -312,6 +385,7 @@
     };
     const BASE = 'dados/';           // pasta dos dados e imagens
     const TITULO_PADRAO = document.title;
+    const COL = window.COLECOES || null;   // regras da tela de Sugestão (arquivo colecoes.js)
     // ========================================================
 
     const lista = window.PRODUTOS || [];
@@ -319,8 +393,8 @@
     const chave = p => p.Marca + '|' + p.Referencia;
     const porChave = new Map(lista.map(p => [chave(p), p]));
     const fmt = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
-    // o formato de moeda usa um espaço "invisível" (U+00A0 / U+202F); trocamos por espaço normal
-    const moeda = v => fmt.format(v).replace(/[  ]/g, ' ');
+    // o formato de moeda usa um espaço "invisível" (U+00A0 / U+202F); \s o troca por espaço normal
+    const moeda = v => fmt.format(v).replace(/\s/g, ' ');
 
     function h(tag, classe, texto) {
       const e = document.createElement(tag);
@@ -495,19 +569,35 @@
     preencher($('tipo'),     ['Relógio', 'Kit', 'Pulseira avulsa'].filter(v => lista.some(p => p.Tipo === v)));
     preencher($('pulseira'), [...new Set(lista.map(p => p.Pulseira))].filter(Boolean).sort());
     preencher($('cor'),      [...new Set(lista.map(p => p.Cor))].filter(Boolean).sort());
+    // Faixa de preço: as faixas vêm do colecoes.js (sem ele, o campo some)
+    if (COL && Array.isArray(COL.faixasPreco)) {
+      COL.faixasPreco.forEach((f, i) => {
+        const o = document.createElement('option');
+        o.value = String(i); o.textContent = f.rotulo;
+        $('faixa').appendChild(o);
+      });
+    } else {
+      $('faixa').parentElement.classList.add('d-none');
+    }
     // JSON antigo, sem os campos novos: esconde os filtros de tipo, pulseira e cor
     if (!lista.some(p => p.Tipo || p.Pulseira || p.Cor)) {
       ['tipo', 'pulseira', 'cor'].forEach(id => $(id).parentElement.classList.add('d-none'));
     }
 
     let grupos = [], totalProdutos = 0, limite = CONFIG.porPagina;
+    let ordemAtual = '';        // '' = ordem do catálogo | 'menor' | 'maior' (botão "Ordenar" ao lado da contagem)
+
+    // Faixa de preço: o valor mínimo é incluído; o máximo, não (max: null = sem limite)
+    function noFaixa(p, f) {
+      const v = p.Valor_Reajustado;
+      return v >= (f.min || 0) && (f.max == null || v < f.max);
+    }
 
     function filtrar() {
       const m = $('marca').value, g = $('genero').value;
       const t = $('tipo').value, pu = $('pulseira').value, c = $('cor').value;
-      const nAtivos = [t, pu, c].filter(Boolean).length;          // filtros ativos no painel "Mais filtros"
-      // (os filtros ficam sempre visíveis; não há mais contador de "Mais filtros")
-      const q = $('busca').value.trim().toLowerCase(), o = $('ordem').value;
+      const o = ordemAtual;
+      const fx = (COL && $('faixa').value !== '') ? COL.faixasPreco[Number($('faixa').value)] : null;
 
       const r = lista.filter(p =>
         (!m || p.Marca === m) &&
@@ -515,7 +605,7 @@
         (!t || p.Tipo === t) &&
         (!pu || p.Pulseira === pu) &&
         (!c || p.Cor === c) &&
-        (!q || p.Referencia.toLowerCase().includes(q)));
+        (!fx || noFaixa(p, fx)));
 
       const gs = agrupar(r);
       if (o === 'menor') gs.sort((a, b) => a.menor - b.menor);
@@ -555,8 +645,8 @@
       });
       return btn;
     }
-
-    // Etiquetas de destaque (lidas do mostrador do relógio); mostra até "max" e resume o resto como "+N"
+    // Etiquetas de destaque (lidas do mostrador do relógio pelo gerador); mostra até "max" e resume o resto como "+N".
+    // Sem o campo "Destaques" no JSON (ou vazio), não mostra nada.
     function criarTags(destaques, max) {
       if (!destaques || !destaques.length) return null;
       const box = h('div', 'p-tags');
@@ -565,11 +655,13 @@
       return box;
     }
 
-    // Card de um MODELO na lista (um ou mais produtos)
-    function criarCardModelo(g) {
+    // Card de um MODELO na lista (um ou mais produtos).
+    // "ctx.aoAbrir" (opcional): usado pela tela de Sugestão para fechar a tela antes de abrir o modelo/foto.
+    function criarCardModelo(g, ctx) {
       const rep = g.itens.find(i => i.Imagem) || g.itens[0];
       const multi = g.itens.length > 1;
-      const abrir = () => multi ? abrirModelo(g.chave) : abrirProduto(0, g.itens);
+      const abrirBase = () => multi ? abrirModelo(g.chave) : abrirProduto(0, g.itens);
+      const abrir = (ctx && ctx.aoAbrir) ? () => ctx.aoAbrir(abrirBase) : abrirBase;
 
       const col = h('div', 'col');
       const card = h('div', 'produto h-100 d-flex flex-column');
@@ -586,6 +678,7 @@
       corpo.appendChild(h('div', 'p-preco mb-1', moeda(g.menor)));
       corpo.appendChild(h('div', 'p-det mb-1',
         [rotuloResistencia(rep.Resistencia), rep.Genero, rep.Tamanho].filter(Boolean).join(' · ')));
+      // destaques do mostrador: em modelos com várias opções, vale a união dos destaques das opções
       const tg = criarTags([...new Set(g.itens.flatMap(i => i.Destaques || []))], 3);
       if (tg) corpo.appendChild(tg);
       if (multi) corpo.appendChild(h('div', 'p-opcoes', g.itens.length + ' opções'));
@@ -635,11 +728,35 @@
     }
 
     $('maisProdutos').addEventListener('click', () => { limite += CONFIG.porPagina; renderGrade(); });
-    ['marca', 'genero', 'ordem', 'tipo', 'pulseira', 'cor'].forEach(id => $(id).addEventListener('change', filtrar));
-    $('busca').addEventListener('input', filtrar);
+    ['marca', 'genero', 'faixa', 'tipo', 'pulseira', 'cor'].forEach(id => $(id).addEventListener('change', filtrar));
+
+    // "Ordenar": cada clique alterna entre ordem do catálogo, menor preço (↓) e maior preço (↑).
+    // Para inverter o significado das setas, troque os textos "↓" e "↑" abaixo.
+    const ORDENS = [
+      { valor: '',      texto: 'Ordenar',   dica: 'ordem do catálogo' },
+      { valor: 'menor', texto: 'Ordenar ↓', dica: 'menor preço primeiro' },
+      { valor: 'maior', texto: 'Ordenar ↑', dica: 'maior preço primeiro' }
+    ];
+    function atualizarOrdenar() {
+      const o = ORDENS.find(x => x.valor === ordemAtual) || ORDENS[0];
+      const b = $('btnOrdenar');
+      b.textContent = o.texto;
+      b.title = 'Ordenar por preço (agora: ' + o.dica + '). Clique para alternar.';
+      b.setAttribute('aria-label', b.title);
+      b.classList.toggle('ativo', o.valor !== '');
+    }
+    $('btnOrdenar').addEventListener('click', () => {
+      const i = ORDENS.findIndex(x => x.valor === ordemAtual);
+      ordemAtual = ORDENS[(i + 1) % ORDENS.length].valor;
+      atualizarOrdenar();
+      filtrar();
+    });
+    atualizarOrdenar();
+
     $('limparFiltros').addEventListener('click', () => {
-      ['marca', 'genero', 'tipo', 'pulseira', 'cor', 'ordem'].forEach(id => { $(id).value = ''; });
-      $('busca').value = '';
+      ['marca', 'genero', 'tipo', 'pulseira', 'cor', 'faixa'].forEach(id => { $(id).value = ''; });
+      ordemAtual = '';
+      atualizarOrdenar();
       filtrar();
     });
 
@@ -759,6 +876,200 @@
       if (vindoDaLista) { vindoDaLista = false; history.back(); }
       else { history.replaceState(null, '', location.pathname + location.search); rotear(); }
     });
+
+    // ===================== SUGESTÃO (botão no topo → tela de perguntas) =====================
+    // As regras (coleções, faixas de preço, quantidade) ficam em colecoes.js.
+    const sugEl = $('modalSugestao');
+    const sugModal = new bootstrap.Modal(sugEl);
+    const estadoSug = { para: 'mim', genero: '', colecao: '', faixa: null };
+    const chipsSug = [];
+
+    // Semente do sorteio: fixa durante a sessão da aba (sobrevive a recarregar a página);
+    // "Outras sugestões" troca a semente.
+    let semente = 0;
+    try { semente = parseInt(sessionStorage.getItem('pulso_semente'), 10) || 0; } catch (e) {}
+    function novaSemente() {
+      semente = 1 + Math.floor(Math.random() * 2147483646);
+      try { sessionStorage.setItem('pulso_semente', String(semente)); } catch (e) {}
+    }
+    if (!semente) novaSemente();
+
+    // gerador de números "aleatórios" repetível (mesma semente = mesma sequência)
+    function criarRng(seed) {
+      let a = seed >>> 0;
+      return function () {
+        a = (a + 0x6D2B79F5) >>> 0;
+        let t = a;
+        t = Math.imul(t ^ (t >>> 15), t | 1);
+        t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+        return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+      };
+    }
+    function embaralhar(arr, rng) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(rng() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    // ----- regras das coleções -----
+    // Resistência em ATM (10 m = 1 ATM). "WR" e textos sem número => null (não atende a "atmMin").
+    function resistenciaAtm(v) {
+      if (!v) return null;
+      const t = String(v).trim().toUpperCase().replace(/\./g, '');
+      let m = t.match(/^(\d+(?:,\d+)?)\s?(?:ATM|BAR)$/);
+      if (m) return parseFloat(m[1].replace(',', '.'));
+      m = t.match(/^(?:WR\s?)?(\d+)\s?M$/) || t.match(/^WR\s?(\d+)$/);
+      if (m) return parseInt(m[1], 10) / 10;
+      return null;
+    }
+    // Tamanho em mm. Em "25X37" ou "22X36.5MM" vale a MENOR medida. Sem número => null.
+    function menorMedida(t) {
+      if (!t) return null;
+      const nums = (String(t).match(/\d+(?:[.,]\d+)?/g) || []).map(x => parseFloat(x.replace(',', '.')));
+      return nums.length ? Math.min(...nums) : null;
+    }
+    // um conjunto de condições: todas precisam valer
+    function cumpre(p, c) {
+      if (c.tipo && !c.tipo.includes(p.Tipo)) return false;
+      if (c.genero && !c.genero.includes(p.Genero)) return false;
+      if (c.pulseira && !c.pulseira.includes(p.Pulseira)) return false;
+      if (c.cor && !c.cor.includes(p.Cor)) return false;
+      if (c.atmMin != null) { const a = resistenciaAtm(p.Resistencia); if (a === null || a < c.atmMin) return false; }
+      if (c.precoMin != null && p.Valor_Reajustado < c.precoMin) return false;
+      if (c.precoMax != null && p.Valor_Reajustado > c.precoMax) return false;
+      if (c.tamanhoMax != null) { const t = menorMedida(p.Tamanho); if (t === null || t > c.tamanhoMax) return false; }
+      return true;
+    }
+    // "incluir"/"excluir": referência completa ou código do modelo (5 primeiros dígitos)
+    function casaRef(p, refs) {
+      if (!refs || !refs.length) return false;
+      const r = p.Referencia.toUpperCase(), m = codigoModelo(p).toUpperCase();
+      return refs.some(x => { const u = String(x).trim().toUpperCase(); return u === r || u === m; });
+    }
+    function naColecao(p, col) {
+      if (casaRef(p, col.excluir)) return false;
+      if (casaRef(p, col.incluir)) return true;
+      return (col.regras || []).some(c => cumpre(p, c));
+    }
+    const memoColecoes = new Map();
+    function colecoesDe(p) {
+      const k = chave(p);
+      if (!memoColecoes.has(k)) memoColecoes.set(k, new Set(COL.colecoes.filter(c => naColecao(p, c)).map(c => c.id)));
+      return memoColecoes.get(k);
+    }
+
+    // ----- escolha das sugestões -----
+    function candidatosSug() {
+      const e = estadoSug;
+      const col = e.colecao ? COL.colecoes.find(c => c.id === e.colecao) : null;
+      const fx = e.faixa !== null ? COL.faixasPreco[e.faixa] : null;
+      return agrupar(lista.filter(p =>
+        (!COL.tiposSugeriveis || !p.Tipo || COL.tiposSugeriveis.includes(p.Tipo)) &&
+        (!e.genero || p.Genero === e.genero) &&
+        (!fx || noFaixa(p, fx)) &&
+        (!col || colecoesDe(p).has(col.id))));
+    }
+    // Sorteia até n modelos equilibrando marcas e gêneros (um de cada "balde" por rodada)
+    function sortear(gs, n, rng) {
+      const baldes = new Map();
+      gs.forEach(g => {
+        const k = g.marca + '|' + (g.itens[0].Genero || '');
+        if (!baldes.has(k)) baldes.set(k, []);
+        baldes.get(k).push(g);
+      });
+      const arr = [...baldes.values()].map(b => embaralhar(b, rng));
+      embaralhar(arr, rng);
+      const saida = [];
+      while (saida.length < n && arr.some(b => b.length)) {
+        for (const b of arr) {
+          if (saida.length >= n) break;
+          if (b.length) saida.push(b.shift());
+        }
+      }
+      return saida;
+    }
+    function escolherSug(gs) {
+      const n = COL.quantidade || 12, rng = criarRng(semente);
+      if (estadoSug.para !== 'presente') return sortear(gs, n, rng);
+      // Para presentear: primeiro kits e sofisticados (coleções de "prioridadePresente"); depois o restante
+      const ids = COL.prioridadePresente || [];
+      const prio = g => g.itens.some(p => ids.some(id => colecoesDe(p).has(id)));
+      const r = sortear(gs.filter(prio), n, rng);
+      return r.length < n ? r.concat(sortear(gs.filter(g => !prio(g)), n - r.length, rng)) : r;
+    }
+
+    // Fecha a tela de Sugestão e só depois executa a ação (evita duas janelas abertas ao mesmo tempo)
+    function depoisDeFechar(fn) {
+      if (!sugEl.classList.contains('show')) { fn(); return; }
+      sugEl.addEventListener('hidden.bs.modal', fn, { once: true });
+      sugModal.hide();
+    }
+
+    function atualizarSug() {
+      chipsSug.forEach(c => {
+        const a = c.ativo();
+        c.el.classList.toggle('ativo', a);
+        c.el.setAttribute('aria-pressed', a ? 'true' : 'false');
+      });
+      const col = estadoSug.colecao ? COL.colecoes.find(c => c.id === estadoSug.colecao) : null;
+      $('sugDescColecao').textContent = col ? (col.descricao || '') : '';
+      $('sugDicaPara').textContent = estadoSug.para === 'presente' ? 'Damos prioridade a kits e a relógios sofisticados.' : '';
+
+      const gs = candidatosSug(), sel = escolherSug(gs);
+      const grade = $('sugGrade');
+      grade.replaceChildren();
+      sel.forEach(g => grade.appendChild(criarCardModelo(g, { aoAbrir: depoisDeFechar })));
+      $('sugTitulo').textContent = estadoSug.para === 'presente' ? 'Sugestões para presentear' : 'Sugestões para você';
+      $('sugContagem').textContent = !gs.length ? '' :
+        (sel.length < gs.length ? sel.length + ' de ' + gs.length + ' modelo(s)' : gs.length + ' modelo(s)');
+      $('sugVazio').classList.toggle('d-none', gs.length > 0);
+      $('sugOutras').disabled = gs.length <= sel.length;       // nada de novo para mostrar
+    }
+
+    function criarChip(texto, ativo, aoClicar) {
+      const b = h('button', 'chip', texto);
+      b.type = 'button';
+      b.addEventListener('click', () => { aoClicar(); atualizarSug(); });
+      chipsSug.push({ el: b, ativo });
+      return b;
+    }
+
+    function iniciarSugestao() {
+      const e = estadoSug;
+      [['mim', 'Para mim'], ['presente', 'Para presentear']].forEach(([v, t]) =>
+        $('sugPara').appendChild(criarChip(t, () => e.para === v, () => { e.para = v; })));
+      // gêneros vêm dos dados (novos, como "Infantil", aparecem sozinhos); clicar de novo desmarca
+      [...new Set(lista.map(p => p.Genero))].filter(Boolean).sort().forEach(g =>
+        $('sugGenero').appendChild(criarChip(g, () => e.genero === g, () => { e.genero = e.genero === g ? '' : g; })));
+      COL.colecoes.filter(c => c.mostrar !== false).forEach(c =>
+        $('sugColecao').appendChild(criarChip(c.nome, () => e.colecao === c.id, () => { e.colecao = e.colecao === c.id ? '' : c.id; })));
+      COL.faixasPreco.forEach((f, i) =>
+        $('sugFaixa').appendChild(criarChip(f.rotulo, () => e.faixa === i, () => { e.faixa = e.faixa === i ? null : i; })));
+
+      $('btnSugestao').addEventListener('click', () => { atualizarSug(); sugModal.show(); });
+      $('sugOutras').addEventListener('click', () => {
+        novaSemente();
+        atualizarSug();
+        $('sugTitulo').scrollIntoView({ block: 'start' });
+      });
+      // "Ver todos": fecha a tela e mostra a lista completa com o gênero e a faixa de preço escolhidos
+      $('sugVerTodos').addEventListener('click', () => depoisDeFechar(() => {
+        if (location.hash) {                                  // se estava na página de um modelo, volta para a lista
+          vindoDaLista = false;
+          history.replaceState(null, '', location.pathname + location.search);
+          rotear();
+        }
+        if (e.genero) $('genero').value = e.genero;
+        $('faixa').value = e.faixa === null ? '' : String(e.faixa);
+        filtrar();
+        window.scrollTo(0, 0);
+      }));
+    }
+
+    if (COL && Array.isArray(COL.colecoes) && Array.isArray(COL.faixasPreco) && lista.length) iniciarSugestao();
+    else $('btnSugestao').parentElement.classList.add('d-none');   // sem colecoes.js (ou sem produtos): o botão não aparece
 
     // ===================== TOPO FIXO =====================
     // O topo acompanha a rolagem (sempre com acesso ao carrinho) e encolhe um pouco depois de rolar.
